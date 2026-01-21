@@ -156,6 +156,19 @@ a:hover {
 .text-muted { color: var(--text-muted); }
 .text-orange { color: var(--orange-primary); }
 
+/* Branded AEROEDGE text */
+.brand-text {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.brand-text .aero {
+  color: var(--blue-primary);
+}
+.brand-text .edge {
+  color: var(--orange-primary);
+}
+
 /* ---------- Header / Navigation ---------- */
 .header {
   position: fixed;
