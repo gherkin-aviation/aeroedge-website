@@ -814,6 +814,28 @@ a:hover {
   margin: 0 auto;
 }
 
+/* ---------- Page Header Badges ---------- */
+.page-header .badge {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+  margin-bottom: var(--spacing-md);
+}
+
+.badge-live {
+  background-color: var(--success-green);
+  color: var(--text-light);
+}
+
+.badge-dev {
+  background-color: var(--orange-primary);
+  color: var(--text-light);
+}
+
 /* ---------- Content Sections ---------- */
 .content-section {
   padding: var(--spacing-2xl) 0;
@@ -1238,19 +1260,6 @@ a:hover {
   color: var(--orange-primary);
   font-weight: 600;
   font-size: var(--font-size-sm);
-}
-
-.badge-coming {
-  background-color: var(--orange-primary);
-  color: var(--text-light);
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
-  font-size: var(--font-size-xs);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  border-radius: 20px;
-  margin-bottom: var(--spacing-md);
 }
 
 /* ---------- Preview Gallery ---------- */
