@@ -96,12 +96,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // ---------- Video Background Handling ----------
   const heroVideo = document.querySelector('.hero-video');
   if (heroVideo) {
-    // Pause video on mobile to save data
-    if (window.innerWidth < 768) {
-      heroVideo.pause();
-      heroVideo.removeAttribute('autoplay');
-    }
-
     // Handle video load errors gracefully
     heroVideo.addEventListener('error', function() {
       console.log('Video failed to load, fallback to static background');
