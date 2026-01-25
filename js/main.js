@@ -96,6 +96,15 @@ document.addEventListener('DOMContentLoaded', function() {
   // ---------- Video Background Handling ----------
   const heroVideo = document.querySelector('.hero-video');
   if (heroVideo) {
+    // Force play on load (iOS fix)
+    heroVideo.play().catch(function() {
+      // Autoplay blocked - try playing on first user interaction
+      document.addEventListener('touchstart', function playOnTouch() {
+        heroVideo.play();
+        document.removeEventListener('touchstart', playOnTouch);
+      }, { once: true });
+    });
+
     // Handle video load errors gracefully
     heroVideo.addEventListener('error', function() {
       console.log('Video failed to load, fallback to static background');
@@ -182,20 +191,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (betaForm) {
     betaForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-
       // Get form data for validation
       const firstName = document.getElementById('beta-firstname').value.trim();
       const lastName = document.getElementById('beta-lastname').value.trim();
       const email = document.getElementById('beta-email').value.trim();
-      const about = document.getElementById('beta-about')?.value.trim() || '';
-
-      // Get all checked profile checkboxes
-      const profileCheckboxes = document.querySelectorAll('#beta-profile input[type="checkbox"]:checked');
-      const profileValues = Array.from(profileCheckboxes).map(cb => cb.value);
 
       // Basic validation
       if (!firstName || !lastName || !email) {
+        e.preventDefault();
         showFormMessage('Please fill in all required fields.', 'error');
         return;
       }
@@ -203,48 +206,28 @@ document.addEventListener('DOMContentLoaded', function() {
       // Email validation
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(email)) {
+        e.preventDefault();
         showFormMessage('Please enter a valid email address.', 'error');
         return;
       }
 
+      // Validation passed - form will submit to iframe
       const submitButton = betaForm.querySelector('button[type="submit"]');
       const originalText = submitButton.textContent;
       submitButton.textContent = 'Submitting...';
       submitButton.disabled = true;
 
-      // Build form data for Google Forms
-      const formData = new FormData();
-      formData.append('entry.2005620554', firstName);
-      formData.append('entry.547853813', lastName);
-      formData.append('entry.1684897073', email);
-      // Append each checked profile value separately for Google Forms
-      profileValues.forEach(value => {
-        formData.append('entry.1581795619', value);
-      });
-      formData.append('entry.850356308', about);
-
-      // Submit to Google Forms using fetch with no-cors mode
-      fetch('https://docs.google.com/forms/d/e/1FAIpQLSd0D1RQT6MTthBp-0D5IFTfAb5tpfQHkejRWY-ub0ogCTbpkg/formResponse', {
-        method: 'POST',
-        mode: 'no-cors',
-        body: formData
-      })
-      .then(() => {
-        // With no-cors, we can't read the response, but submission likely succeeded
+      // Show success after brief delay (form submits to hidden iframe)
+      setTimeout(function() {
         showFormMessage('Thanks for signing up! We\'ll be in touch when the beta launches.', 'success');
         submitButton.textContent = 'Request Sent!';
         betaForm.reset();
 
-        setTimeout(() => {
+        setTimeout(function() {
           submitButton.textContent = originalText;
           submitButton.disabled = false;
         }, 3000);
-      })
-      .catch(() => {
-        showFormMessage('Something went wrong. Please try again.', 'error');
-        submitButton.textContent = originalText;
-        submitButton.disabled = false;
-      });
+      }, 1000);
     });
 
     function showFormMessage(message, type) {
@@ -254,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Auto-hide error messages after 5 seconds
         if (type === 'error') {
-          setTimeout(() => {
+          setTimeout(function() {
             betaFormMessage.className = 'beta-form-message';
           }, 5000);
         }
