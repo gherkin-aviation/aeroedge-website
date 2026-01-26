@@ -185,11 +185,52 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  // ---------- Beta Form Tracking ----------
+  function trackFormEvent(event, details) {
+    var timestamp = new Date().toISOString();
+    var trackingData = {
+      event: event,
+      details: details || {},
+      timestamp: timestamp,
+      page: window.location.pathname,
+      userAgent: navigator.userAgent
+    };
+
+    // Log to console for debugging
+    console.log('[Form Tracking]', event, details || '');
+
+    // Store in localStorage for review
+    var formEvents = JSON.parse(localStorage.getItem('betaFormEvents') || '[]');
+    formEvents.push(trackingData);
+    // Keep last 100 events
+    if (formEvents.length > 100) formEvents = formEvents.slice(-100);
+    localStorage.setItem('betaFormEvents', JSON.stringify(formEvents));
+  }
+
   // ---------- Beta Form Handling ----------
   const betaForm = document.getElementById('beta-form');
   const betaFormMessage = document.getElementById('beta-form-message');
 
   if (betaForm) {
+    // Track form view
+    trackFormEvent('form_viewed');
+
+    // Track field interactions
+    var formFields = betaForm.querySelectorAll('input, textarea');
+    formFields.forEach(function(field) {
+      field.addEventListener('focus', function() {
+        trackFormEvent('field_focused', { field: this.id || this.name });
+      }, { once: true });
+    });
+
+    // Track submit button click
+    var submitBtn = betaForm.querySelector('button[type="submit"]');
+    if (submitBtn) {
+      submitBtn.addEventListener('click', function() {
+        trackFormEvent('submit_clicked');
+      });
+    }
+
     betaForm.addEventListener('submit', function(e) {
       // Get form data for validation
       const firstName = document.getElementById('beta-firstname').value.trim();
@@ -199,6 +240,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Basic validation
       if (!firstName || !lastName || !email) {
         e.preventDefault();
+        trackFormEvent('validation_error', { reason: 'missing_fields', firstName: !!firstName, lastName: !!lastName, email: !!email });
         showFormMessage('Please fill in all required fields.', 'error');
         return;
       }
@@ -207,11 +249,13 @@ document.addEventListener('DOMContentLoaded', function() {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(email)) {
         e.preventDefault();
+        trackFormEvent('validation_error', { reason: 'invalid_email', email: email });
         showFormMessage('Please enter a valid email address.', 'error');
         return;
       }
 
       // Validation passed - form will submit to iframe
+      trackFormEvent('form_submitted', { email: email });
       const submitButton = betaForm.querySelector('button[type="submit"]');
       const originalText = submitButton.textContent;
       submitButton.textContent = 'Submitting...';
