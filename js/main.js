@@ -263,14 +263,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     betaForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+
       // Get form data for validation
       const firstName = document.getElementById('beta-firstname').value.trim();
       const lastName = document.getElementById('beta-lastname').value.trim();
       const email = document.getElementById('beta-email').value.trim();
+      const about = document.getElementById('beta-about').value.trim();
 
       // Basic validation
       if (!firstName || !lastName || !email) {
-        e.preventDefault();
         trackFormEvent('validation_error', { reason: 'missing_fields', firstName: !!firstName, lastName: !!lastName, email: !!email });
         showFormMessage('Please fill in all required fields.', 'error');
         return;
@@ -279,21 +281,31 @@ document.addEventListener('DOMContentLoaded', function() {
       // Email validation
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(email)) {
-        e.preventDefault();
         trackFormEvent('validation_error', { reason: 'invalid_email', email: email });
         showFormMessage('Please enter a valid email address.', 'error');
         return;
       }
 
-      // Validation passed - form will submit to iframe
+      // Validation passed - submit via fetch
       trackFormEvent('form_submitted', { email: email });
       const submitButton = betaForm.querySelector('button[type="submit"]');
       const originalText = submitButton.textContent;
       submitButton.textContent = 'Submitting...';
       submitButton.disabled = true;
 
-      // Show success after brief delay (form submits to hidden iframe)
-      setTimeout(function() {
+      // Build form data
+      const formData = new FormData();
+      formData.append('entry.2005620554', firstName);
+      formData.append('entry.547853813', lastName);
+      formData.append('entry.1684897073', email);
+      formData.append('entry.850356308', about);
+
+      // Submit via fetch (no-cors mode - won't get response but data submits)
+      fetch(betaForm.action, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: formData
+      }).then(function() {
         showFormMessage('Thanks for signing up! We\'ll be in touch when the beta launches.', 'success');
         submitButton.textContent = 'Request Sent!';
         betaForm.reset();
@@ -302,7 +314,12 @@ document.addEventListener('DOMContentLoaded', function() {
           submitButton.textContent = originalText;
           submitButton.disabled = false;
         }, 3000);
-      }, 1000);
+      }).catch(function(error) {
+        console.error('Form submission error:', error);
+        showFormMessage('Something went wrong. Please try again.', 'error');
+        submitButton.textContent = originalText;
+        submitButton.disabled = false;
+      });
     });
 
     function showFormMessage(message, type) {
