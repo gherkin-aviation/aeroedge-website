@@ -1,0 +1,190 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Design Kitchen Sink (internal) | TallyAero</title><meta name="description" content="Internal design system audit page. Not public."><link rel="canonical" href="https://tallyaero.com/dev/kitchen-sink/"><meta name="robots" content="noindex,nofollow"><link rel="icon" type="image/jpeg" href="/images/appicon.jpg"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Design Kitchen Sink (internal) | TallyAero"><meta property="og:description" content="Internal design system audit page. Not public."><meta property="og:image" content="https://tallyaero.com/images/og-image.png"><meta property="og:url" content="https://tallyaero.com/dev/kitchen-sink/"><meta property="og:site_name" content="TallyAero"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Design Kitchen Sink (internal) | TallyAero"><meta name="twitter:description" content="Internal design system audit page. Not public."><meta name="twitter:image" content="https://tallyaero.com/images/og-image.png"><!-- Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><!-- GA4 --><script async src="https://www.googletagmanager.com/gtag/js?id=G-W9GC7THPET"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-W9GC7THPET');
+</script><link rel="stylesheet" href="/_astro/flight-circle.Cc1B8nzg.css"></head> <body class="bg-black text-white font-sans antialiased">  <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('atlas-theme');
+          if (saved === 'light') {
+            document.documentElement.setAttribute('data-atlas-theme', 'light');
+            document.body.setAttribute('data-atlas-theme', 'light');
+          }
+        } catch (e) {}
+      })();
+    </script> <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:bg-white focus:text-black focus:px-3 focus:py-1.5 focus:z-[100] focus:rounded-sm focus:text-xs">
+Skip to content
+</a> <header id="site-header" data-home="false" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500"> <div class="max-w-[1400px] mx-auto px-6 md:px-10 flex items-center justify-between h-16"> <a href="/" class="flex items-center gap-3 shrink-0 group" aria-label="Tally Aero — home"> <img src="/images/logo-transparent.png" alt="Tally Aero" class="h-7 md:h-8 w-auto" loading="eager" decoding="async"> </a> <nav class="hidden lg:flex items-center gap-7"> <a href="/logbook/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> Logbook </a><a href="/school/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> School </a><a href="/dpe/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> DPE </a><a href="/dashtwo/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> DashTwo </a><a href="/constellation/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> Constellation </a><a href="/atlas/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-aero-orange/85 hover:text-aero-orange"> Atlas<span class="ml-1 opacity-70">↗</span> </a><a href="/about/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> About </a><a href="/contact/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> Contact </a> </nav> <div class="flex items-center gap-2"> <!-- Site-wide light/dark theme toggle. Wired by the
+           atlas-theme-toggle handler in Base.astro (the same handler
+           that powered the Atlas-nav toggle before this was promoted
+           to the global header on 2026-05-04). --> <button id="atlas-theme-toggle" class="atlas-theme-toggle" aria-label="Toggle light / dark mode" title="Toggle theme"> <svg class="atlas-theme-icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> <svg class="atlas-theme-icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> </button> <button id="mobile-toggle" class="lg:hidden flex flex-col gap-[5px] p-2 -mr-2" aria-label="Menu"> <span class="block w-5 h-[1px] bg-white/80 transition-transform origin-center" id="bar1"></span> <span class="block w-5 h-[1px] bg-white/80 transition-opacity" id="bar2"></span> <span class="block w-5 h-[1px] bg-white/80 transition-transform origin-center" id="bar3"></span> </button> </div> </div> <nav id="mobile-nav" class="hidden lg:hidden bg-black/95 backdrop-blur-xl border-t border-white/5"> <div class="px-6 py-6 space-y-1"> <a href="/logbook/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> Logbook </a><a href="/school/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> School </a><a href="/dpe/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> DPE </a><a href="/dashtwo/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> DashTwo </a><a href="/constellation/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> Constellation </a><a href="/atlas/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-aero-orange hover:text-aero-orange"> Atlas<span class="ml-2 opacity-70">↗</span> </a><a href="/about/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> About </a><a href="/contact/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> Contact </a> </div> </nav> </header> <script>
+  (function() {
+    var header = document.getElementById('site-header');
+    var toggle = document.getElementById('mobile-toggle');
+    var nav = document.getElementById('mobile-nav');
+    var open = false;
+    var isHome = header.dataset.home === 'true';
+
+    function applyScrollState() {
+      var scrolled = window.scrollY > 20;
+      header.toggleAttribute('data-scrolled', scrolled);
+    }
+    applyScrollState();
+    window.addEventListener('scroll', applyScrollState, { passive: true });
+
+    toggle.addEventListener('click', function() {
+      open = !open;
+      nav.classList.toggle('hidden', !open);
+      document.getElementById('bar1').style.transform = open ? 'rotate(45deg) translate(2px,5px)' : '';
+      document.getElementById('bar2').style.opacity = open ? '0' : '1';
+      document.getElementById('bar3').style.transform = open ? 'rotate(-45deg) translate(2px,-5px)' : '';
+    });
+  })();
+</script>  <main id="main" class>  <div class="min-h-screen bg-black pt-24 pb-32"> <div class="max-w-5xl mx-auto px-6 md:px-8"> <!-- BANNER --> <div class="mb-20 border border-white/8 bg-white/[0.015] p-6"> <p class="text-[10px] uppercase tracking-[0.4em] text-aero-orange font-mono mb-2">Internal Only</p> <h1 class="display text-2xl md:text-4xl text-white mb-3">Design System Kitchen Sink</h1> <p class="text-sm text-white/65 leading-relaxed font-light max-w-2xl">
+Every primitive from <code class="font-mono text-[12px] text-aero-orange/90">src/components/ui/</code>,
+          shown at every variant. This page exists for visual review of the chrome refresh.
+          It is <code class="font-mono text-[12px]">noindex</code>, not in the sitemap, and not linked from anywhere.
+</p> </div> <!-- 1. MONO EYEBROW --> <section class="mb-24"> <p class="text-[9px] uppercase tracking-[0.3em] text-white/30 font-mono mb-6">01 / MonoEyebrow</p> <div class="border border-white/8 p-8 space-y-4"> <p data-reveal class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45 text-left "> Default — text-white/45 mono uppercase </p> <p data-reveal class="text-[10px] uppercase tracking-[0.3em] font-mono text-aero-orange text-left "> Accent — text-aero-orange (use sparingly) </p> <p data-reveal class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/30 text-left "> Dim — text-white/30 (footnotes, asOfDate) </p> <p data-reveal class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45 text-center "> Center aligned </p> <p data-reveal class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45 text-right "> Right aligned </p> </div> </section> <!-- 2. SECTION HEADER --> <section class="mb-24"> <p class="text-[9px] uppercase tracking-[0.3em] text-white/30 font-mono mb-6">02 / SectionHeader</p> <div class="border border-white/8 p-8 space-y-6"> <p data-reveal class="text-[10px] uppercase tracking-[0.4em] text-white/40 font-mono text-center "> <span>01</span>&nbsp;/&nbsp; The Mission </p> <p data-reveal class="text-[10px] uppercase tracking-[0.4em] text-white/40 font-mono text-left "> <span>02</span>&nbsp;/&nbsp; The System </p> <p data-reveal class="text-[10px] uppercase tracking-[0.4em] text-white/40 font-mono text-center ">  No number — just an eyebrow </p> </div> </section> <!-- 3. DISPLAY HEADING --> <section class="mb-24"> <p class="text-[9px] uppercase tracking-[0.3em] text-white/30 font-mono mb-6">03 / DisplayHeading</p> <div class="border border-white/8 p-8 space-y-12"> <div> <p class="text-[10px] text-white/30 mono mb-3">as=h1, size=xl (hero)</p> <h1 data-reveal class="display text-white text-3xl md:text-5xl lg:text-6xl text-left "> 
+Every crash leaves a record.<br> <span class="display-em">We're using all of them<br>to prevent the next one.</span>  </h1> </div> <div> <p class="text-[10px] text-white/30 mono mb-3">as=h2 (default md)</p> <h2 data-reveal class="display text-white text-2xl md:text-4xl text-left "> 
+After every accident, investigators reconstruct the full picture.<br><br> <span class="display-em">We reconstruct that picture before the flight.</span>  </h2> </div> <div> <p class="text-[10px] text-white/30 mono mb-3">as=h3 (default sm)</p> <h3 data-reveal class="display text-white text-xl md:text-2xl text-left "> 
+The logbook holds every fact a flight ever produced.
+ </h3> </div> </div> </section> <!-- 4. HAIRLINE DIVIDER --> <section class="mb-24"> <p class="text-[9px] uppercase tracking-[0.3em] text-white/30 font-mono mb-6">04 / HairlineDivider</p> <div class="border border-white/8 p-8 space-y-10"> <div> <p class="text-[10px] text-white/30 mono mb-3">width=3xl</p> <div class="hairline mx-auto max-w-3xl " aria-hidden="true"></div> </div> <div> <p class="text-[10px] text-white/30 mono mb-3">width=5xl (default)</p> <div class="hairline mx-auto max-w-5xl " aria-hidden="true"></div> </div> <div> <p class="text-[10px] text-white/30 mono mb-3">width=full</p> <div class="hairline mx-auto max-w-none " aria-hidden="true"></div> </div> </div> </section> <!-- 5. FEATURE CARD --> <section class="mb-24"> <p class="text-[9px] uppercase tracking-[0.3em] text-white/30 font-mono mb-6">05 / FeatureCard</p> <p class="text-[12px] text-white/40 mb-4">Wrapped in a hairline grid (gap-px on bg-white/8) so each card is divided cleanly.</p> <div class="grid md:grid-cols-3 gap-px bg-white/8"> <article data-reveal class="bg-black p-6 md:p-8 "> <p class="text-[10px] uppercase tracking-[0.3em] font-mono mb-3 text-aero-orange"> LOC-I </p> <h3 class="display text-lg md:text-xl text-white mb-3">Loss-of-control profiling</h3> <div class="text-sm text-white/65 leading-relaxed font-light"> 
+Detects the conditions LOC-I accidents shared — wing loading, density altitude, distraction events — before the flight launches.
+ </div> </article> <article data-reveal class="bg-black p-6 md:p-8 "> <p class="text-[10px] uppercase tracking-[0.3em] font-mono mb-3 text-white/45"> WX </p> <h3 class="display text-lg md:text-xl text-white mb-3">VFR-into-IMC mapping</h3> <div class="text-sm text-white/65 leading-relaxed font-light"> 
+Compares your forecast deltas against the moment IFR-rated and non-rated pilots typically commit.
+ </div> </article> <article data-reveal class="bg-black p-6 md:p-8 "> <p class="text-[10px] uppercase tracking-[0.3em] font-mono mb-3 text-white/45"> ADM </p> <h3 class="display text-lg md:text-xl text-white mb-3">Decision-quality scoring</h3> <div class="text-sm text-white/65 leading-relaxed font-light"> 
+Flags chains of go/no-go decisions that mirror past accident sequences.
+ </div> </article> </div> </section> <!-- 6. PRICING TIER --> <section class="mb-24"> <p class="text-[9px] uppercase tracking-[0.3em] text-white/30 font-mono mb-6">06 / PricingTier</p> <p class="text-[12px] text-white/40 mb-4">Featured tier (Professional) gets aero-orange accent + inset ring.</p> <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/8"> <article data-reveal class="bg-black p-6 md:p-8 flex flex-col  "> <header class="mb-6"> <h3 class="text-base md:text-lg font-medium mb-1 text-white">Free</h3> <p class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45">$0 forever</p> </header> <ul class="space-y-2.5 mb-6 flex-1"> <li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Full digital logbook</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Currency tracking</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Document wallet</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Checkride prep basics</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Link to your school</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>No time limit. No trial.</span> </li> </ul> <p class="text-[12px] text-white/40 italic font-light mb-6">Student through PPL</p> <a href="/logbook/interest/" class="inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.22em] mt-auto group transition-colors text-white/70 hover:text-white"> <span>Join waitlist</span> <span class="inline-block w-8 h-px bg-current opacity-40 group-hover:opacity-100 group-hover:w-12 transition-all"></span> </a> </article><article data-reveal class="bg-black p-6 md:p-8 flex flex-col  "> <header class="mb-6"> <h3 class="text-base md:text-lg font-medium mb-1 text-white">Basic</h3> <p class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45">One-time purchase</p> </header> <ul class="space-y-2.5 mb-6 flex-1"> <li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Everything in Free</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Unlimited flights</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Full reporting &amp; analytics</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Export (CSV/PDF)</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Cloud sync &amp; backup</span> </li> </ul> <p class="text-[12px] text-white/40 italic font-light mb-6">Simple. Reliable. Yours forever.</p> <a href="/logbook/interest/" class="inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.22em] mt-auto group transition-colors text-white/70 hover:text-white"> <span>Join waitlist</span> <span class="inline-block w-8 h-px bg-current opacity-40 group-hover:opacity-100 group-hover:w-12 transition-all"></span> </a> </article><article data-reveal class="bg-black p-6 md:p-8 flex flex-col tier-breath "> <header class="mb-6"> <h3 class="text-base md:text-lg font-medium mb-1 text-aero-orange">Professional</h3> <p class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45">One-time purchase</p> </header> <ul class="space-y-2.5 mb-6 flex-1"> <li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-aero-orange" aria-hidden="true">—</span> <span>Everything in Basic</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-aero-orange" aria-hidden="true">—</span> <span>Airline tracking &amp; ATP logging</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-aero-orange" aria-hidden="true">—</span> <span>Context logbooks (imported history)</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-aero-orange" aria-hidden="true">—</span> <span>8710 &amp; application auto-fill</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-aero-orange" aria-hidden="true">—</span> <span>Career tools &amp; milestones</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-aero-orange" aria-hidden="true">—</span> <span>Cross-platform sync</span> </li> </ul> <p class="text-[12px] text-white/40 italic font-light mb-6">Career pilots &amp; advanced tools</p> <a href="/logbook/interest/" class="inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.22em] mt-auto group transition-colors text-aero-orange hover:text-aero-orange-light"> <span>Join waitlist</span> <span class="inline-block w-8 h-px bg-current opacity-40 group-hover:opacity-100 group-hover:w-12 transition-all"></span> </a> </article><article data-reveal class="bg-black p-6 md:p-8 flex flex-col  "> <header class="mb-6"> <h3 class="text-base md:text-lg font-medium mb-1 text-white">CFI</h3> <p class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45">One-time purchase</p> </header> <ul class="space-y-2.5 mb-6 flex-1"> <li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Everything in Professional</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Auto CFI record book</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Remote endorsement signing</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Student management</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Personal endorsement log</span> </li><li class="flex items-start gap-3 text-sm text-white/70 leading-relaxed font-light"> <span class="shrink-0 mt-1.5 text-white/40" aria-hidden="true">—</span> <span>Dual flight logging</span> </li> </ul> <p class="text-[12px] text-white/40 italic font-light mb-6">Built for flight instructors</p> <a href="/logbook/interest/" class="inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.22em] mt-auto group transition-colors text-white/70 hover:text-white"> <span>Join waitlist</span> <span class="inline-block w-8 h-px bg-current opacity-40 group-hover:opacity-100 group-hover:w-12 transition-all"></span> </a> </article> </div> </section> <!-- 7. STAT CALLOUT --> <section class="mb-24"> <p class="text-[9px] uppercase tracking-[0.3em] text-white/30 font-mono mb-6">07 / StatCallout</p> <p class="text-[12px] text-white/40 mb-4">Gravity tone reserved for mortality / critical numbers. Never used elsewhere.</p> <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-white/8"> <div data-reveal class="bg-black p-6 md:p-8 text-center "> <div class="display text-3xl md:text-4xl mb-2 text-white">1,097</div> <p class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45">GA accidents (2023)</p> </div><div data-reveal class="bg-black p-6 md:p-8 text-center "> <div class="display text-3xl md:text-4xl mb-2 text-danger">186</div> <p class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45">Fatal</p> </div><div data-reveal class="bg-black p-6 md:p-8 text-center "> <div class="display text-3xl md:text-4xl mb-2 text-aero-orange">~75%</div> <p class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45">Pilot error</p> </div><div data-reveal class="bg-black p-6 md:p-8 text-center "> <div class="display text-3xl md:text-4xl mb-2 text-danger">1 / 4 days</div> <p class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45">Fatal LOC-I</p> </div> </div> </section> <!-- 8. COMPACT CTA --> <section class="mb-24"> <p class="text-[9px] uppercase tracking-[0.3em] text-white/30 font-mono mb-6">08 / CompactCTA</p> <div class="border border-white/8 p-8 flex flex-wrap items-center gap-8"> <a href="/contact/" class="inline-flex items-center justify-center text-[11px] uppercase tracking-[0.22em] text-white bg-aero-orange hover:bg-aero-orange-light transition-colors px-8 h-11 font-medium ">Request Access</a> <a href="/mission/" class="inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.22em] text-white/70 hover:text-white transition-colors group "><span>Read the Thesis</span><span class="inline-block w-8 h-px bg-white/40 group-hover:bg-white group-hover:w-12 transition-all"></span></a> <a href="/compare/" class="inline-flex items-center justify-center text-[11px] uppercase tracking-[0.22em] text-white/80 border border-white/15 hover:border-white hover:text-white transition-colors px-8 h-11 font-medium ">Compare Solutions</a> </div> </section> <div class="hairline mx-auto max-w-5xl mb-24" aria-hidden="true"></div> <!-- COMPOSITION — patterns assembled --> <section class="mb-32"> <p class="text-[9px] uppercase tracking-[0.3em] text-white/30 font-mono mb-6">Composition / P3 (pillar row)</p> <p data-reveal class="text-[10px] uppercase tracking-[0.4em] text-white/40 font-mono text-center "> <span>02</span>&nbsp;/&nbsp; The System </p> <div class="mt-16 space-y-20"> <div class="grid md:grid-cols-12 gap-8 items-start"> <div class="md:col-span-3"> <p data-reveal class="text-[10px] uppercase tracking-[0.3em] font-mono text-white/45 text-left "> The Brain </p> </div> <div class="md:col-span-9"> <h3 data-reveal class="display text-white text-xl md:text-2xl text-left "> The logbook holds every fact a flight ever produced. </h3> <p class="mt-5 text-sm md:text-base text-white/55 leading-relaxed font-light max-w-2xl">
+Hours, currencies, endorsements, ratings, ADS-B tracks, maintenance, training events —
+                cryptographically chained from the first hour to the last.
+</p> <div class="mt-8"> <a href="/logbook/" class="inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.22em] text-white/70 hover:text-white transition-colors group "><span>Explore the Logbook</span><span class="inline-block w-8 h-px bg-white/40 group-hover:bg-white group-hover:w-12 transition-all"></span></a> </div> </div> </div> </div> </section> <div class="hairline mx-auto max-w-5xl mb-24" aria-hidden="true"></div> <p class="text-center text-[10px] uppercase tracking-[0.3em] text-white/25 font-mono">
+End of audit · src/pages/dev/_kitchen-sink.astro
+</p> </div> </div>  </main> <footer class="bg-black border-t border-white/5 pt-16 pb-10 px-6 md:px-10"> <div class="max-w-[1400px] mx-auto"> <div class="grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-12"> <!-- Brand + tagline (spans 2 cols on md+) --> <div class="col-span-2 md:col-span-2"> <a href="/" class="inline-block mb-5" aria-label="TallyAero — home"> <img src="/images/logo-transparent.png" alt="TallyAero" class="h-7 w-auto opacity-90" loading="lazy"> </a> <p class="text-[12px] text-white/55 leading-relaxed font-light max-w-xs"> <span class="text-aero-orange">Safety Management for General Aviation.</span> What a Part 121 airline runs with 15+ full-time safety roles &mdash; built for individual pilots, CFIs, and Part 61/141 flight schools.
+</p> <p class="text-[10px] uppercase tracking-[0.22em] text-white/55 mt-6 font-mono"> <a href="mailto:info@tallyaero.com" class="hover:text-aero-orange transition-colors">info@tallyaero.com</a> </p> </div> <!-- GA-SMS — the umbrella --> <div> <h4 class="text-[10px] uppercase tracking-[0.3em] text-aero-orange mb-5 font-mono">GA-SMS</h4> <ul class="space-y-3"> <li><a href="/" class="text-[12px] text-white/70 hover:text-white transition-colors">SMS Overview</a></li> <li><a href="/atlas/" class="text-[12px] text-white/70 hover:text-white transition-colors">Atlas &mdash; the evidence layer</a></li> <li><a href="/constellation/" class="text-[12px] text-white/70 hover:text-white transition-colors">Constellation &mdash; cross-pilot intelligence</a></li> </ul> </div> <!-- Platform — the products --> <div> <h4 class="text-[10px] uppercase tracking-[0.3em] text-white/35 mb-5 font-mono">Platform</h4> <ul class="space-y-3"> <li><a href="/logbook/" class="text-[12px] text-white/70 hover:text-white transition-colors">Logbook</a></li> <li><a href="/school/" class="text-[12px] text-white/70 hover:text-white transition-colors">School Management</a></li> <li><a href="/dpe/" class="text-[12px] text-white/70 hover:text-white transition-colors">DPE</a></li> <li><a href="/dashtwo/" class="text-[12px] text-white/70 hover:text-white transition-colors">DashTwo</a></li> </ul> </div> <!-- Get Started — the funnel --> <div> <h4 class="text-[10px] uppercase tracking-[0.3em] text-white/35 mb-5 font-mono">Get Started</h4> <ul class="space-y-3"> <li><a href="/logbook/interest/" class="text-[12px] text-white/70 hover:text-white transition-colors">Logbook waitlist</a></li> <li><a href="/school/demo/" class="text-[12px] text-white/70 hover:text-white transition-colors">School demo</a></li> <li><a href="/dpe/interest/" class="text-[12px] text-white/70 hover:text-white transition-colors">DPE partner program</a></li> <li><a href="/contact/" class="text-[12px] text-white/70 hover:text-white transition-colors">Contact</a></li> </ul> <h4 class="text-[10px] uppercase tracking-[0.3em] text-white/35 mb-3 mt-8 font-mono">Company</h4> <ul class="space-y-3"> <li><a href="/about/" class="text-[12px] text-white/70 hover:text-white transition-colors">About</a></li> </ul> </div> </div> <div class="mt-14 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3"> <div> <p class="text-[10px] text-white/35">&copy; 2026 TallyAero, Inc. &mdash; Safety Management for General Aviation.</p> <p class="text-[9px] text-white/25 mt-1.5">All product names and logos are trademarks of their respective owners. TallyAero is not affiliated with or endorsed by any product listed.</p> </div> <div class="flex items-center gap-5"> <a href="/privacy/" class="text-[9px] uppercase tracking-[0.3em] text-white/40 hover:text-aero-orange transition-colors font-mono">Privacy</a> <a href="/legal/" class="text-[9px] uppercase tracking-[0.3em] text-white/40 hover:text-aero-orange transition-colors font-mono">Terms</a> <a href="/contact/" class="text-[9px] uppercase tracking-[0.3em] text-white/40 hover:text-aero-orange transition-colors font-mono">Contact</a> </div> </div> </div> </footer> <!-- Site-wide light/dark theme toggle wiring. The button itself
+         lives in <Header>; the no-FOUC pre-paint script earlier in
+         <body> applies the saved preference before render. This block
+         binds the click handler regardless of which page we're on,
+         so the toggle works site-wide. --> <script>
+      (function () {
+        var themeBtn = document.getElementById('atlas-theme-toggle');
+        if (!themeBtn) return;
+        themeBtn.addEventListener('click', function () {
+          var html = document.documentElement;
+          var isLight = html.getAttribute('data-atlas-theme') === 'light';
+          if (isLight) {
+            html.removeAttribute('data-atlas-theme');
+            document.body.removeAttribute('data-atlas-theme');
+            try { localStorage.setItem('atlas-theme', 'dark'); } catch (e) {}
+          } else {
+            html.setAttribute('data-atlas-theme', 'light');
+            document.body.setAttribute('data-atlas-theme', 'light');
+            try { localStorage.setItem('atlas-theme', 'light'); } catch (e) {}
+          }
+        });
+      })();
+    </script> <script>
+      // Global reveal-on-scroll observer.
+      // Any element with [data-reveal] fades + slides in when it enters the viewport.
+      // Elements with [data-reveal-delay='1..5'] stagger by 120ms increments (defined in global.css).
+      // Honors prefers-reduced-motion via the existing CSS rules.
+      (function() {
+        var els = document.querySelectorAll('[data-reveal]');
+        if (els.length) {
+          if (!('IntersectionObserver' in window)) {
+            els.forEach(function(el) { el.classList.add('in'); });
+          } else {
+            var io = new IntersectionObserver(function(entries) {
+              entries.forEach(function(e) {
+                if (e.isIntersecting) {
+                  e.target.classList.add('in');
+                  io.unobserve(e.target);
+                }
+              });
+            }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+            els.forEach(function(el) { io.observe(el); });
+            requestAnimationFrame(function() {
+              els.forEach(function(el) {
+                var r = el.getBoundingClientRect();
+                if (r.top < window.innerHeight && r.bottom > 0) el.classList.add('in');
+              });
+            });
+          }
+        }
+
+        // Count-up animation on [data-countup] elements (e.g. /about mortality stats).
+        // Animates from 0 to the parsed target on first scroll-into-view.
+        // Honors prefers-reduced-motion (renders final value statically).
+        var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var counts = document.querySelectorAll('[data-countup]');
+        if (counts.length) {
+          var formatVal = function(el, v) {
+            var dec = parseInt(el.getAttribute('data-countup-decimals') || '0', 10);
+            var thou = el.getAttribute('data-countup-thousands') === '1';
+            var prefix = el.getAttribute('data-countup-prefix') || '';
+            var suffix = el.getAttribute('data-countup-suffix') || '';
+            var num;
+            if (dec > 0) {
+              num = v.toFixed(dec);
+            } else {
+              var rounded = Math.round(v);
+              num = thou ? rounded.toLocaleString() : String(rounded);
+            }
+            return prefix + num + suffix;
+          };
+          var animate = function(el) {
+            var target = parseFloat(el.getAttribute('data-countup-target') || '0');
+            if (reduced || isNaN(target)) {
+              el.textContent = formatVal(el, target);
+              return;
+            }
+            var DURATION = 1600; // ms
+            var start = null;
+            var step = function(ts) {
+              if (start === null) start = ts;
+              var elapsed = ts - start;
+              var t = Math.min(1, elapsed / DURATION);
+              // easeOutQuart
+              var eased = 1 - Math.pow(1 - t, 4);
+              el.textContent = formatVal(el, target * eased);
+              if (t < 1) requestAnimationFrame(step);
+              else el.textContent = formatVal(el, target);
+            };
+            // Start at 0
+            el.textContent = formatVal(el, 0);
+            requestAnimationFrame(step);
+          };
+          if (!('IntersectionObserver' in window)) {
+            counts.forEach(animate);
+          } else {
+            var cio = new IntersectionObserver(function(entries) {
+              entries.forEach(function(e) {
+                if (e.isIntersecting) {
+                  animate(e.target);
+                  cio.unobserve(e.target);
+                }
+              });
+            }, { threshold: 0.4 });
+            counts.forEach(function(el) { cio.observe(el); });
+          }
+        }
+
+        // Silo walls: scatter chip reveal delays randomly so the wall ignites
+        // like a starfield turning on (no visible pattern).
+        document.querySelectorAll('[data-silo-wall]').forEach(function(wall) {
+          var children = wall.children;
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.transitionDelay = (Math.random() * 0.6).toFixed(2) + 's';
+          }
+        });
+
+        // Connected sweep: chip reveal delays in sequence so the wall ignites
+        // like a wave traveling across — visualizes the connected platform.
+        document.querySelectorAll('[data-connected-sweep]').forEach(function(wall) {
+          var children = wall.children;
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.transitionDelay = (i * 0.022).toFixed(3) + 's';
+          }
+        });
+      })();
+    </script> </body> </html>

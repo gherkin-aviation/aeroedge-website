@@ -1,0 +1,1184 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Atlas — coming soon | TallyAero</title><meta name="description" content="TallyAero Atlas — every piece of public US aviation data, cross-linked and verified. Coming soon."><link rel="canonical" href="https://tallyaero.com/atlas/"><link rel="icon" type="image/jpeg" href="/images/appicon.jpg"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Atlas — coming soon | TallyAero"><meta property="og:description" content="TallyAero Atlas — every piece of public US aviation data, cross-linked and verified. Coming soon."><meta property="og:image" content="https://tallyaero.com/images/og-image.png"><meta property="og:url" content="https://tallyaero.com/atlas/"><meta property="og:site_name" content="TallyAero"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Atlas — coming soon | TallyAero"><meta name="twitter:description" content="TallyAero Atlas — every piece of public US aviation data, cross-linked and verified. Coming soon."><meta name="twitter:image" content="https://tallyaero.com/images/og-image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Atlas — coming soon | TallyAero","description":"TallyAero Atlas — every piece of public US aviation data, cross-linked and verified. Coming soon.","url":"https://tallyaero.com/atlas/"}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://tallyaero.com/"},{"@type":"ListItem","position":2,"name":"Atlas","item":"https://tallyaero.com/atlas/"}]}</script><!-- Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><!-- GA4 --><script async src="https://www.googletagmanager.com/gtag/js?id=G-W9GC7THPET"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-W9GC7THPET');
+</script><link rel="stylesheet" href="/_astro/flight-circle.Cc1B8nzg.css"></head> <body class="bg-black text-white font-sans antialiased">  <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('atlas-theme');
+          if (saved === 'light') {
+            document.documentElement.setAttribute('data-atlas-theme', 'light');
+            document.body.setAttribute('data-atlas-theme', 'light');
+          }
+        } catch (e) {}
+      })();
+    </script> <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:bg-white focus:text-black focus:px-3 focus:py-1.5 focus:z-[100] focus:rounded-sm focus:text-xs">
+Skip to content
+</a> <header id="site-header" data-home="false" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500"> <div class="max-w-[1400px] mx-auto px-6 md:px-10 flex items-center justify-between h-16"> <a href="/" class="flex items-center gap-3 shrink-0 group" aria-label="Tally Aero — home"> <img src="/images/logo-transparent.png" alt="Tally Aero" class="h-7 md:h-8 w-auto" loading="eager" decoding="async"> </a> <nav class="hidden lg:flex items-center gap-7"> <a href="/logbook/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> Logbook </a><a href="/school/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> School </a><a href="/dpe/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> DPE </a><a href="/dashtwo/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> DashTwo </a><a href="/constellation/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> Constellation </a><a href="/atlas/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-aero-orange/85 hover:text-aero-orange"> Atlas<span class="ml-1 opacity-70">↗</span> </a><a href="/about/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> About </a><a href="/contact/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> Contact </a> </nav> <div class="flex items-center gap-2"> <!-- Site-wide light/dark theme toggle. Wired by the
+           atlas-theme-toggle handler in Base.astro (the same handler
+           that powered the Atlas-nav toggle before this was promoted
+           to the global header on 2026-05-04). --> <button id="atlas-theme-toggle" class="atlas-theme-toggle" aria-label="Toggle light / dark mode" title="Toggle theme"> <svg class="atlas-theme-icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> <svg class="atlas-theme-icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> </button> <button id="mobile-toggle" class="lg:hidden flex flex-col gap-[5px] p-2 -mr-2" aria-label="Menu"> <span class="block w-5 h-[1px] bg-white/80 transition-transform origin-center" id="bar1"></span> <span class="block w-5 h-[1px] bg-white/80 transition-opacity" id="bar2"></span> <span class="block w-5 h-[1px] bg-white/80 transition-transform origin-center" id="bar3"></span> </button> </div> </div> <nav id="mobile-nav" class="hidden lg:hidden bg-black/95 backdrop-blur-xl border-t border-white/5"> <div class="px-6 py-6 space-y-1"> <a href="/logbook/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> Logbook </a><a href="/school/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> School </a><a href="/dpe/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> DPE </a><a href="/dashtwo/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> DashTwo </a><a href="/constellation/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> Constellation </a><a href="/atlas/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-aero-orange hover:text-aero-orange"> Atlas<span class="ml-2 opacity-70">↗</span> </a><a href="/about/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> About </a><a href="/contact/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> Contact </a> </div> </nav> </header> <script>
+  (function() {
+    var header = document.getElementById('site-header');
+    var toggle = document.getElementById('mobile-toggle');
+    var nav = document.getElementById('mobile-nav');
+    var open = false;
+    var isHome = header.dataset.home === 'true';
+
+    function applyScrollState() {
+      var scrolled = window.scrollY > 20;
+      header.toggleAttribute('data-scrolled', scrolled);
+    }
+    applyScrollState();
+    window.addEventListener('scroll', applyScrollState, { passive: true });
+
+    toggle.addEventListener('click', function() {
+      open = !open;
+      nav.classList.toggle('hidden', !open);
+      document.getElementById('bar1').style.transform = open ? 'rotate(45deg) translate(2px,5px)' : '';
+      document.getElementById('bar2').style.opacity = open ? '0' : '1';
+      document.getElementById('bar3').style.transform = open ? 'rotate(-45deg) translate(2px,-5px)' : '';
+    });
+  })();
+</script>  <div class="atlas-nav fixed top-16 left-0 right-0 z-40 bg-black/90 backdrop-blur-md border-b border-white/[0.08]"> <div class="max-w-6xl mx-auto px-4 md:px-6 py-2 flex items-center gap-3"> <button id="atlas-sidebar-mobile-toggle" type="button" aria-label="Open Atlas navigation" class="md:hidden text-white/65 hover:text-aero-orange p-1.5 -ml-1.5"> <span class="block w-5 h-0.5 bg-current mb-1"></span> <span class="block w-5 h-0.5 bg-current mb-1"></span> <span class="block w-5 h-0.5 bg-current"></span> </button> <a href="/atlas/" class="font-mono text-[11px] uppercase tracking-[0.25em] text-aero-orange/85 hover:text-aero-orange shrink-0 hidden sm:block">
+Atlas
+</a> <span class="hidden sm:block text-white/20">/</span> <div class="flex-1 min-w-0"> <div id="atlas-search-root" class="relative w-full"> <label class="sr-only" for="atlas-search-input">Search the Atlas</label> <div class="relative"> <input id="atlas-search-input" type="text" placeholder="Search the Atlas — tail · airport · FAR · type · CFI · AD · safety" autocomplete="off" spellcheck="false" aria-controls="atlas-search-panel" aria-expanded="false" class="w-full bg-black/70 backdrop-blur-sm border border-white/15 px-3 py-2 text-sm text-white font-mono placeholder:text-white/30 focus:border-aero-orange focus:outline-none transition-colors"> <kbd class="hidden md:inline-block absolute right-3 top-1/2 -translate-y-1/2 text-[10px] font-mono uppercase tracking-[0.2em] text-white/30 px-2 py-0.5 border border-white/10 pointer-events-none">/</kbd> </div> <div id="atlas-search-panel" class="hidden absolute left-0 right-0 top-full mt-2 z-50 bg-black/95 backdrop-blur-xl border border-white/10 max-h-[70vh] overflow-y-auto" role="listbox" aria-label="Search results">  </div> </div> <script>
+  (function () {
+    var root = document.getElementById('atlas-search-root');
+    if (!root) return;
+    var input = document.getElementById('atlas-search-input');
+    var panel = document.getElementById('atlas-search-panel');
+    if (!input || !panel) return;
+
+    // ── Static index of Atlas surfaces ─────────────────────────
+    var STATIC = [
+      // Top-level surfaces
+      { type: 'page', label: 'Atlas master', subtitle: 'The gateway · search and overview', url: '/atlas/', tags: ['atlas','home','landing','overview'] },
+      { type: 'page', label: 'Aircraft', subtitle: '311k+ US tails · per-tail records', url: '/atlas/aircraft/', tags: ['aircraft','tail','n-number','registry'] },
+      { type: 'page', label: 'Aircraft Types', subtitle: '10k+ make/model aggregates', url: '/atlas/aircraft/types/', tags: ['types','models','make','aircraft','cessna','piper','cirrus'] },
+      { type: 'page', label: 'Methodology', subtitle: 'How the Atlas is assembled', url: '/atlas/aircraft/about/', tags: ['about','methodology','sources','how'] },
+      { type: 'page', label: 'Atlas eCFR', subtitle: 'Title 14 — every part, every section', url: '/atlas/cfr/', tags: ['cfr','far','aim','regulations','title 14','rules','legal'], status: 'Live' },
+      { type: 'page', label: 'Advisory Circulars', subtitle: '1,859 ACs · current and cancelled', url: '/atlas/cfr/ac/', tags: ['ac','advisory','circular','guidance','faa'], status: 'Live' },
+      { type: 'page', label: 'Airports', subtitle: '13k US fields · per-airport pages', url: '/atlas/airports/', tags: ['airport','metar','notam','runway','field','icao','faa lid'], status: 'Live' },
+      { type: 'page', label: 'Safety hub', subtitle: 'Emergency · reporting · phone book', url: '/atlas/portal/safety/', tags: ['safety','emergency','asrs','ntsb','hotline','911','7700','reporting'] },
+      { type: 'page', label: 'Portal directory', subtitle: 'Resource gateway · 110+ curated', url: '/atlas/portal/', tags: ['portal','directory','resources','links'], status: 'Live' },
+      { type: 'page', label: 'NTSB events', subtitle: '178k events · per-event pages', url: '/atlas/ntsb/', tags: ['ntsb','asrs','accident','incident','safety'], status: 'Live' },
+      { type: 'page', label: 'Airworthiness Directives', subtitle: '8.4k unique ADs · per-AD pages', url: '/atlas/ads/', tags: ['ad','airworthiness','directive','sb','service bulletin','saib'], status: 'Live' },
+      { type: 'page', label: 'NOTAM Briefing Decoder', subtitle: 'Paste a brief — see what matters', url: '/atlas/tools/notam-decoder/', tags: ['notam','decode','briefing','tool','contractions'], status: 'Live' },
+      // Designees — comprehensive directory across 22 categories
+      { type: 'page', label: 'Designees · all categories', subtitle: 'CFI · DPE · A&P · AME · DAR · DER · ODA · …', url: '/atlas/designees/', tags: ['designees','find','person','directory','airmen'], status: 'Live' },
+      { type: 'page', label: 'DPE — Pilot Examiners', subtitle: '1,111 active · checkride scheduling', url: '/atlas/designees/dpe/', tags: ['dpe','pilot examiner','checkride','practical test','find a dpe'], status: 'Live' },
+      { type: 'page', label: 'CFI — Flight Instructors', subtitle: '70,892 · CFI / CFII / MEI / Ground / Sport', url: '/atlas/designees/cfi/', tags: ['cfi','cfii','mei','flight instructor','ground instructor','find a cfi'], status: 'Live' },
+      { type: 'page', label: 'A&P — Mechanics', subtitle: '248,343 · Airframe & Powerplant', url: '/atlas/designees/ap/', tags: ['a&p','ap','mechanic','airframe','powerplant','aviation mechanic'], status: 'Live' },
+      { type: 'page', label: 'AME — Medical Examiners', subtitle: '1,947 · 1st / 2nd / 3rd class medicals', url: '/atlas/designees/ame/', tags: ['ame','medical examiner','flight physical','medical certificate'], status: 'Live' },
+      { type: 'page', label: 'DAR-F — Manufacturing Airworthiness', subtitle: '258 · airworthiness certs (manufacturing)', url: '/atlas/designees/dar-f/', tags: ['dar-f','dar','manufacturing','airworthiness'], status: 'Live' },
+      { type: 'page', label: 'DAR-T — Maintenance Airworthiness', subtitle: '210 · airworthiness certs (maintenance)', url: '/atlas/designees/dar-t/', tags: ['dar-t','dar','maintenance','airworthiness'], status: 'Live' },
+      { type: 'page', label: 'DER-Y — Engineering (Company)', subtitle: '241 · engineering data approval', url: '/atlas/designees/der-y/', tags: ['der-y','der','engineering','company','design approval'], status: 'Live' },
+      { type: 'page', label: 'DER-T — Engineering (Consultant)', subtitle: '685 · independent engineering data', url: '/atlas/designees/der-t/', tags: ['der-t','der','engineering','consultant','stc'], status: 'Live' },
+      { type: 'page', label: 'DME — Mechanic Examiners', subtitle: '341 · A&P practical-test examiners', url: '/atlas/designees/dme/', tags: ['dme','mechanic examiner','a&p test'], status: 'Live' },
+      { type: 'page', label: 'DPRE — Parachute Rigger Examiners', subtitle: '41 · senior + master rigger tests', url: '/atlas/designees/dpre/', tags: ['dpre','parachute','rigger'], status: 'Live' },
+      { type: 'page', label: 'SAE — Specialty Aircraft Examiners', subtitle: '1,675 · type-specific practical tests', url: '/atlas/designees/sae/', tags: ['sae','specialty','experimental','light sport'], status: 'Live' },
+      { type: 'page', label: 'APD — Aircrew Program Designees', subtitle: '1,107 · Part 121 / 135 carrier checks', url: '/atlas/designees/apd/', tags: ['apd','aircrew','part 121','part 135','airline'], status: 'Live' },
+      { type: 'page', label: 'TCE — Training Center Evaluators', subtitle: '1,241 · Part 142 sim evaluations', url: '/atlas/designees/tce/', tags: ['tce','training center','part 142','simulator','flightsafety','cae'], status: 'Live' },
+      { type: 'page', label: 'DADE — Dispatcher Examiners', subtitle: '63 · aircraft dispatcher tests', url: '/atlas/designees/dade/', tags: ['dade','dispatcher','aircraft dispatcher'], status: 'Live' },
+      { type: 'page', label: 'DCTO-E — Tower Operator Examiners', subtitle: '225 · CTO certificate tests', url: '/atlas/designees/dcto-e/', tags: ['dcto-e','cto','control tower','tower operator'], status: 'Live' },
+      { type: 'page', label: 'DMIR — Manufacturing Inspectors', subtitle: '587 · production-line conformity', url: '/atlas/designees/dmir/', tags: ['dmir','manufacturing','inspection','production'], status: 'Live' },
+      { type: 'page', label: 'Admin-PE — FSDO-staff DPEs', subtitle: '157 · FAA inspector examiners', url: '/atlas/designees/admin-pe/', tags: ['admin-pe','fsdo','administrative pilot examiner'], status: 'Live' },
+      { type: 'page', label: 'ODA — Organizational Designations', subtitle: '131 · Boeing, Cirrus, Garmin, P&W, GE…', url: '/atlas/designees/oda/', tags: ['oda','organizational','boeing','cirrus','garmin','honeywell','pratt whitney'], status: 'Live' },
+      { type: 'page', label: 'Flight Schools (Part 141 + Part 61)', subtitle: '2,240 · airport-anchored, AOPA directory', url: '/atlas/designees/part-141/', tags: ['flight school','part 141','part 61','aopa','school','training','learn to fly'], status: 'Live' },
+      { type: 'page', label: 'Part 147 AMT Schools', subtitle: '196 institutions · A&P training', url: '/atlas/designees/part-147/', tags: ['part 147','amt','a&p school','aviation maintenance','aviation tech'], status: 'Live' },
+      { type: 'page', label: 'Repair Stations', subtitle: 'Repair / maintenance / avionics shops', url: '/atlas/designees/repair-stations/', tags: ['part 145','repair station','air agency','mro','maintenance','avionics','paint shop','interior shop'], status: 'Live' },
+      { type: 'page', label: 'FBOs — Fixed Base Operators', subtitle: '2,837 · fuel · hangar · ramp services', url: '/atlas/designees/fbo/', tags: ['fbo','fuel','hangar','ramp','signature','atlantic','pilot lounge'], status: 'Live' },
+      { type: 'page', label: 'Flying Clubs', subtitle: '1,130 · member-owned · shared aircraft', url: '/atlas/designees/flying-clubs/', tags: ['flying club','club','member','aircraft rental','shared'], status: 'Live' },
+      { type: 'page', label: 'EAA Chapters', subtitle: '776 chapters · build groups · Young Eagles', url: '/atlas/designees/eaa/', tags: ['eaa','experimental aircraft','chapter','young eagles','imc','vmc'], status: 'Live' },
+      { type: 'page', label: 'FAA FSDOs / CMOs', subtitle: '99 offices · 4,327 designees · per-FSDO roster', url: '/atlas/fsdo/', tags: ['fsdo','cmo','flight standards','district office','faa office','certificate management'], status: 'Live' },
+      // Specific quick-actions
+      { type: 'action', label: 'Look up a tail by N-number', subtitle: 'Type any "N12345"', url: '/atlas/aircraft/', tags: ['lookup','tail','n-number','registry'] },
+      { type: 'action', label: 'Browse types by manufacturer', subtitle: 'Cessna · Piper · Cirrus · Vans · Beech · …', url: '/atlas/aircraft/types/', tags: ['browse','manufacturer','cessna','piper'] },
+      { type: 'action', label: 'Report an event', subtitle: 'NTSB / ASRS / FAA Hotline', url: '/atlas/portal/safety/#section-02', tags: ['report','asrs','ntsb','hotline','file'] },
+      { type: 'action', label: 'Emergency phone book', subtitle: 'Click-to-call verified contacts', url: '/atlas/portal/safety/#section-03', tags: ['emergency','phone','911','hotline'] },
+    ];
+
+    // Quick-nav cards rendered when input is empty
+    var QUICK_NAV = [
+      { label: 'Aircraft', subtitle: 'Search a tail or type', url: '/atlas/aircraft/', glyph: 'N#' },
+      { label: 'Atlas eCFR', subtitle: 'Title 14 reference', url: '/atlas/cfr/', glyph: '§' },
+      { label: 'Advisory Circulars', subtitle: '1,859 ACs', url: '/atlas/cfr/ac/', glyph: 'AC' },
+      { label: 'NTSB events', subtitle: '178k events', url: '/atlas/ntsb/', glyph: '!!' },
+      { label: 'ADs', subtitle: '8.4k unique', url: '/atlas/ads/', glyph: 'AD' },
+      { label: 'Airports', subtitle: '13k US fields', url: '/atlas/airports/', glyph: '⌖' },
+      { label: 'Portal', subtitle: 'Resource directory', url: '/atlas/portal/', glyph: '◇' },
+      { label: 'Safety hub', subtitle: 'Emergency · reporting', url: '/atlas/portal/safety/', glyph: '✛' },
+      { label: 'NOTAM decoder', subtitle: 'Paste a briefing', url: '/atlas/tools/notam-decoder/', glyph: '⌬' },
+    ];
+
+    // Pattern detectors for smart routing
+    var PATTERNS = [
+      {
+        name: 'tail',
+        re: /^N?[0-9][0-9A-Z]{0,5}$/,
+        match: function (raw) {
+          var v = raw.toUpperCase().replace(/\s+/g, '');
+          if (!/^N?[0-9][0-9A-Z]{0,5}$/.test(v)) return null;
+          var tail = v.charAt(0) === 'N' ? v : 'N' + v;
+          if (tail.length > 6) return null;
+          return { label: tail, subtitle: 'Open the tail record', url: '/atlas/aircraft/' + tail + '/', tag: 'TAIL' };
+        },
+      },
+      {
+        name: 'icao-airport',
+        re: /^[A-Z]{4}$/,
+        match: function (raw) {
+          var v = raw.toUpperCase().replace(/\s+/g, '');
+          if (!/^[A-Z]{4}$/.test(v)) return null;
+          return { label: v, subtitle: 'Open the airport page', url: '/atlas/airports/' + v + '/', tag: 'ICAO' };
+        },
+      },
+      {
+        name: 'faa-lid-airport',
+        re: /^[0-9][0-9A-Z]{2}$|^[A-Z][0-9][A-Z]?$|^\d{2}[A-Z]$/,
+        match: function (raw) {
+          var v = raw.toUpperCase().replace(/\s+/g, '');
+          // 3-character FAA local IDs always include at least one digit
+          // (otherwise they would conflict with IATA-style 3-letter codes
+          // which we don't route here anyway).
+          if (!/^[0-9A-Z]{3}$/.test(v)) return null;
+          if (!/\d/.test(v)) return null;
+          return { label: v, subtitle: 'Open the airport page', url: '/atlas/airports/' + v + '/', tag: 'FAA' };
+        },
+      },
+      {
+        name: 'far',
+        re: /(\d{1,3})[\.\s]+(\d{1,4})/,
+        match: function (raw) {
+          var m = raw.match(/(?:14\s*CFR\s*|FAR\s*|14\s*)?(\d{1,3})[\.\s]+(\d{1,4})/i);
+          if (!m) return null;
+          var part = m[1], sec = m[2];
+          if (parseInt(part, 10) > 199) return null;
+          return { label: 'FAR ' + part + '.' + sec, subtitle: '14 CFR ' + part + '.' + sec, url: '/atlas/cfr/' + part + '/' + part + '.' + sec + '/', tag: 'CFR' };
+        },
+      },
+      {
+        name: 'ntsb',
+        re: /^[A-Z]{3}\d{2}[A-Z]{2}\d{3}$/i,
+        match: function (raw) {
+          var v = raw.toUpperCase().replace(/\s+/g, '');
+          if (!/^[A-Z]{3}\d{2}[A-Z]{2}\d{3}$/.test(v)) return null;
+          return { label: v, subtitle: 'Open the NTSB event', url: '/atlas/ntsb/' + v + '/', tag: 'NTSB' };
+        },
+      },
+      {
+        name: 'ad',
+        re: /^\d{4}-\d{4,5}$/,
+        match: function (raw) {
+          var v = raw.replace(/\s+/g, '');
+          if (!/^\d{4}-\d{4,5}$/.test(v)) return null;
+          return { label: 'AD ' + v, subtitle: 'Open the airworthiness directive', url: '/atlas/ads/' + v + '/', tag: 'AD' };
+        },
+      },
+      {
+        // AC numbers: "91-58A", "25.795-1A", "150/5345-43H", "120-105B".
+        // Distinguish from AD numbers by the dash position — AC numbers
+        // typically have ≤3 digits before the first dash; ADs always 4.
+        name: 'ac',
+        re: /^(?:AC\s*)?(\d{1,3}(?:[\.\/]\d{1,4})?-[A-Za-z0-9-]+)$/i,
+        match: function (raw) {
+          var v = raw.replace(/^AC\s*/i, '').replace(/\s+/g, '').toUpperCase();
+          if (!/^\d{1,3}(?:[\.\/]\d{1,4})?-[A-Z0-9-]+$/.test(v)) return null;
+          // AD numbers (4-digit year prefix) shouldn't hit here, but guard.
+          if (/^\d{4}-\d{4,5}$/.test(v)) return null;
+          var slug = v.replace(/\//g, '_');
+          return { label: 'AC ' + v, subtitle: 'Open the Advisory Circular', url: '/atlas/cfr/ac/' + slug + '/', tag: 'AC' };
+        },
+      },
+    ];
+
+    // ── Type manifest (lazy) ───────────────────────────────────
+    var typesIdx = null;
+    var typesPromise = null;
+    function loadTypes() {
+      if (typesIdx) return Promise.resolve(typesIdx);
+      if (typesPromise) return typesPromise;
+      typesPromise = fetch('/atlas/aircraft/types/manifest.json')
+        .then(function (r) { return r.json(); })
+        .then(function (m) {
+          var fields = m.fields || ['slug', 'make', 'model', 'registeredCount', 'ntsbCount', 'adCount'];
+          var idx = fields.reduce(function (acc, f, i) { acc[f] = i; return acc; }, {});
+          typesIdx = (m.types || []).map(function (row) {
+            return {
+              slug: row[idx.slug],
+              make: row[idx.make],
+              model: row[idx.model],
+              registered: row[idx.registeredCount],
+              ntsb: row[idx.ntsbCount],
+              ads: row[idx.adCount],
+              hay: (row[idx.make] + ' ' + row[idx.model] + ' ' + row[idx.slug]).toLowerCase(),
+            };
+          });
+          return typesIdx;
+        })
+        .catch(function () { typesIdx = []; return typesIdx; });
+      return typesPromise;
+    }
+
+    // ── Search index (CFR + ACs + Airports) — lazy-load once on focus ──
+    var searchIdx = null;
+    var searchPromise = null;
+    function loadSearchIdx() {
+      if (searchIdx) return Promise.resolve(searchIdx);
+      if (searchPromise) return searchPromise;
+      searchPromise = fetch('/atlas/search-index.json')
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          searchIdx = d;
+          return searchIdx;
+        })
+        .catch(function () { searchIdx = { sections: [], acs: [], airports: [] }; return searchIdx; });
+      return searchPromise;
+    }
+
+    // ── Curated synonyms (the famous pilot queries) ────────────
+    var synIdx = null;
+    var synPromise = null;
+    function loadSynonyms() {
+      if (synIdx) return Promise.resolve(synIdx);
+      if (synPromise) return synPromise;
+      // Synonyms ship inline at build time via Astro's data import — but
+      // for a plain client fetch we read the JSON from the public folder.
+      synPromise = fetch('/atlas/search-synonyms.json')
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          synIdx = d.phrases || {};
+          return synIdx;
+        })
+        .catch(function () { synIdx = {}; return synIdx; });
+      return synPromise;
+    }
+
+    // Pre-warm during idle so first keystroke is instant.
+    function prewarm() {
+      loadTypes();
+      loadSearchIdx();
+      loadSynonyms();
+    }
+    if ('requestIdleCallback' in window) requestIdleCallback(prewarm, { timeout: 2000 });
+    else setTimeout(prewarm, 800);
+
+    // ── Helpers ────────────────────────────────────────────────
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c];
+      });
+    }
+    function highlight(text, tokens) {
+      if (!tokens || !tokens.length) return escapeHtml(text);
+      var out = escapeHtml(text);
+      for (var i = 0; i < tokens.length; i++) {
+        var t = tokens[i];
+        if (!t) continue;
+        var re = new RegExp('(' + t.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + ')', 'gi');
+        out = out.replace(re, '<mark class="bg-aero-orange/20 text-aero-orange">$1</mark>');
+      }
+      return out;
+    }
+    function tokenize(q) {
+      return q.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    }
+
+    function scoreStatic(item, tokens) {
+      var hay = (item.label + ' ' + (item.subtitle || '') + ' ' + (item.tags || []).join(' ')).toLowerCase();
+      var s = 0;
+      for (var i = 0; i < tokens.length; i++) {
+        if (hay.indexOf(tokens[i]) === -1) return -1;
+        if (item.label.toLowerCase().indexOf(tokens[i]) !== -1) s += 50;
+        var re = new RegExp('(^|\\W)' + tokens[i].replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '($|\\W)');
+        if (re.test(hay)) s += 20;
+      }
+      // Pages outrank actions; both above type results.
+      if (item.type === 'page') s += 100;
+      else if (item.type === 'action') s += 60;
+      return s;
+    }
+
+    // Score a CFR section against the query tokens. A section's haystack
+    // is its head text + part number + section number. We weight matches
+    // in the head heavily and award bonus for full-phrase matches.
+    function scoreSection(s, tokens, qLower) {
+      var hay = (s.h + ' ' + s.n + ' ' + s.p).toLowerCase();
+      var sc = 0;
+      for (var i = 0; i < tokens.length; i++) {
+        if (hay.indexOf(tokens[i]) === -1) return -1;
+        sc += 30;
+        // Whole-word bonus
+        var re = new RegExp('(^|\\W)' + tokens[i].replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '($|\\W)');
+        if (re.test(hay)) sc += 30;
+      }
+      // Full-phrase match in head
+      if (s.h.toLowerCase().indexOf(qLower) !== -1) sc += 200;
+      return sc;
+    }
+
+    // Score an AC against the query.
+    function scoreAc(a, tokens, qLower) {
+      var hay = (a.t + ' ' + a.n).toLowerCase();
+      var sc = 0;
+      for (var i = 0; i < tokens.length; i++) {
+        if (hay.indexOf(tokens[i]) === -1) return -1;
+        sc += 30;
+        var re = new RegExp('(^|\\W)' + tokens[i].replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '($|\\W)');
+        if (re.test(hay)) sc += 30;
+      }
+      if (a.t.toLowerCase().indexOf(qLower) !== -1) sc += 200;
+      // Current ACs outrank cancelled.
+      if (a.s === 1) sc += 50;
+      return sc;
+    }
+
+    // Score a reference doc (AIM/Order/Handbook/Legal/SC/TCDS/ELOS/TSOA).
+    function scoreRef(r, tokens, qLower) {
+      var hay = (r.t + ' ' + r.n + ' ' + r.k).toLowerCase();
+      var sc = 0;
+      for (var i = 0; i < tokens.length; i++) {
+        if (hay.indexOf(tokens[i]) === -1) return -1;
+        sc += 25;
+        var re = new RegExp('(^|\\W)' + tokens[i].replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '($|\\W)');
+        if (re.test(hay)) sc += 25;
+      }
+      if (r.t.toLowerCase().indexOf(qLower) !== -1) sc += 150;
+      // Number-token exact hit (e.g. "TCDS 1234")
+      if (r.n.toLowerCase() === qLower) sc += 800;
+      return sc;
+    }
+
+    // Pretty labels for each reference kind (eyebrow chip).
+    var REF_LABELS = {
+      aim: 'AIM',
+      order: 'FAA Order',
+      handbook: 'Handbook',
+      legal: 'Legal Interp',
+      sc: 'Special Cond',
+      tcds: 'TCDS',
+      elos: 'ELOS',
+      tsoa: 'TSOA',
+      glossary: 'Glossary',
+    };
+
+    // Score a designee/business record (DMS individuals, ODA holders,
+    // AOPA schools/FBOs/clubs/repair-stations, AMT institutions, EAA
+    // chapters, FSDOs). Same shape as scoreRef but tuned for name-first
+    // matching — typing a person/business name should rank that profile
+    // above generic CFR sections.
+    function scoreDesignee(d, tokens, qLower) {
+      var hay = (d.n + ' ' + d.t + ' ' + d.k).toLowerCase();
+      var sc = 0;
+      for (var i = 0; i < tokens.length; i++) {
+        if (hay.indexOf(tokens[i]) === -1) return -1;
+        sc += 25;
+        var re = new RegExp('(^|\\W)' + tokens[i].replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '($|\\W)');
+        if (re.test(hay)) sc += 25;
+      }
+      // Big bonus for whole-name match — typing "Boeing" should put
+      // Boeing's ODA above any CFR section that mentions Boeing.
+      if (d.n.toLowerCase() === qLower) sc += 900;
+      else if (d.n.toLowerCase().indexOf(qLower) === 0) sc += 250;
+      else if (d.n.toLowerCase().indexOf(qLower) !== -1) sc += 100;
+      return sc;
+    }
+    var DESIGNEE_LABELS = {
+      designee:    'Designee',
+      oda:         'ODA holder',
+      school:      'Flight school',
+      fbo:         'FBO',
+      club:        'Flying club',
+      repair:      'Repair station',
+      amt:         'AMT school',
+      eaa:         'EAA chapter',
+      fsdo:        'FSDO / CMO',
+    };
+
+    // Score an airport against the query.
+    function scoreAirport(ap, tokens, qLower) {
+      var hay = (ap.n + ' ' + ap.i + ' ' + (ap.c || '')).toLowerCase();
+      var sc = 0;
+      for (var i = 0; i < tokens.length; i++) {
+        if (hay.indexOf(tokens[i]) === -1) return -1;
+        sc += 30;
+        var re = new RegExp('(^|\\W)' + tokens[i].replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '($|\\W)');
+        if (re.test(hay)) sc += 30;
+      }
+      if (ap.n.toLowerCase().indexOf(qLower) !== -1) sc += 150;
+      if (ap.i.toLowerCase() === qLower) sc += 1000;
+      // US fields outrank others slightly to bias toward likely-relevant.
+      if (ap.c === 'US') sc += 20;
+      return sc;
+    }
+
+    // AC slug helper — must mirror cfr/load.ts's acSlug().
+    function acSlugFor(num) { return String(num || '').replace(/\//g, '_'); }
+
+    function scoreType(row, tokens, q) {
+      var s = 0;
+      for (var i = 0; i < tokens.length; i++) {
+        if (row.hay.indexOf(tokens[i]) === -1) return -1;
+        var re = new RegExp('(^|\\W)' + tokens[i].replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '($|\\W)');
+        if (re.test(row.hay)) s += 100;
+      }
+      var fullHay = (row.make + ' ' + row.model).toLowerCase();
+      if (fullHay === q.toLowerCase().trim()) s += 5000;
+      if (row.make.toLowerCase() === q.toLowerCase().trim()) s += 1000;
+      s += Math.log10(row.registered + 1) * 8;
+      return s;
+    }
+
+    // ── Renderers ──────────────────────────────────────────────
+    function renderQuickNav() {
+      var html = '';
+      html += '<div class="p-4">';
+      html += '<p class="font-mono text-[10px] uppercase tracking-[0.3em] text-white/40 mb-3">Quick navigation · type to search</p>';
+      html += '<div class="grid grid-cols-2 md:grid-cols-4 gap-x-px gap-y-px bg-white/[0.06]">';
+      for (var i = 0; i < QUICK_NAV.length; i++) {
+        var q = QUICK_NAV[i];
+        html += '<a href="' + escapeHtml(q.url) + '" class="block bg-black p-3 hover:bg-white/[0.04] transition-colors group">';
+        html += '<p class="font-mono text-[10px] uppercase tracking-[0.3em] text-aero-orange/80 mb-1">' + escapeHtml(q.glyph) + '</p>';
+        html += '<p class="text-sm text-white group-hover:text-aero-orange transition-colors">' + escapeHtml(q.label) + '</p>';
+        html += '<p class="mt-0.5 text-[11px] text-white/45">' + escapeHtml(q.subtitle) + '</p>';
+        html += '</a>';
+      }
+      html += '</div>';
+      html += '<p class="mt-4 font-mono text-[10px] uppercase tracking-[0.3em] text-white/30">';
+      html += 'Patterns · <span class="text-white/50">N12345</span> tail · <span class="text-white/50">KJFK</span> airport · <span class="text-white/50">61.57</span> FAR · <span class="text-white/50">CEN23LA393</span> NTSB · <span class="text-white/50">2014-15551</span> AD';
+      html += '</p>';
+      html += '</div>';
+      panel.innerHTML = html;
+      syncActiveAfterRender();
+    }
+
+    function renderResults(groups, query) {
+      var html = '';
+      var tokens = tokenize(query);
+      var hadAny = false;
+
+      // Pattern matches first — they're definitive
+      if (groups.patterns.length) {
+        hadAny = true;
+        html += '<div class="border-b border-white/[0.08]">';
+        html += '<p class="px-4 pt-3 pb-2 font-mono text-[10px] uppercase tracking-[0.3em] text-aero-orange/80">Go to →</p>';
+        for (var i = 0; i < groups.patterns.length; i++) {
+          var p = groups.patterns[i];
+          html += '<a href="' + escapeHtml(p.url) + '" class="block px-4 py-2.5 hover:bg-white/[0.04] transition-colors group" data-result-row>';
+          html += '<div class="flex items-baseline justify-between gap-3">';
+          html += '<div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.3em] text-aero-orange mr-3">' + escapeHtml(p.tag) + '</span>';
+          html += '<span class="text-sm text-white">' + escapeHtml(p.label) + '</span>';
+          html += '<span class="ml-3 text-xs text-white/45">' + escapeHtml(p.subtitle) + '</span>';
+          html += '</div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.2em] text-white/35">' + escapeHtml(p.url) + '</span>';
+          html += '</div>';
+          html += '</a>';
+        }
+        html += '</div>';
+      }
+
+      // Synonym matches — curated phrase → URL.
+      if (groups.synonyms && groups.synonyms.length) {
+        hadAny = true;
+        html += '<div class="border-b border-white/[0.08]">';
+        html += '<p class="px-4 pt-3 pb-2 font-mono text-[10px] uppercase tracking-[0.3em] text-aero-orange/80">Curated answer</p>';
+        for (var sy = 0; sy < groups.synonyms.length; sy++) {
+          var sn = groups.synonyms[sy];
+          html += '<a href="' + escapeHtml(sn.url) + '" class="block px-4 py-2.5 hover:bg-white/[0.04] transition-colors" data-result-row>';
+          html += '<div class="flex items-baseline justify-between gap-3">';
+          html += '<div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.3em] text-aero-orange mr-3">' + escapeHtml(sn.tag || 'CFR') + '</span>';
+          html += '<span class="text-sm text-white">' + escapeHtml(sn.label) + '</span>';
+          html += '<span class="ml-3 text-xs text-white/45">"' + escapeHtml(sn.phrase) + '"</span>';
+          html += '</div>';
+          html += '</div>';
+          html += '</a>';
+        }
+        html += '</div>';
+      }
+
+      // CFR sections (full-text matches)
+      if (groups.sections && groups.sections.length) {
+        hadAny = true;
+        html += '<div class="border-b border-white/[0.08]">';
+        html += '<p class="px-4 pt-3 pb-2 font-mono text-[10px] uppercase tracking-[0.3em] text-white/45">CFR sections · ' + groups.totalSections.toLocaleString() + ' match' + (groups.totalSections === 1 ? '' : 'es') + (groups.totalSections > groups.sections.length ? ' · top ' + groups.sections.length : '') + '</p>';
+        for (var sex = 0; sex < groups.sections.length; sex++) {
+          var sec = groups.sections[sex];
+          html += '<a href="/atlas/cfr/' + escapeHtml(sec.p) + '/' + escapeHtml(sec.n) + '/" class="block px-4 py-2.5 hover:bg-white/[0.04] transition-colors" data-result-row>';
+          html += '<div class="flex items-baseline justify-between gap-3">';
+          html += '<div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.2em] text-aero-orange/80 mr-3">§ ' + escapeHtml(sec.n) + '</span>';
+          html += '<span class="text-sm text-white">' + highlight(sec.h, tokens) + '</span>';
+          html += '</div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.2em] text-white/35">Part ' + escapeHtml(sec.p) + '</span>';
+          html += '</div>';
+          html += '</a>';
+        }
+        html += '</div>';
+      }
+
+      // Advisory Circulars
+      if (groups.acs && groups.acs.length) {
+        hadAny = true;
+        html += '<div class="border-b border-white/[0.08]">';
+        html += '<p class="px-4 pt-3 pb-2 font-mono text-[10px] uppercase tracking-[0.3em] text-white/45">Advisory Circulars · ' + groups.totalAcs.toLocaleString() + ' match' + (groups.totalAcs === 1 ? '' : 'es') + (groups.totalAcs > groups.acs.length ? ' · top ' + groups.acs.length : '') + '</p>';
+        for (var acx = 0; acx < groups.acs.length; acx++) {
+          var ac = groups.acs[acx];
+          html += '<a href="/atlas/cfr/ac/' + escapeHtml(acSlugFor(ac.n)) + '/" class="block px-4 py-2.5 hover:bg-white/[0.04] transition-colors" data-result-row>';
+          html += '<div class="flex items-baseline justify-between gap-3">';
+          html += '<div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.2em] text-aero-orange/80 mr-3">AC ' + escapeHtml(ac.n) + '</span>';
+          html += '<span class="text-sm text-white">' + highlight(ac.t, tokens) + '</span>';
+          html += '</div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.2em] ' + (ac.s === 1 ? 'text-aero-orange/70' : 'text-white/30') + '">' + (ac.s === 1 ? 'current' : 'cancelled') + '</span>';
+          html += '</div>';
+          html += '</a>';
+        }
+        html += '</div>';
+      }
+
+      // Reference docs (AIM, Orders, Handbooks, Legal, SC, TCDS, ELOS, TSOA)
+      if (groups.refs && groups.refs.length) {
+        hadAny = true;
+        html += '<div class="border-b border-white/[0.08]">';
+        html += '<p class="px-4 pt-3 pb-2 font-mono text-[10px] uppercase tracking-[0.3em] text-white/45">Reference docs · ' + groups.totalRefs.toLocaleString() + ' match' + (groups.totalRefs === 1 ? '' : 'es') + (groups.totalRefs > groups.refs.length ? ' · top ' + groups.refs.length : '') + '</p>';
+        for (var rfx = 0; rfx < groups.refs.length; rfx++) {
+          var rf = groups.refs[rfx];
+          var label = REF_LABELS[rf.k] || rf.k;
+          html += '<a href="' + escapeHtml(rf.u) + '" class="block px-4 py-2.5 hover:bg-white/[0.04] transition-colors" data-result-row>';
+          html += '<div class="flex items-baseline justify-between gap-3">';
+          html += '<div class="min-w-0 flex-1">';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.2em] text-aero-orange/80 mr-3">' + escapeHtml(label) + '</span>';
+          html += '<span class="font-mono text-[10px] text-white/55 mr-3">' + escapeHtml(rf.n) + '</span>';
+          html += '<span class="text-sm text-white">' + highlight(rf.t, tokens) + '</span>';
+          html += '</div>';
+          html += '</div>';
+          html += '</a>';
+        }
+        html += '</div>';
+      }
+
+      // Airports
+      // Designees & businesses — rank ABOVE airports because typing a
+      // person/business name should land on their profile first.
+      if (groups.designees && groups.designees.length) {
+        hadAny = true;
+        html += '<div class="border-b border-white/[0.08]">';
+        html += '<p class="px-4 pt-3 pb-2 font-mono text-[10px] uppercase tracking-[0.3em] text-white/45">Designees &amp; businesses · ' + groups.totalDesignees.toLocaleString() + ' match' + (groups.totalDesignees === 1 ? '' : 'es') + (groups.totalDesignees > groups.designees.length ? ' · top ' + groups.designees.length : '') + '</p>';
+        for (var dgx = 0; dgx < groups.designees.length; dgx++) {
+          var dg = groups.designees[dgx];
+          var kindLabel = (DESIGNEE_LABELS[dg.k] || dg.k || '').toUpperCase();
+          html += '<a href="' + escapeHtml(dg.u) + '" class="block px-4 py-2.5 hover:bg-white/[0.04] transition-colors" data-result-row>';
+          html += '<div class="flex items-baseline justify-between gap-3">';
+          html += '<div class="min-w-0 flex-1">';
+          html += '<span class="text-sm text-white truncate">' + highlight(dg.n, tokens) + '</span>';
+          if (dg.t) html += '<span class="block text-[11px] text-white/45 truncate">' + highlight(dg.t, tokens) + '</span>';
+          html += '</div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.2em] text-aero-orange/80 shrink-0">' + escapeHtml(kindLabel) + '</span>';
+          html += '</div>';
+          html += '</a>';
+        }
+        html += '</div>';
+      }
+
+      if (groups.airports && groups.airports.length) {
+        hadAny = true;
+        html += '<div class="border-b border-white/[0.08]">';
+        html += '<p class="px-4 pt-3 pb-2 font-mono text-[10px] uppercase tracking-[0.3em] text-white/45">Airports · ' + groups.totalAirports.toLocaleString() + ' match' + (groups.totalAirports === 1 ? '' : 'es') + '</p>';
+        for (var apx = 0; apx < groups.airports.length; apx++) {
+          var apt = groups.airports[apx];
+          html += '<a href="/atlas/airports/' + escapeHtml(apt.i) + '/" class="block px-4 py-2.5 hover:bg-white/[0.04] transition-colors" data-result-row>';
+          html += '<div class="flex items-baseline justify-between gap-3">';
+          html += '<div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.2em] text-aero-orange/80 mr-3">' + escapeHtml(apt.i) + '</span>';
+          html += '<span class="text-sm text-white">' + highlight(apt.n, tokens) + '</span>';
+          html += '</div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.2em] text-white/35">' + escapeHtml(apt.c || '') + '</span>';
+          html += '</div>';
+          html += '</a>';
+        }
+        html += '</div>';
+      }
+
+      if (groups.statics.length) {
+        hadAny = true;
+        html += '<div class="border-b border-white/[0.08]">';
+        html += '<p class="px-4 pt-3 pb-2 font-mono text-[10px] uppercase tracking-[0.3em] text-white/45">Atlas surfaces</p>';
+        for (var j = 0; j < groups.statics.length; j++) {
+          var s = groups.statics[j];
+          html += '<a href="' + escapeHtml(s.url) + '" class="block px-4 py-2.5 hover:bg-white/[0.04] transition-colors group" data-result-row>';
+          html += '<div class="flex items-baseline justify-between gap-3">';
+          html += '<div>';
+          html += '<span class="text-sm text-white">' + highlight(s.label, tokens) + '</span>';
+          if (s.subtitle) html += '<span class="ml-3 text-xs text-white/45">' + highlight(s.subtitle, tokens) + '</span>';
+          html += '</div>';
+          if (s.status) html += '<span class="font-mono text-[10px] uppercase tracking-[0.2em] text-aero-orange/70">' + escapeHtml(s.status) + '</span>';
+          html += '</div>';
+          html += '</a>';
+        }
+        html += '</div>';
+      }
+
+      if (groups.types.length) {
+        hadAny = true;
+        html += '<div>';
+        html += '<p class="px-4 pt-3 pb-2 font-mono text-[10px] uppercase tracking-[0.3em] text-white/45">Aircraft types · ' + groups.totalTypes.toLocaleString() + ' match' + (groups.totalTypes === 1 ? '' : 'es') + (groups.totalTypes > groups.types.length ? ' · showing top ' + groups.types.length : '') + '</p>';
+        for (var k = 0; k < groups.types.length; k++) {
+          var t = groups.types[k];
+          var stats = t.registered.toLocaleString() + ' reg' + (t.ntsb > 0 ? ' · ' + t.ntsb.toLocaleString() + ' NTSB' : '') + (t.ads > 0 ? ' · ' + t.ads.toLocaleString() + ' ADs' : '');
+          html += '<a href="/atlas/aircraft/types/' + encodeURIComponent(t.slug) + '/" class="block px-4 py-2.5 hover:bg-white/[0.04] transition-colors" data-result-row>';
+          html += '<div class="flex items-baseline justify-between gap-3">';
+          html += '<div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.2em] text-white/40 mr-3">' + highlight(t.make, tokens) + '</span>';
+          html += '<span class="text-sm text-white">' + highlight(t.model, tokens) + '</span>';
+          html += '</div>';
+          html += '<span class="font-mono text-[10px] uppercase tracking-[0.3em] text-white/35">' + escapeHtml(stats) + '</span>';
+          html += '</div>';
+          html += '</a>';
+        }
+        html += '</div>';
+      }
+
+      if (!hadAny) {
+        html += '<div class="p-6 text-sm text-white/55">';
+        html += 'No matches. Try a manufacturer (<span class="text-white">cessna</span>), a model fragment (<span class="text-white">172m</span>), a tail (<span class="text-white">N12345</span>), an ICAO code (<span class="text-white">KJFK</span>), or a FAR section (<span class="text-white">61.57</span>).';
+        html += '</div>';
+      }
+
+      panel.innerHTML = html;
+      syncActiveAfterRender();
+    }
+
+    function showPanel() {
+      panel.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+    function hidePanel() {
+      panel.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+      activeIdx = -1;
+    }
+
+    // ── Event wiring ───────────────────────────────────────────
+    var debounceT = null;
+    var activeIdx = -1;
+
+    function refresh() {
+      var q = input.value.trim();
+      if (!q) {
+        renderQuickNav();
+        showPanel();
+        return;
+      }
+      var tokens = tokenize(q);
+      var qLower = q.toLowerCase();
+
+      // Pattern matches
+      var patterns = [];
+      for (var i = 0; i < PATTERNS.length; i++) {
+        var p = PATTERNS[i].match(q);
+        if (p) patterns.push(p);
+      }
+
+      // Curated synonym match — exact phrase or strong substring.
+      var synonyms = [];
+      if (synIdx) {
+        if (synIdx[qLower]) {
+          synonyms.push(Object.assign({ phrase: qLower }, synIdx[qLower]));
+        } else {
+          // Substring match across phrase keys.
+          var keys = Object.keys(synIdx);
+          for (var sy = 0; sy < keys.length; sy++) {
+            var k = keys[sy];
+            if (k.indexOf(qLower) !== -1 || qLower.indexOf(k) !== -1) {
+              synonyms.push(Object.assign({ phrase: k }, synIdx[k]));
+              if (synonyms.length >= 4) break;
+            }
+          }
+        }
+      }
+
+      // Static surfaces
+      var staticHits = [];
+      for (var s = 0; s < STATIC.length; s++) {
+        var sc = scoreStatic(STATIC[s], tokens);
+        if (sc >= 0) staticHits.push({ item: STATIC[s], score: sc });
+      }
+      staticHits.sort(function (a, b) { return b.score - a.score; });
+      var statics = staticHits.slice(0, 4).map(function (h) { return h.item; });
+
+      // Types (lazy)
+      var typeHits = [];
+      var totalTypes = 0;
+      if (typesIdx) {
+        for (var t = 0; t < typesIdx.length; t++) {
+          var ts = scoreType(typesIdx[t], tokens, q);
+          if (ts >= 0) typeHits.push({ row: typesIdx[t], score: ts });
+        }
+        typeHits.sort(function (a, b) { return b.score - a.score; });
+        totalTypes = typeHits.length;
+      }
+      var types = typeHits.slice(0, 5).map(function (h) { return h.row; });
+
+      // CFR sections (lazy)
+      var sectionHits = [];
+      var totalSections = 0;
+      if (searchIdx && searchIdx.sections) {
+        for (var sx = 0; sx < searchIdx.sections.length; sx++) {
+          var sxs = scoreSection(searchIdx.sections[sx], tokens, qLower);
+          if (sxs >= 0) sectionHits.push({ row: searchIdx.sections[sx], score: sxs });
+        }
+        sectionHits.sort(function (a, b) { return b.score - a.score; });
+        totalSections = sectionHits.length;
+      }
+      var sections = sectionHits.slice(0, 5).map(function (h) { return h.row; });
+
+      // ACs (lazy)
+      var acHits = [];
+      var totalAcs = 0;
+      if (searchIdx && searchIdx.acs) {
+        for (var ax = 0; ax < searchIdx.acs.length; ax++) {
+          var axs = scoreAc(searchIdx.acs[ax], tokens, qLower);
+          if (axs >= 0) acHits.push({ row: searchIdx.acs[ax], score: axs });
+        }
+        acHits.sort(function (a, b) { return b.score - a.score; });
+        totalAcs = acHits.length;
+      }
+      var acs = acHits.slice(0, 5).map(function (h) { return h.row; });
+
+      // Reference docs (lazy)
+      var refHits = [];
+      var totalRefs = 0;
+      if (searchIdx && searchIdx.refs) {
+        for (var rx = 0; rx < searchIdx.refs.length; rx++) {
+          var rxs = scoreRef(searchIdx.refs[rx], tokens, qLower);
+          if (rxs >= 0) refHits.push({ row: searchIdx.refs[rx], score: rxs });
+        }
+        refHits.sort(function (a, b) { return b.score - a.score; });
+        totalRefs = refHits.length;
+      }
+      var refs = refHits.slice(0, 6).map(function (h) { return h.row; });
+
+      // Airports (lazy)
+      var airportHits = [];
+      var totalAirports = 0;
+      if (searchIdx && searchIdx.airports) {
+        for (var ah = 0; ah < searchIdx.airports.length; ah++) {
+          var ahs = scoreAirport(searchIdx.airports[ah], tokens, qLower);
+          if (ahs >= 0) airportHits.push({ row: searchIdx.airports[ah], score: ahs });
+        }
+        airportHits.sort(function (a, b) { return b.score - a.score; });
+        totalAirports = airportHits.length;
+      }
+      var airports = airportHits.slice(0, 5).map(function (h) { return h.row; });
+
+      // Designees & businesses (lazy) — DMS individuals, ODA, AOPA
+      // schools/FBOs/clubs/repair-stations, AMT, EAA chapters, FSDOs.
+      var designeeHits = [];
+      var totalDesignees = 0;
+      if (searchIdx && searchIdx.designees) {
+        for (var dx = 0; dx < searchIdx.designees.length; dx++) {
+          var dxs = scoreDesignee(searchIdx.designees[dx], tokens, qLower);
+          if (dxs >= 0) designeeHits.push({ row: searchIdx.designees[dx], score: dxs });
+        }
+        designeeHits.sort(function (a, b) { return b.score - a.score; });
+        totalDesignees = designeeHits.length;
+      }
+      var designees = designeeHits.slice(0, 8).map(function (h) { return h.row; });
+
+      renderResults({
+        patterns: patterns,
+        synonyms: synonyms,
+        statics: statics,
+        sections: sections, totalSections: totalSections,
+        acs: acs, totalAcs: totalAcs,
+        refs: refs, totalRefs: totalRefs,
+        airports: airports, totalAirports: totalAirports,
+        types: types, totalTypes: totalTypes,
+        designees: designees, totalDesignees: totalDesignees,
+      }, q);
+      showPanel();
+    }
+
+    function setActive(idx, opts) {
+      var rows = panel.querySelectorAll('[data-result-row]');
+      if (!rows.length) { activeIdx = -1; return; }
+      if (idx < 0) idx = rows.length - 1;
+      if (idx >= rows.length) idx = 0;
+      activeIdx = idx;
+      for (var i = 0; i < rows.length; i++) {
+        if (i === idx) {
+          rows[i].classList.add('bg-white/[0.06]', 'atlas-search-active');
+          // Skip scrollIntoView on the auto-select after a refresh —
+          // we don't want the panel jumping to the top each keystroke.
+          if (!opts || !opts.silent) rows[i].scrollIntoView({ block: 'nearest' });
+        } else {
+          rows[i].classList.remove('bg-white/[0.06]', 'atlas-search-active');
+        }
+      }
+    }
+
+    function openActiveOrFirst() {
+      var rows = panel.querySelectorAll('[data-result-row]');
+      if (!rows.length) return false;
+      var target = activeIdx >= 0 ? rows[activeIdx] : rows[0];
+      if (target && target.getAttribute('href')) {
+        window.location.href = target.getAttribute('href');
+        return true;
+      }
+      return false;
+    }
+
+    // Apply the active-row highlight after every panel re-render. Called
+    // from refresh() once the new HTML is in. Auto-selects the first
+    // result when the user has actually typed a query so Enter opens
+    // the obvious top hit without needing an ArrowDown first.
+    function syncActiveAfterRender() {
+      var rows = panel.querySelectorAll('[data-result-row]');
+      if (!rows.length) { activeIdx = -1; return; }
+      var hasQuery = input.value.trim().length > 0;
+      if (!hasQuery) { activeIdx = -1; return; }
+      // Cap the previous index against the new row count.
+      var idx = activeIdx >= 0 && activeIdx < rows.length ? activeIdx : 0;
+      setActive(idx, { silent: true });
+    }
+
+    input.addEventListener('focus', function () {
+      // Lazy-load all indexes in parallel on first focus.
+      Promise.all([loadTypes(), loadSearchIdx(), loadSynonyms()]).then(refresh);
+      refresh();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceT);
+      debounceT = setTimeout(function () {
+        // Trigger lazy loads if not yet loaded; refresh again when they
+        // resolve so results fill in as data arrives.
+        var pending = [];
+        if (!typesIdx) pending.push(loadTypes());
+        if (!searchIdx) pending.push(loadSearchIdx());
+        if (!synIdx) pending.push(loadSynonyms());
+        if (pending.length) Promise.all(pending).then(refresh);
+        refresh();
+      }, 30);
+    });
+
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowDown') { e.preventDefault(); setActive(activeIdx + 1); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); setActive(activeIdx - 1); }
+      else if (e.key === 'Enter') {
+        if (openActiveOrFirst()) { e.preventDefault(); }
+      } else if (e.key === 'Escape') {
+        if (input.value) { input.value = ''; refresh(); }
+        else { input.blur(); hidePanel(); }
+      }
+    });
+
+    // Click outside closes
+    document.addEventListener('click', function (e) {
+      if (!root.contains(e.target)) hidePanel();
+    });
+
+    // "/" anywhere on the page focuses the search (unless typing in another input).
+    // Cmd-K / Ctrl-K does the same — palette convention.
+    document.addEventListener('keydown', function (e) {
+      var isSlash = e.key === '/' && !e.metaKey && !e.ctrlKey;
+      var isCmdK = e.key.toLowerCase() === 'k' && (e.metaKey || e.ctrlKey);
+      if (!isSlash && !isCmdK) return;
+      var t = e.target;
+      if (isSlash && t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+      e.preventDefault();
+      input.focus();
+      input.select();
+    });
+  })();
+</script> </div> <span class="font-mono text-[10px] uppercase tracking-[0.22em] text-white/35 hidden md:block whitespace-nowrap"> <kbd class="text-white/60 mx-1 px-1.5 py-0.5 border border-white/15 rounded-sm">/</kbd>
+or
+<kbd class="text-white/60 mx-1 px-1.5 py-0.5 border border-white/15 rounded-sm">⌘K</kbd> </span>  </div> </div> <aside id="atlas-sidebar" data-expanded="false" data-active-section class="atlas-sidebar fixed left-0 z-30 hidden md:flex flex-col bg-black/95 backdrop-blur-md border-r border-white/[0.08] transition-[width] duration-200" aria-label="Atlas navigation" data-astro-cid-iphn5dwj> <nav class="flex-1 overflow-y-auto py-3" data-astro-cid-iphn5dwj>  <ul class="space-y-px mb-2" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/" class="group flex items-center gap-3 px-2 py-2.5 hover:bg-white/[0.04] transition-colors bg-aero-orange/[0.08]" aria-current="page" data-astro-cid-iphn5dwj> <span class="font-mono text-[13px] w-7 text-center shrink-0 text-aero-orange" data-astro-cid-iphn5dwj> ◉ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-aero-orange" data-astro-cid-iphn5dwj> Atlas home </span> </a> </li> </ul>  <div class="atlas-sidebar-section" data-section-key="accidents" data-astro-cid-iphn5dwj>  <button type="button" class="atlas-sidebar-section-header w-full flex items-center justify-between gap-2 px-2 py-1.5 mt-2 text-left hover:bg-white/[0.02] transition-colors" data-section-toggle="accidents" aria-expanded="false" aria-controls="atlas-sidebar-section-accidents" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.25em] text-aero-orange/70" data-astro-cid-iphn5dwj> Accidents </span> <span class="atlas-sidebar-label atlas-sidebar-section-chev font-mono text-[10px] text-white/40" data-astro-cid-iphn5dwj>▾</span> </button>  <div class="atlas-sidebar-section-mark mt-2 mb-1 flex justify-center text-white/15 font-mono text-[9px] tracking-[0.18em]" aria-hidden="true" data-astro-cid-iphn5dwj>
+─
+</div> <ul id="atlas-sidebar-section-accidents" class="atlas-sidebar-section-list space-y-px" data-section-list="accidents" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/incident/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ◬ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Crash Synthesis </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/ntsb/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> !! </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> NTSB events </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/maps/accidents/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ✕ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Accident Map </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/forensic-trail/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ⇄ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Forensic Trail </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/codebook/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> 📑 </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Codebooks </span> </a> </li> </ul> </div><div class="atlas-sidebar-section" data-section-key="insights" data-astro-cid-iphn5dwj>  <button type="button" class="atlas-sidebar-section-header w-full flex items-center justify-between gap-2 px-2 py-1.5 mt-2 text-left hover:bg-white/[0.02] transition-colors" data-section-toggle="insights" aria-expanded="false" aria-controls="atlas-sidebar-section-insights" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.25em] text-aero-orange/70" data-astro-cid-iphn5dwj> Insights </span> <span class="atlas-sidebar-label atlas-sidebar-section-chev font-mono text-[10px] text-white/40" data-astro-cid-iphn5dwj>▾</span> </button>  <div class="atlas-sidebar-section-mark mt-2 mb-1 flex justify-center text-white/15 font-mono text-[9px] tracking-[0.18em]" aria-hidden="true" data-astro-cid-iphn5dwj>
+─
+</div> <ul id="atlas-sidebar-section-insights" class="atlas-sidebar-section-list space-y-px" data-section-list="insights" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/insights/ntsb/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ▦ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> NTSB Insights </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/insights/airport-events/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ◎ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Airport Events </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/insights/regs-pipeline/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ⏲ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Regs Pipeline </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/insights/aircraft-types/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ⊛ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Type Scatter </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/insights/ad-saib-density/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ▩ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> AD Density </span> </a> </li> </ul> </div><div class="atlas-sidebar-section" data-section-key="airports" data-astro-cid-iphn5dwj>  <button type="button" class="atlas-sidebar-section-header w-full flex items-center justify-between gap-2 px-2 py-1.5 mt-2 text-left hover:bg-white/[0.02] transition-colors" data-section-toggle="airports" aria-expanded="false" aria-controls="atlas-sidebar-section-airports" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.25em] text-aero-orange/70" data-astro-cid-iphn5dwj> Airports </span> <span class="atlas-sidebar-label atlas-sidebar-section-chev font-mono text-[10px] text-white/40" data-astro-cid-iphn5dwj>▾</span> </button>  <div class="atlas-sidebar-section-mark mt-2 mb-1 flex justify-center text-white/15 font-mono text-[9px] tracking-[0.18em]" aria-hidden="true" data-astro-cid-iphn5dwj>
+─
+</div> <ul id="atlas-sidebar-section-airports" class="atlas-sidebar-section-list space-y-px" data-section-list="airports" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/airports/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ⌖ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Airports </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/maps/airports/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ◗ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Airport Map </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/chart-supplement/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> CS </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Chart Supplement </span> </a> </li> </ul> </div><div class="atlas-sidebar-section" data-section-key="aircraft" data-astro-cid-iphn5dwj>  <button type="button" class="atlas-sidebar-section-header w-full flex items-center justify-between gap-2 px-2 py-1.5 mt-2 text-left hover:bg-white/[0.02] transition-colors" data-section-toggle="aircraft" aria-expanded="false" aria-controls="atlas-sidebar-section-aircraft" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.25em] text-aero-orange/70" data-astro-cid-iphn5dwj> Aircraft </span> <span class="atlas-sidebar-label atlas-sidebar-section-chev font-mono text-[10px] text-white/40" data-astro-cid-iphn5dwj>▾</span> </button>  <div class="atlas-sidebar-section-mark mt-2 mb-1 flex justify-center text-white/15 font-mono text-[9px] tracking-[0.18em]" aria-hidden="true" data-astro-cid-iphn5dwj>
+─
+</div> <ul id="atlas-sidebar-section-aircraft" class="atlas-sidebar-section-list space-y-px" data-section-list="aircraft" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/aircraft/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> N# </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Aircraft </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/ads/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> AD </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> ADs </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/saib/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> SB </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> SAIBs </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/tcds/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> TC </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> TCDS </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/stc/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ST </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> STCs </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/pma/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> PM </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> PMA parts </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/tsoa/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> TS </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> TSOA </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/special-conditions/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> SC </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Special Conditions </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/elos/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> EL </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> ELOS findings </span> </a> </li> </ul> </div><div class="atlas-sidebar-section" data-section-key="reference" data-astro-cid-iphn5dwj>  <button type="button" class="atlas-sidebar-section-header w-full flex items-center justify-between gap-2 px-2 py-1.5 mt-2 text-left hover:bg-white/[0.02] transition-colors" data-section-toggle="reference" aria-expanded="false" aria-controls="atlas-sidebar-section-reference" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.25em] text-aero-orange/70" data-astro-cid-iphn5dwj> Reference </span> <span class="atlas-sidebar-label atlas-sidebar-section-chev font-mono text-[10px] text-white/40" data-astro-cid-iphn5dwj>▾</span> </button>  <div class="atlas-sidebar-section-mark mt-2 mb-1 flex justify-center text-white/15 font-mono text-[9px] tracking-[0.18em]" aria-hidden="true" data-astro-cid-iphn5dwj>
+─
+</div> <ul id="atlas-sidebar-section-reference" class="atlas-sidebar-section-list space-y-px" data-section-list="reference" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/cfr/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> § </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> eCFR </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/cfr/ac/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> AC </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Advisory Circulars </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/legal-interpretations/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> LI </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Legal Interps </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/fedreg/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> FR </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Federal Register </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/orders/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> JO </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> FAA Orders </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/aim/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> A </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> AIM </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/handbooks/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> 📖 </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Handbooks </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/glossary/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> AB </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Glossary </span> </a> </li> </ul> </div><div class="atlas-sidebar-section" data-section-key="designees" data-astro-cid-iphn5dwj>  <button type="button" class="atlas-sidebar-section-header w-full flex items-center justify-between gap-2 px-2 py-1.5 mt-2 text-left hover:bg-white/[0.02] transition-colors" data-section-toggle="designees" aria-expanded="false" aria-controls="atlas-sidebar-section-designees" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.25em] text-aero-orange/70" data-astro-cid-iphn5dwj> Designees </span> <span class="atlas-sidebar-label atlas-sidebar-section-chev font-mono text-[10px] text-white/40" data-astro-cid-iphn5dwj>▾</span> </button>  <div class="atlas-sidebar-section-mark mt-2 mb-1 flex justify-center text-white/15 font-mono text-[9px] tracking-[0.18em]" aria-hidden="true" data-astro-cid-iphn5dwj>
+─
+</div> <ul id="atlas-sidebar-section-designees" class="atlas-sidebar-section-list space-y-px" data-section-list="designees" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/designees/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ★ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> All categories </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/dpe/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> DP </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> DPE </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/cfi/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> CF </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> CFI </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/ap/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> AP </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> A&amp;P </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/ame/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> AM </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> AME </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/dar-f/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> DF </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> DAR-F </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/dar-t/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> DT </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> DAR-T </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/der-y/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> EY </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> DER-Y </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/der-t/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ET </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> DER-T </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/dme/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ME </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> DME </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/dpre/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> PR </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> DPRE </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/sae/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> SA </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> SAE </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/apd/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> PD </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> APD </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/tce/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> TC </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> TCE </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/dade/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> DD </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> DADE </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/dcto-e/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> CT </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> DCTO-E </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/dmir/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> MI </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> DMIR </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/admin-pe/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> AE </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Admin-PE </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/oda/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> OD </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> ODA </span> </a> </li> </ul> </div><div class="atlas-sidebar-section" data-section-key="schools" data-astro-cid-iphn5dwj>  <button type="button" class="atlas-sidebar-section-header w-full flex items-center justify-between gap-2 px-2 py-1.5 mt-2 text-left hover:bg-white/[0.02] transition-colors" data-section-toggle="schools" aria-expanded="false" aria-controls="atlas-sidebar-section-schools" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.25em] text-aero-orange/70" data-astro-cid-iphn5dwj> Schools </span> <span class="atlas-sidebar-label atlas-sidebar-section-chev font-mono text-[10px] text-white/40" data-astro-cid-iphn5dwj>▾</span> </button>  <div class="atlas-sidebar-section-mark mt-2 mb-1 flex justify-center text-white/15 font-mono text-[9px] tracking-[0.18em]" aria-hidden="true" data-astro-cid-iphn5dwj>
+─
+</div> <ul id="atlas-sidebar-section-schools" class="atlas-sidebar-section-list space-y-px" data-section-list="schools" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/designees/part-141/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> FS </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Flight schools </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/part-147/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> 47 </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> AMT schools </span> </a> </li> </ul> </div><div class="atlas-sidebar-section" data-section-key="facilities" data-astro-cid-iphn5dwj>  <button type="button" class="atlas-sidebar-section-header w-full flex items-center justify-between gap-2 px-2 py-1.5 mt-2 text-left hover:bg-white/[0.02] transition-colors" data-section-toggle="facilities" aria-expanded="false" aria-controls="atlas-sidebar-section-facilities" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.25em] text-aero-orange/70" data-astro-cid-iphn5dwj> Facilities </span> <span class="atlas-sidebar-label atlas-sidebar-section-chev font-mono text-[10px] text-white/40" data-astro-cid-iphn5dwj>▾</span> </button>  <div class="atlas-sidebar-section-mark mt-2 mb-1 flex justify-center text-white/15 font-mono text-[9px] tracking-[0.18em]" aria-hidden="true" data-astro-cid-iphn5dwj>
+─
+</div> <ul id="atlas-sidebar-section-facilities" class="atlas-sidebar-section-list space-y-px" data-section-list="facilities" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/designees/fbo/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> FB </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> FBOs </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/repair-stations/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> 14 </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Repair stations </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/flying-clubs/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> FC </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Flying clubs </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/designees/eaa/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> EA </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> EAA chapters </span> </a> </li> </ul> </div><div class="atlas-sidebar-section" data-section-key="offices" data-astro-cid-iphn5dwj>  <button type="button" class="atlas-sidebar-section-header w-full flex items-center justify-between gap-2 px-2 py-1.5 mt-2 text-left hover:bg-white/[0.02] transition-colors" data-section-toggle="offices" aria-expanded="false" aria-controls="atlas-sidebar-section-offices" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.25em] text-aero-orange/70" data-astro-cid-iphn5dwj> FAA Offices </span> <span class="atlas-sidebar-label atlas-sidebar-section-chev font-mono text-[10px] text-white/40" data-astro-cid-iphn5dwj>▾</span> </button>  <div class="atlas-sidebar-section-mark mt-2 mb-1 flex justify-center text-white/15 font-mono text-[9px] tracking-[0.18em]" aria-hidden="true" data-astro-cid-iphn5dwj>
+─
+</div> <ul id="atlas-sidebar-section-offices" class="atlas-sidebar-section-list space-y-px" data-section-list="offices" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/fsdo/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> FS </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> FSDOs &amp; CMOs </span> </a> </li> </ul> </div><div class="atlas-sidebar-section" data-section-key="tools" data-astro-cid-iphn5dwj>  <button type="button" class="atlas-sidebar-section-header w-full flex items-center justify-between gap-2 px-2 py-1.5 mt-2 text-left hover:bg-white/[0.02] transition-colors" data-section-toggle="tools" aria-expanded="false" aria-controls="atlas-sidebar-section-tools" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.25em] text-aero-orange/70" data-astro-cid-iphn5dwj> Tools </span> <span class="atlas-sidebar-label atlas-sidebar-section-chev font-mono text-[10px] text-white/40" data-astro-cid-iphn5dwj>▾</span> </button>  <div class="atlas-sidebar-section-mark mt-2 mb-1 flex justify-center text-white/15 font-mono text-[9px] tracking-[0.18em]" aria-hidden="true" data-astro-cid-iphn5dwj>
+─
+</div> <ul id="atlas-sidebar-section-tools" class="atlas-sidebar-section-list space-y-px" data-section-list="tools" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/tools/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ⌬ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Tools </span> </a> </li> </ul> </div><div class="atlas-sidebar-section" data-section-key="portal" data-astro-cid-iphn5dwj>  <button type="button" class="atlas-sidebar-section-header w-full flex items-center justify-between gap-2 px-2 py-1.5 mt-2 text-left hover:bg-white/[0.02] transition-colors" data-section-toggle="portal" aria-expanded="false" aria-controls="atlas-sidebar-section-portal" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.25em] text-aero-orange/70" data-astro-cid-iphn5dwj> Portal </span> <span class="atlas-sidebar-label atlas-sidebar-section-chev font-mono text-[10px] text-white/40" data-astro-cid-iphn5dwj>▾</span> </button>  <div class="atlas-sidebar-section-mark mt-2 mb-1 flex justify-center text-white/15 font-mono text-[9px] tracking-[0.18em]" aria-hidden="true" data-astro-cid-iphn5dwj>
+─
+</div> <ul id="atlas-sidebar-section-portal" class="atlas-sidebar-section-list space-y-px" data-section-list="portal" data-astro-cid-iphn5dwj> <li data-astro-cid-iphn5dwj> <a href="/atlas/portal/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ◇ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Portal </span> </a> </li><li data-astro-cid-iphn5dwj> <a href="/atlas/portal/safety/" class="group flex items-center gap-3 px-2 py-2 hover:bg-white/[0.04] transition-colors " data-astro-cid-iphn5dwj> <span class="font-mono text-[12px] w-7 text-center shrink-0 text-white/55 group-hover:text-aero-orange" data-astro-cid-iphn5dwj> ✛ </span> <span class="atlas-sidebar-label whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.18em] text-white/65 group-hover:text-white" data-astro-cid-iphn5dwj> Safety </span> </a> </li> </ul> </div> </nav> <button id="atlas-sidebar-toggle" type="button" class="atlas-sidebar-toggle border-t border-white/[0.1] py-3 text-white/70 hover:text-aero-orange hover:bg-white/[0.04] transition-colors flex items-center justify-center gap-2" aria-controls="atlas-sidebar" aria-label="Toggle navigation" title="Expand navigation" data-astro-cid-iphn5dwj> <span class="atlas-sidebar-toggle-glyph font-mono text-[18px] leading-none" data-astro-cid-iphn5dwj>»</span> <span class="atlas-sidebar-label font-mono text-[10px] uppercase tracking-[0.22em]" data-astro-cid-iphn5dwj>Collapse</span> </button> </aside> <!-- Mobile drawer overlay --> <div id="atlas-sidebar-overlay" class="atlas-sidebar-overlay fixed inset-0 z-40 bg-black/70 backdrop-blur-sm hidden md:hidden" aria-hidden="true" data-astro-cid-iphn5dwj></div>  <script>
+(function () {
+  var bar = document.getElementById('atlas-sidebar');
+  var toggle = document.getElementById('atlas-sidebar-toggle');
+  var overlay = document.getElementById('atlas-sidebar-overlay');
+  if (!bar || !toggle) return;
+
+  // ─── Sidebar expand/collapse (rail width) ─────────────────────────
+  var KEY = 'atlas-sidebar-expanded';
+  var expanded = sessionStorage.getItem(KEY) === '1';
+  bar.setAttribute('data-expanded', expanded ? 'true' : 'false');
+
+  function applyMainPadding(v) {
+    var main = document.getElementById('main');
+    if (!main) return;
+    if (window.innerWidth < 768) {
+      main.style.paddingLeft = '';
+      return;
+    }
+    main.style.paddingLeft = v ? '220px' : '48px';
+  }
+  function setExpanded(v) {
+    expanded = v;
+    bar.setAttribute('data-expanded', v ? 'true' : 'false');
+    sessionStorage.setItem(KEY, v ? '1' : '0');
+    applyMainPadding(v);
+  }
+  applyMainPadding(expanded);
+
+  var resizeT = null;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeT);
+    resizeT = setTimeout(function () { applyMainPadding(expanded); }, 100);
+  });
+
+  // ─── Section accordion state ─────────────────────────────────────
+  // Persist per-section open/closed in sessionStorage. Default policy:
+  //   - The section containing the active page is OPEN
+  //   - The "Insights" section is OPEN by default (most-traffic)
+  //   - All others are CLOSED by default
+  var SEC_KEY = 'atlas-sidebar-sections';
+  var DEFAULT_OPEN = ['insights'];
+  var activeSection = bar.getAttribute('data-active-section') || '';
+  var savedRaw = sessionStorage.getItem(SEC_KEY);
+  var saved = {};
+  if (savedRaw) { try { saved = JSON.parse(savedRaw) || {}; } catch (e) { saved = {}; } }
+
+  var sections = bar.querySelectorAll('.atlas-sidebar-section');
+  sections.forEach(function (sec) {
+    var key = sec.getAttribute('data-section-key');
+    var open;
+    if (key === activeSection) {
+      // Active section — always open, regardless of saved state
+      open = true;
+    } else if (saved[key] === true || saved[key] === false) {
+      open = saved[key];
+    } else {
+      open = DEFAULT_OPEN.indexOf(key) !== -1;
+    }
+    sec.setAttribute('data-open', open ? 'true' : 'false');
+    var header = sec.querySelector('.atlas-sidebar-section-header');
+    if (header) header.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  function persistSectionState() {
+    var out = {};
+    bar.querySelectorAll('.atlas-sidebar-section').forEach(function (sec) {
+      var key = sec.getAttribute('data-section-key');
+      out[key] = sec.getAttribute('data-open') === 'true';
+    });
+    sessionStorage.setItem(SEC_KEY, JSON.stringify(out));
+  }
+
+  bar.querySelectorAll('[data-section-toggle]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var key = btn.getAttribute('data-section-toggle');
+      var sec = bar.querySelector('.atlas-sidebar-section[data-section-key="' + key + '"]');
+      if (!sec) return;
+      var open = sec.getAttribute('data-open') === 'true';
+      sec.setAttribute('data-open', open ? 'false' : 'true');
+      btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+      persistSectionState();
+    });
+  });
+
+  // ─── Toggle button ────────────────────────────────────────────────
+  toggle.addEventListener('click', function () {
+    if (window.innerWidth < 768) {
+      closeMobile();
+      return;
+    }
+    setExpanded(!expanded);
+  });
+
+  // ─── Mobile drawer ────────────────────────────────────────────────
+  function openMobile() {
+    bar.setAttribute('data-mobile-open', 'true');
+    if (overlay) overlay.setAttribute('data-open', 'true');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeMobile() {
+    bar.setAttribute('data-mobile-open', 'false');
+    if (overlay) overlay.setAttribute('data-open', 'false');
+    document.body.style.overflow = '';
+  }
+  if (overlay) overlay.addEventListener('click', closeMobile);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && bar.getAttribute('data-mobile-open') === 'true') {
+      closeMobile();
+    }
+  });
+  window.openAtlasSidebar = openMobile;
+  window.closeAtlasSidebar = closeMobile;
+})();
+</script> <script>
+          (function () {
+            var btn = document.getElementById('atlas-sidebar-mobile-toggle');
+            if (btn) btn.addEventListener('click', function () {
+              if (window.openAtlasSidebar) window.openAtlasSidebar();
+            });
+          })();
+        </script>  <main id="main" class="pt-28 md:pl-12">  <section class="bg-black min-h-[calc(100vh-4rem)] flex items-center px-6 py-24"> <div class="max-w-5xl mx-auto w-full"> <p data-reveal class="text-[10px] uppercase tracking-[0.4em] text-aero-orange/85 mb-10 font-mono text-center">
+TallyAero &nbsp;/&nbsp; Atlas &nbsp;·&nbsp; Coming soon
+</p> <h1 data-reveal data-reveal-delay="1" class="display text-3xl md:text-5xl lg:text-6xl text-white text-center mb-8 leading-[1.0] tracking-tight">
+Every piece of <span class="display-em">public aviation</span> data.<br> <span class="display-em">In one place.</span> </h1> <p data-reveal data-reveal-delay="2" class="text-sm md:text-base text-white/65 leading-relaxed font-light max-w-2xl mx-auto text-center mb-16">
+Cross-linked. Verified. Free. Every US-registered aircraft, every airport, every Federal
+        Aviation Regulation, every NTSB event, every airworthiness directive &mdash; joined into
+        one searchable graph with every fact one click from the agency that published it.
+</p> <!-- Stats grid --> <div data-reveal data-reveal-delay="3" class="grid grid-cols-2 md:grid-cols-3 gap-px bg-white/[0.06] border border-white/[0.08] mb-16"> <div class="bg-black p-5 md:p-6 text-center"> <p class="display text-2xl md:text-4xl text-white tabular-nums leading-none mb-2">311,711</p> <p class="font-mono text-[10px] uppercase tracking-[0.22em] text-white/45">US-registered aircraft</p> </div><div class="bg-black p-5 md:p-6 text-center"> <p class="display text-2xl md:text-4xl text-white tabular-nums leading-none mb-2">72,092</p> <p class="font-mono text-[10px] uppercase tracking-[0.22em] text-white/45">Airports</p> </div><div class="bg-black p-5 md:p-6 text-center"> <p class="display text-2xl md:text-4xl text-white tabular-nums leading-none mb-2">6,329</p> <p class="font-mono text-[10px] uppercase tracking-[0.22em] text-white/45">FAR sections</p> </div><div class="bg-black p-5 md:p-6 text-center"> <p class="display text-2xl md:text-4xl text-white tabular-nums leading-none mb-2">179,290</p> <p class="font-mono text-[10px] uppercase tracking-[0.22em] text-white/45">NTSB events</p> </div><div class="bg-black p-5 md:p-6 text-center"> <p class="display text-2xl md:text-4xl text-white tabular-nums leading-none mb-2">44,065</p> <p class="font-mono text-[10px] uppercase tracking-[0.22em] text-white/45">Airworthiness directives</p> </div><div class="bg-black p-5 md:p-6 text-center"> <p class="display text-2xl md:text-4xl text-white tabular-nums leading-none mb-2">17,899</p> <p class="font-mono text-[10px] uppercase tracking-[0.22em] text-white/45">Designees &amp; businesses</p> </div> </div> <div class="hairline mx-auto max-w-3xl " aria-hidden="true"></div> <!-- Find-a-DPE bridge — DPE finder is already live at /examiners/. --> <div data-reveal data-reveal-delay="4" class="text-center mt-16"> <p class="font-mono text-[10px] uppercase tracking-[0.25em] text-white/45 mb-4">
+Looking for a Designated Pilot Examiner?
+</p> <p class="text-sm md:text-base text-white/65 leading-relaxed font-light max-w-xl mx-auto mb-8">
+The DPE finder is live now &mdash; full directory, per-state filtering, per-DPE profile
+          pages with exam types, FSDO, scheduling links.
+</p> <a href="/examiners/" class="inline-flex items-center justify-center text-[11px] uppercase tracking-[0.22em] text-white bg-aero-orange hover:bg-aero-orange-light transition-colors px-8 h-11 font-medium ">Find a DPE</a> </div> <p data-reveal data-reveal-delay="5" class="font-mono text-[10px] uppercase tracking-[0.25em] text-white/35 text-center mt-20">
+Want a heads-up when Atlas launches?
+<a href="/contact/" class="text-aero-orange/85 hover:text-aero-orange ml-2">Drop us a line</a> </p> </div> </section>  </main> <footer class="bg-black border-t border-white/5 pt-16 pb-10 px-6 md:px-10"> <div class="max-w-[1400px] mx-auto"> <div class="grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-12"> <!-- Brand + tagline (spans 2 cols on md+) --> <div class="col-span-2 md:col-span-2"> <a href="/" class="inline-block mb-5" aria-label="TallyAero — home"> <img src="/images/logo-transparent.png" alt="TallyAero" class="h-7 w-auto opacity-90" loading="lazy"> </a> <p class="text-[12px] text-white/55 leading-relaxed font-light max-w-xs"> <span class="text-aero-orange">Safety Management for General Aviation.</span> What a Part 121 airline runs with 15+ full-time safety roles &mdash; built for individual pilots, CFIs, and Part 61/141 flight schools.
+</p> <p class="text-[10px] uppercase tracking-[0.22em] text-white/55 mt-6 font-mono"> <a href="mailto:info@tallyaero.com" class="hover:text-aero-orange transition-colors">info@tallyaero.com</a> </p> </div> <!-- GA-SMS — the umbrella --> <div> <h4 class="text-[10px] uppercase tracking-[0.3em] text-aero-orange mb-5 font-mono">GA-SMS</h4> <ul class="space-y-3"> <li><a href="/" class="text-[12px] text-white/70 hover:text-white transition-colors">SMS Overview</a></li> <li><a href="/atlas/" class="text-[12px] text-white/70 hover:text-white transition-colors">Atlas &mdash; the evidence layer</a></li> <li><a href="/constellation/" class="text-[12px] text-white/70 hover:text-white transition-colors">Constellation &mdash; cross-pilot intelligence</a></li> </ul> </div> <!-- Platform — the products --> <div> <h4 class="text-[10px] uppercase tracking-[0.3em] text-white/35 mb-5 font-mono">Platform</h4> <ul class="space-y-3"> <li><a href="/logbook/" class="text-[12px] text-white/70 hover:text-white transition-colors">Logbook</a></li> <li><a href="/school/" class="text-[12px] text-white/70 hover:text-white transition-colors">School Management</a></li> <li><a href="/dpe/" class="text-[12px] text-white/70 hover:text-white transition-colors">DPE</a></li> <li><a href="/dashtwo/" class="text-[12px] text-white/70 hover:text-white transition-colors">DashTwo</a></li> </ul> </div> <!-- Get Started — the funnel --> <div> <h4 class="text-[10px] uppercase tracking-[0.3em] text-white/35 mb-5 font-mono">Get Started</h4> <ul class="space-y-3"> <li><a href="/logbook/interest/" class="text-[12px] text-white/70 hover:text-white transition-colors">Logbook waitlist</a></li> <li><a href="/school/demo/" class="text-[12px] text-white/70 hover:text-white transition-colors">School demo</a></li> <li><a href="/dpe/interest/" class="text-[12px] text-white/70 hover:text-white transition-colors">DPE partner program</a></li> <li><a href="/contact/" class="text-[12px] text-white/70 hover:text-white transition-colors">Contact</a></li> </ul> <h4 class="text-[10px] uppercase tracking-[0.3em] text-white/35 mb-3 mt-8 font-mono">Company</h4> <ul class="space-y-3"> <li><a href="/about/" class="text-[12px] text-white/70 hover:text-white transition-colors">About</a></li> </ul> </div> </div> <div class="mt-14 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3"> <div> <p class="text-[10px] text-white/35">&copy; 2026 TallyAero, Inc. &mdash; Safety Management for General Aviation.</p> <p class="text-[9px] text-white/25 mt-1.5">All product names and logos are trademarks of their respective owners. TallyAero is not affiliated with or endorsed by any product listed.</p> </div> <div class="flex items-center gap-5"> <a href="/privacy/" class="text-[9px] uppercase tracking-[0.3em] text-white/40 hover:text-aero-orange transition-colors font-mono">Privacy</a> <a href="/legal/" class="text-[9px] uppercase tracking-[0.3em] text-white/40 hover:text-aero-orange transition-colors font-mono">Terms</a> <a href="/contact/" class="text-[9px] uppercase tracking-[0.3em] text-white/40 hover:text-aero-orange transition-colors font-mono">Contact</a> </div> </div> </div> </footer> <!-- Site-wide light/dark theme toggle wiring. The button itself
+         lives in <Header>; the no-FOUC pre-paint script earlier in
+         <body> applies the saved preference before render. This block
+         binds the click handler regardless of which page we're on,
+         so the toggle works site-wide. --> <script>
+      (function () {
+        var themeBtn = document.getElementById('atlas-theme-toggle');
+        if (!themeBtn) return;
+        themeBtn.addEventListener('click', function () {
+          var html = document.documentElement;
+          var isLight = html.getAttribute('data-atlas-theme') === 'light';
+          if (isLight) {
+            html.removeAttribute('data-atlas-theme');
+            document.body.removeAttribute('data-atlas-theme');
+            try { localStorage.setItem('atlas-theme', 'dark'); } catch (e) {}
+          } else {
+            html.setAttribute('data-atlas-theme', 'light');
+            document.body.setAttribute('data-atlas-theme', 'light');
+            try { localStorage.setItem('atlas-theme', 'light'); } catch (e) {}
+          }
+        });
+      })();
+    </script> <script>
+      // Global reveal-on-scroll observer.
+      // Any element with [data-reveal] fades + slides in when it enters the viewport.
+      // Elements with [data-reveal-delay='1..5'] stagger by 120ms increments (defined in global.css).
+      // Honors prefers-reduced-motion via the existing CSS rules.
+      (function() {
+        var els = document.querySelectorAll('[data-reveal]');
+        if (els.length) {
+          if (!('IntersectionObserver' in window)) {
+            els.forEach(function(el) { el.classList.add('in'); });
+          } else {
+            var io = new IntersectionObserver(function(entries) {
+              entries.forEach(function(e) {
+                if (e.isIntersecting) {
+                  e.target.classList.add('in');
+                  io.unobserve(e.target);
+                }
+              });
+            }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+            els.forEach(function(el) { io.observe(el); });
+            requestAnimationFrame(function() {
+              els.forEach(function(el) {
+                var r = el.getBoundingClientRect();
+                if (r.top < window.innerHeight && r.bottom > 0) el.classList.add('in');
+              });
+            });
+          }
+        }
+
+        // Count-up animation on [data-countup] elements (e.g. /about mortality stats).
+        // Animates from 0 to the parsed target on first scroll-into-view.
+        // Honors prefers-reduced-motion (renders final value statically).
+        var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var counts = document.querySelectorAll('[data-countup]');
+        if (counts.length) {
+          var formatVal = function(el, v) {
+            var dec = parseInt(el.getAttribute('data-countup-decimals') || '0', 10);
+            var thou = el.getAttribute('data-countup-thousands') === '1';
+            var prefix = el.getAttribute('data-countup-prefix') || '';
+            var suffix = el.getAttribute('data-countup-suffix') || '';
+            var num;
+            if (dec > 0) {
+              num = v.toFixed(dec);
+            } else {
+              var rounded = Math.round(v);
+              num = thou ? rounded.toLocaleString() : String(rounded);
+            }
+            return prefix + num + suffix;
+          };
+          var animate = function(el) {
+            var target = parseFloat(el.getAttribute('data-countup-target') || '0');
+            if (reduced || isNaN(target)) {
+              el.textContent = formatVal(el, target);
+              return;
+            }
+            var DURATION = 1600; // ms
+            var start = null;
+            var step = function(ts) {
+              if (start === null) start = ts;
+              var elapsed = ts - start;
+              var t = Math.min(1, elapsed / DURATION);
+              // easeOutQuart
+              var eased = 1 - Math.pow(1 - t, 4);
+              el.textContent = formatVal(el, target * eased);
+              if (t < 1) requestAnimationFrame(step);
+              else el.textContent = formatVal(el, target);
+            };
+            // Start at 0
+            el.textContent = formatVal(el, 0);
+            requestAnimationFrame(step);
+          };
+          if (!('IntersectionObserver' in window)) {
+            counts.forEach(animate);
+          } else {
+            var cio = new IntersectionObserver(function(entries) {
+              entries.forEach(function(e) {
+                if (e.isIntersecting) {
+                  animate(e.target);
+                  cio.unobserve(e.target);
+                }
+              });
+            }, { threshold: 0.4 });
+            counts.forEach(function(el) { cio.observe(el); });
+          }
+        }
+
+        // Silo walls: scatter chip reveal delays randomly so the wall ignites
+        // like a starfield turning on (no visible pattern).
+        document.querySelectorAll('[data-silo-wall]').forEach(function(wall) {
+          var children = wall.children;
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.transitionDelay = (Math.random() * 0.6).toFixed(2) + 's';
+          }
+        });
+
+        // Connected sweep: chip reveal delays in sequence so the wall ignites
+        // like a wave traveling across — visualizes the connected platform.
+        document.querySelectorAll('[data-connected-sweep]').forEach(function(wall) {
+          var children = wall.children;
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.transitionDelay = (i * 0.022).toFixed(3) + 's';
+          }
+        });
+      })();
+    </script> </body> </html>

@@ -1,0 +1,98 @@
+{
+  "total": 1107,
+  "refreshed": "2026-05-02",
+  "byState": [
+    {
+      "state": "TX",
+      "n": 232
+    },
+    {
+      "state": "FL",
+      "n": 172
+    },
+    {
+      "state": "CO",
+      "n": 133
+    },
+    {
+      "state": "GA",
+      "n": 127
+    },
+    {
+      "state": "WA",
+      "n": 54
+    },
+    {
+      "state": "KY",
+      "n": 53
+    },
+    {
+      "state": "OH",
+      "n": 48
+    },
+    {
+      "state": "UT",
+      "n": 48
+    },
+    {
+      "state": "TN",
+      "n": 41
+    },
+    {
+      "state": "NC",
+      "n": 39
+    },
+    {
+      "state": "IN",
+      "n": 30
+    },
+    {
+      "state": "MO",
+      "n": 21
+    },
+    {
+      "state": "AZ",
+      "n": 20
+    },
+    {
+      "state": "HI",
+      "n": 18
+    },
+    {
+      "state": "MN",
+      "n": 18
+    },
+    {
+      "state": "MI",
+      "n": 16
+    },
+    {
+      "state": "NV",
+      "n": 11
+    },
+    {
+      "state": "AK",
+      "n": 7
+    },
+    {
+      "state": "OR",
+      "n": 6
+    },
+    {
+      "state": "PA",
+      "n": 6
+    },
+    {
+      "state": "LA",
+      "n": 3
+    },
+    {
+      "state": "MA",
+      "n": 3
+    },
+    {
+      "state": "OK",
+      "n": 1
+    }
+  ]
+}

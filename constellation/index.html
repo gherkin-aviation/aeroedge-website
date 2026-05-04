@@ -1,0 +1,727 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Constellation — every lesson, every pilot | TallyAero</title><meta name="description" content="The world's accident record, joined to live TallyAero flight data. Every NTSB report, every international authority, every voluntary incident — working for the next flight."><link rel="canonical" href="https://tallyaero.com/constellation/"><link rel="icon" type="image/jpeg" href="/images/appicon.jpg"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Constellation — every lesson, every pilot | TallyAero"><meta property="og:description" content="The world's accident record, joined to live TallyAero flight data. Every NTSB report, every international authority, every voluntary incident — working for the next flight."><meta property="og:image" content="https://tallyaero.com/images/og-image.png"><meta property="og:url" content="https://tallyaero.com/constellation/"><meta property="og:site_name" content="TallyAero"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Constellation — every lesson, every pilot | TallyAero"><meta name="twitter:description" content="The world's accident record, joined to live TallyAero flight data. Every NTSB report, every international authority, every voluntary incident — working for the next flight."><meta name="twitter:image" content="https://tallyaero.com/images/og-image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"TallyAero Constellation","applicationCategory":"BusinessApplication","operatingSystem":"Web","url":"https://tallyaero.com/constellation/","description":"Aviation safety data platform. Every accident from every investigation authority joined to live TallyAero flight data — so every preflight briefing is grounded in everything that came before it."}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://tallyaero.com/"},{"@type":"ListItem","position":2,"name":"Constellation","item":"https://tallyaero.com/constellation/"}]}</script><!-- Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><!-- GA4 --><script async src="https://www.googletagmanager.com/gtag/js?id=G-W9GC7THPET"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-W9GC7THPET');
+</script><style>#constellation-canvas[data-astro-cid-qy2swxvr]{background:radial-gradient(ellipse at 50% 0%,#dce6ff0f,#0000 45%),radial-gradient(ellipse at 50% 40%,#050810,#000 70%)}body[data-atlas-theme=light] #constellation-canvas[data-astro-cid-qy2swxvr]{background:radial-gradient(ellipse at 50% 0%,#1a16140a,#0000 45%),radial-gradient(ellipse at 50% 40%,#f4f1ec,#ece7df 70%)}[data-astro-cid-qy2swxvr]:where(.text-aero-blue\/80){color:#0d59f2cc}[data-astro-cid-qy2swxvr]:where(.text-aero-orange\/80){color:#f27b0dcc}
+</style>
+<link rel="stylesheet" href="/_astro/flight-circle.Cc1B8nzg.css"></head> <body class="bg-black text-white font-sans antialiased">  <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('atlas-theme');
+          if (saved === 'light') {
+            document.documentElement.setAttribute('data-atlas-theme', 'light');
+            document.body.setAttribute('data-atlas-theme', 'light');
+          }
+        } catch (e) {}
+      })();
+    </script> <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:bg-white focus:text-black focus:px-3 focus:py-1.5 focus:z-[100] focus:rounded-sm focus:text-xs">
+Skip to content
+</a> <header id="site-header" data-home="false" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500"> <div class="max-w-[1400px] mx-auto px-6 md:px-10 flex items-center justify-between h-16"> <a href="/" class="flex items-center gap-3 shrink-0 group" aria-label="Tally Aero — home"> <img src="/images/logo-transparent.png" alt="Tally Aero" class="h-7 md:h-8 w-auto" loading="eager" decoding="async"> </a> <nav class="hidden lg:flex items-center gap-7"> <a href="/logbook/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> Logbook </a><a href="/school/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> School </a><a href="/dpe/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> DPE </a><a href="/dashtwo/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> DashTwo </a><a href="/constellation/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> Constellation </a><a href="/atlas/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-aero-orange/85 hover:text-aero-orange"> Atlas<span class="ml-1 opacity-70">↗</span> </a><a href="/about/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> About </a><a href="/contact/" class="text-[11px] uppercase tracking-[0.22em] transition-colors text-white/55 hover:text-white"> Contact </a> </nav> <div class="flex items-center gap-2"> <!-- Site-wide light/dark theme toggle. Wired by the
+           atlas-theme-toggle handler in Base.astro (the same handler
+           that powered the Atlas-nav toggle before this was promoted
+           to the global header on 2026-05-04). --> <button id="atlas-theme-toggle" class="atlas-theme-toggle" aria-label="Toggle light / dark mode" title="Toggle theme"> <svg class="atlas-theme-icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> <svg class="atlas-theme-icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path> </svg> </button> <button id="mobile-toggle" class="lg:hidden flex flex-col gap-[5px] p-2 -mr-2" aria-label="Menu"> <span class="block w-5 h-[1px] bg-white/80 transition-transform origin-center" id="bar1"></span> <span class="block w-5 h-[1px] bg-white/80 transition-opacity" id="bar2"></span> <span class="block w-5 h-[1px] bg-white/80 transition-transform origin-center" id="bar3"></span> </button> </div> </div> <nav id="mobile-nav" class="hidden lg:hidden bg-black/95 backdrop-blur-xl border-t border-white/5"> <div class="px-6 py-6 space-y-1"> <a href="/logbook/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> Logbook </a><a href="/school/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> School </a><a href="/dpe/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> DPE </a><a href="/dashtwo/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> DashTwo </a><a href="/constellation/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> Constellation </a><a href="/atlas/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-aero-orange hover:text-aero-orange"> Atlas<span class="ml-2 opacity-70">↗</span> </a><a href="/about/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> About </a><a href="/contact/" class="block py-3 text-sm uppercase tracking-[0.22em] transition-colors text-white/70 hover:text-white"> Contact </a> </div> </nav> </header> <script>
+  (function() {
+    var header = document.getElementById('site-header');
+    var toggle = document.getElementById('mobile-toggle');
+    var nav = document.getElementById('mobile-nav');
+    var open = false;
+    var isHome = header.dataset.home === 'true';
+
+    function applyScrollState() {
+      var scrolled = window.scrollY > 20;
+      header.toggleAttribute('data-scrolled', scrolled);
+    }
+    applyScrollState();
+    window.addEventListener('scroll', applyScrollState, { passive: true });
+
+    toggle.addEventListener('click', function() {
+      open = !open;
+      nav.classList.toggle('hidden', !open);
+      document.getElementById('bar1').style.transform = open ? 'rotate(45deg) translate(2px,5px)' : '';
+      document.getElementById('bar2').style.opacity = open ? '0' : '1';
+      document.getElementById('bar3').style.transform = open ? 'rotate(-45deg) translate(2px,-5px)' : '';
+    });
+  })();
+</script>  <main id="main" class>   <section class="relative h-screen w-full overflow-hidden bg-black"> <canvas id="constellation-canvas" class="absolute inset-0 w-full h-full block" aria-hidden="true" data-astro-cid-qy2swxvr></canvas> <!-- Live data overlay (driven by canvas script) --> <div class="absolute top-24 left-6 md:top-28 md:left-10 pointer-events-none z-10 hidden md:block" id="constellation-hud-l" data-astro-cid-qy2swxvr> <div class="font-mono text-[9px] uppercase tracking-[0.32em] text-white/45 mb-1" data-astro-cid-qy2swxvr>Guardian Network</div> <div class="font-mono text-[9px] tracking-[0.18em] text-white/30" data-astro-cid-qy2swxvr> <div data-astro-cid-qy2swxvr><span class="text-aero-orange/80" id="hud-archetypes" data-astro-cid-qy2swxvr>8</span> archetypes</div> <div data-astro-cid-qy2swxvr><span class="text-white/60" id="hud-files" data-astro-cid-qy2swxvr>2,770</span> angel files</div> <div data-astro-cid-qy2swxvr><span class="text-white/45" id="hud-guardians" data-astro-cid-qy2swxvr>110</span> guardians</div> <div data-astro-cid-qy2swxvr><span class="text-aero-blue/80" id="hud-status" data-astro-cid-qy2swxvr>listening</span></div> </div> </div> <div class="absolute top-24 right-6 md:top-28 md:right-10 pointer-events-none z-10 hidden md:block text-right" id="constellation-hud-r" data-astro-cid-qy2swxvr> <div class="font-mono text-[9px] uppercase tracking-[0.32em] text-white/45 mb-1" data-astro-cid-qy2swxvr>Live Flight Plan</div> <div class="font-mono text-[9px] tracking-[0.18em] text-white/30" data-astro-cid-qy2swxvr> <div data-astro-cid-qy2swxvr><span id="hud-match" class="text-white/60" data-astro-cid-qy2swxvr>N700TA</span> &middot; <span id="hud-route" class="text-white/40" data-astro-cid-qy2swxvr>KSEE → KFAT</span></div> <div data-astro-cid-qy2swxvr><span id="hud-cluster" class="text-aero-orange/80" data-astro-cid-qy2swxvr>—</span></div> <div data-astro-cid-qy2swxvr>match score <span id="hud-score" class="text-aero-blue/80" data-astro-cid-qy2swxvr>0.00</span></div> </div> </div>  <script>
+  (function() {
+    var canvas = document.getElementById('constellation-canvas');
+    if (!canvas) return;
+    var ctx = canvas.getContext('2d', { alpha: true });
+    if (!ctx) return;
+
+    var DPR = Math.min(window.devicePixelRatio || 1, 2);
+    var W = 0, H = 0;
+    var running = true;
+    var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // ---- Brand palette (matches pilot app) ----
+    var BLUE = [13, 89, 242];        // #0d59f2
+    var ORANGE = [242, 123, 13];     // #f27b0d
+    var WHITE = [240, 245, 255];
+
+    // Theme-aware paint — flip trail + highlight colors with the site
+    // light/dark toggle. Same pattern as FlightFlow / Checkride canvases.
+    var THEME = { light: false };
+    function readTheme() {
+      THEME.light = !!(document.body && document.body.getAttribute('data-atlas-theme') === 'light');
+      if (THEME.light) { WHITE[0] = 26; WHITE[1] = 22; WHITE[2] = 20; } else { WHITE[0] = 240; WHITE[1] = 245; WHITE[2] = 255; }
+    }
+    readTheme();
+    if (typeof MutationObserver !== 'undefined' && document.body) {
+      new MutationObserver(readTheme).observe(document.body, { attributes: true, attributeFilter: ['data-atlas-theme'] });
+    }
+    function bgTrail(a) { return THEME.light ? 'rgba(244,241,236,' + (a * 0.45).toFixed(3) + ')' : 'rgba(0,0,0,' + a + ')'; }
+    function fg(a) { return THEME.light ? 'rgba(26,22,20,' + a + ')' : 'rgba(255,255,255,' + a + ')'; }
+    function blend() { return THEME.light ? 'multiply' : 'lighter'; }
+
+    // ---- Deterministic PRNG ----
+    function mulberry32(a) {
+      return function() {
+        a |= 0; a = a + 0x6D2B79F5 | 0;
+        var t = a;
+        t = Math.imul(t ^ t >>> 15, t | 1);
+        t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+        return ((t ^ t >>> 14) >>> 0) / 4294967296;
+      };
+    }
+    function gauss(rng) {
+      var u = 0, v = 0;
+      while (u === 0) u = rng();
+      while (v === 0) v = rng();
+      return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+    }
+
+    // ---- Cluster definitions (NTSB-flavored archetypes) ----
+    // r = cluster radius (normalized 0..1 of canvas)
+    // lobes = number of sub-centers inside the cluster (organic lumpiness)
+    // jitter = how far sub-centers wander from cluster center (relative to r)
+    // density = global brightness multiplier for this cluster
+    var CLUSTERS = [
+      { name: 'LOSS-OF-CONTROL', code: 'LOC-I', fx: 0.26, fy: 0.48, r: 0.115, n: 720, lobes: 4, jitter: 0.55, density: 1.00, color: ORANGE },
+      { name: 'WEATHER',          code: 'WX',    fx: 0.64, fy: 0.30, r: 0.085, n: 460, lobes: 3, jitter: 0.45, density: 0.92, color: BLUE   },
+      { name: 'FUEL EXHAUSTION',  code: 'FUEL',  fx: 0.16, fy: 0.78, r: 0.045, n: 190, lobes: 2, jitter: 0.30, density: 0.70, color: ORANGE },
+      { name: 'TERRAIN',          code: 'CFIT',  fx: 0.80, fy: 0.66, r: 0.075, n: 340, lobes: 3, jitter: 0.50, density: 0.85, color: BLUE   },
+      { name: 'MECHANICAL',       code: 'SYS',   fx: 0.46, fy: 0.80, r: 0.090, n: 380, lobes: 4, jitter: 0.60, density: 0.78, color: WHITE  },
+      { name: 'RUNWAY',           code: 'RWY',   fx: 0.34, fy: 0.18, r: 0.055, n: 230, lobes: 2, jitter: 0.35, density: 0.72, color: BLUE   },
+      { name: 'MIDAIR',           code: 'MAC',   fx: 0.88, fy: 0.14, r: 0.028, n: 70,  lobes: 1, jitter: 0.10, density: 0.85, color: ORANGE },
+      { name: 'DECISION',         code: 'ADM',   fx: 0.56, fy: 0.55, r: 0.105, n: 380, lobes: 4, jitter: 0.65, density: 0.65, color: WHITE  },
+    ];
+
+    // ---- Build point cloud once ----
+    var rng = mulberry32(20260426);
+    var POINTS = [];
+    var TOTAL = 0;
+
+    CLUSTERS.forEach(function(c, ci) {
+      // Generate organic sub-lobe centers within this cluster (some big, some small)
+      var subs = [];
+      for (var s = 0; s < c.lobes; s++) {
+        var sa = rng() * Math.PI * 2;
+        var sd = rng() * c.r * c.jitter;
+        subs.push({
+          x: c.fx + Math.cos(sa) * sd,
+          y: c.fy + Math.sin(sa) * sd,
+          // each sub-lobe its own size — variance creates the lumpy feel
+          r: c.r * (0.45 + rng() * 0.7),
+          // weighted draw probability (some lobes denser than others)
+          w: 0.4 + rng(),
+        });
+      }
+      // normalize sub-lobe weights into a CDF for weighted sampling
+      var wTot = subs.reduce(function(a, b) { return a + b.w; }, 0);
+      var cdf = [];
+      var acc = 0;
+      subs.forEach(function(sub) { acc += sub.w / wTot; cdf.push(acc); });
+
+      for (var i = 0; i < c.n; i++) {
+        // pick a sub-lobe by weight
+        var u = rng();
+        var pick = 0;
+        for (var k = 0; k < cdf.length; k++) { if (u <= cdf[k]) { pick = k; break; } }
+        var sub = subs[pick];
+
+        // polar gaussian — true round distribution, |normal| for radius
+        var theta = rng() * Math.PI * 2;
+        var radial = Math.abs(gauss(rng)) * sub.r * 0.6;
+
+        POINTS.push({
+          ci: ci,
+          bx: sub.x + Math.cos(theta) * radial,
+          by: sub.y + Math.sin(theta) * radial,
+          // size + intensity — denser at lobe core
+          r: 0.55 + rng() * 1.7,
+          base: (0.18 + rng() * 0.55) * c.density * (1 - radial / (sub.r * 0.6) * 0.3),
+          tp: rng() * Math.PI * 2,
+          ts: 0.3 + rng() * 1.1,
+          dx: (rng() - 0.5) * 0.00018,
+          dy: (rng() - 0.5) * 0.00018,
+          // tether to the chosen sub-lobe (not the whole cluster) for natural drift
+          hx: sub.x,
+          hy: sub.y,
+        });
+        TOTAL++;
+      }
+    });
+
+    // ---- Guardian nodes — ~4% of points are designated guardians (brighter, throb) ----
+    var GUARDIANS = [];
+    POINTS.forEach(function(p, idx) {
+      if (rng() < 0.04) {
+        p.guardian = true;
+        p.gPhase = rng() * Math.PI * 2;
+        GUARDIANS.push(idx);
+      }
+    });
+
+    // ---- Intra-cluster kNN edges (k=2) — the synaptic structure ----
+    // Build per-cluster index lists, then linear kNN within each cluster
+    var CLUSTER_INDEX = [];
+    for (var ci = 0; ci < CLUSTERS.length; ci++) CLUSTER_INDEX.push([]);
+    POINTS.forEach(function(p, idx) { CLUSTER_INDEX[p.ci].push(idx); });
+
+    var EDGES_NEURAL = []; // [ {a, b, len} ]
+    var K = 2;
+    CLUSTER_INDEX.forEach(function(ids) {
+      for (var i = 0; i < ids.length; i++) {
+        var pa = POINTS[ids[i]];
+        // collect distances to all siblings
+        var nearest = []; // sorted desc by d^2 — we keep top K (smallest)
+        for (var j = 0; j < ids.length; j++) {
+          if (j === i) continue;
+          var pb = POINTS[ids[j]];
+          var ddx = pa.bx - pb.bx, ddy = pa.by - pb.by;
+          var d = ddx * ddx + ddy * ddy;
+          if (nearest.length < K) {
+            nearest.push({ idx: ids[j], d: d });
+            nearest.sort(function(x, y) { return y.d - x.d; });
+          } else if (d < nearest[0].d) {
+            nearest[0] = { idx: ids[j], d: d };
+            nearest.sort(function(x, y) { return y.d - x.d; });
+          }
+        }
+        for (var n = 0; n < nearest.length; n++) {
+          // dedupe: only add edge once (a < b)
+          var aIdx = ids[i], bIdx = nearest[n].idx;
+          if (aIdx < bIdx) EDGES_NEURAL.push({ a: aIdx, b: bIdx, len: Math.sqrt(nearest[n].d) });
+        }
+      }
+    });
+
+    // ---- Synaptic pulses (firing along edges) ----
+    var PULSES = []; // { eIdx, t, color, speed }
+    function spawnPulse() {
+      var ei = Math.floor(rng() * EDGES_NEURAL.length);
+      var ed = EDGES_NEURAL[ei];
+      var col = CLUSTERS[POINTS[ed.a].ci].color;
+      PULSES.push({ eIdx: ei, t: 0, color: col, speed: 0.5 + rng() * 0.8 });
+    }
+    var PULSE_TARGET = 14; // active concurrent pulses
+
+    // background micro-stars
+    var STARS = [];
+    for (var s = 0; s < 220; s++) {
+      STARS.push({ x: rng(), y: rng(), r: 0.3 + rng() * 0.6, a: 0.1 + rng() * 0.25, tp: rng() * 6.28, ts: 0.4 + rng() * 1.2 });
+    }
+
+    // hairlines between cluster centers (sparse)
+    var EDGES = [];
+    for (var i = 0; i < CLUSTERS.length; i++) {
+      for (var j = i + 1; j < CLUSTERS.length; j++) {
+        var dx = CLUSTERS[i].fx - CLUSTERS[j].fx;
+        var dy = CLUSTERS[i].fy - CLUSTERS[j].fy;
+        var d = Math.sqrt(dx * dx + dy * dy);
+        if (d < 0.42) EDGES.push({ a: i, b: j, d: d });
+      }
+    }
+
+    // ---- Probe (live flight plan) ----
+    var probe = {
+      t: 0,
+      route: makeRoute(rng),
+      target: 0,
+      cluster: -1,
+      score: 0,
+      callsign: pickCallsign(rng),
+      legs: pickLegs(rng),
+    };
+
+    function pickCallsign(rng) {
+      var nums = '123456789';
+      var letters = 'ABCDEFGHJKLMNPRSTVWXYZ';
+      return 'N' + nums[Math.floor(rng() * nums.length)]
+                 + nums[Math.floor(rng() * nums.length)]
+                 + nums[Math.floor(rng() * nums.length)]
+                 + letters[Math.floor(rng() * letters.length)]
+                 + letters[Math.floor(rng() * letters.length)];
+    }
+    function pickLegs(rng) {
+      var pool = ['KSEE','KFAT','KSAN','KAPA','KBJC','KLAS','KPRC','KFLG','KCMA','KRNO','KOAK','KSMO','KSBP','KMRY','KSNA','KCRQ','KPSP','KBFL','KEMT','KAJO'];
+      var a = pool[Math.floor(rng() * pool.length)];
+      var b = pool[Math.floor(rng() * pool.length)];
+      while (b === a) b = pool[Math.floor(rng() * pool.length)];
+      return a + ' → ' + b;
+    }
+    function clamp01(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
+    function rndPt(rng) { return [0.08 + rng() * 0.84, 0.12 + rng() * 0.76]; }
+    function makeRoute(rng, prev) {
+      // Cubic Bezier control points. For continuity:
+      //   p0 of new = p3 of prev (position match)
+      //   p1 of new = p3 + (p3 - p2 of prev)  (C1 — same outgoing tangent)
+      var pts = [];
+      if (prev) {
+        var p0 = [prev[3][0], prev[3][1]];
+        var mx = 2 * prev[3][0] - prev[2][0];
+        var my = 2 * prev[3][1] - prev[2][1];
+        var p1 = [clamp01(mx, 0.05, 0.95), clamp01(my, 0.08, 0.92)];
+        pts.push(p0, p1, rndPt(rng), rndPt(rng));
+      } else {
+        pts.push(rndPt(rng), rndPt(rng), rndPt(rng), rndPt(rng));
+      }
+      return pts;
+    }
+    function bezier(t, p) {
+      // cubic bezier
+      var u = 1 - t;
+      var x = u*u*u*p[0][0] + 3*u*u*t*p[1][0] + 3*u*t*t*p[2][0] + t*t*t*p[3][0];
+      var y = u*u*u*p[0][1] + 3*u*u*t*p[1][1] + 3*u*t*t*p[2][1] + t*t*t*p[3][1];
+      return [x, y];
+    }
+
+    var hudArchetypes = document.getElementById('hud-archetypes');
+    var hudFiles = document.getElementById('hud-files');
+    var hudGuardians = document.getElementById('hud-guardians');
+    var hudCluster = document.getElementById('hud-cluster');
+    var hudScore = document.getElementById('hud-score');
+    var hudMatch = document.getElementById('hud-match');
+    var hudRoute = document.getElementById('hud-route');
+    if (hudArchetypes) hudArchetypes.textContent = String(CLUSTERS.length);
+    if (hudFiles) hudFiles.textContent = TOTAL.toLocaleString();
+    if (hudGuardians) hudGuardians.textContent = GUARDIANS.length.toLocaleString();
+    if (hudMatch) hudMatch.textContent = probe.callsign;
+    if (hudRoute) hudRoute.textContent = probe.legs;
+
+    // ---- Resize ----
+    function resize() {
+      var rect = canvas.getBoundingClientRect();
+      W = Math.max(1, rect.width);
+      H = Math.max(1, rect.height);
+      canvas.width = Math.floor(W * DPR);
+      canvas.height = Math.floor(H * DPR);
+      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    // ---- Visibility / pause when scrolled away ----
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) { running = e.isIntersecting; if (running) tick(); });
+      }, { threshold: 0 });
+      io.observe(canvas);
+    }
+    document.addEventListener('visibilitychange', function() {
+      running = !document.hidden;
+      if (running) tick();
+    });
+
+    // ---- Render ----
+    var lastT = performance.now();
+    function tick(now) {
+      if (!running) return;
+      now = now || performance.now();
+      var dt = Math.min(0.05, (now - lastT) / 1000);
+      lastT = now;
+
+      // Motion blur trail
+      ctx.globalCompositeOperation = 'source-over';
+      ctx.fillStyle = bgTrail(0.18);
+      ctx.fillRect(0, 0, W, H);
+
+      // Background micro-stars
+      ctx.globalCompositeOperation = blend();
+      for (var i = 0; i < STARS.length; i++) {
+        var st = STARS[i];
+        st.tp += dt * st.ts;
+        var a = st.a * (0.55 + 0.45 * Math.sin(st.tp));
+        ctx.fillStyle = 'rgba(180,200,235,' + a.toFixed(3) + ')';
+        ctx.fillRect(st.x * W, st.y * H, st.r, st.r);
+      }
+
+      // Hairlines between cluster centers — subtle backbone network
+      ctx.globalCompositeOperation = blend();
+      ctx.lineWidth = 0.5;
+      for (var e = 0; e < EDGES.length; e++) {
+        var ed = EDGES[e];
+        var ca = CLUSTERS[ed.a], cb = CLUSTERS[ed.b];
+        var alpha = 0.04 + 0.025 * Math.sin(now * 0.0004 + ed.a);
+        ctx.strokeStyle = 'rgba(140,180,255,' + alpha.toFixed(3) + ')';
+        ctx.beginPath();
+        ctx.moveTo(ca.fx * W, ca.fy * H);
+        ctx.lineTo(cb.fx * W, cb.fy * H);
+        ctx.stroke();
+      }
+
+      // ---- Synaptic intra-cluster edges (the neural net) ----
+      ctx.globalCompositeOperation = blend();
+      ctx.lineWidth = 0.4;
+      for (var ne = 0; ne < EDGES_NEURAL.length; ne++) {
+        var nEd = EDGES_NEURAL[ne];
+        var pa = POINTS[nEd.a], pb = POINTS[nEd.b];
+        var col = CLUSTERS[pa.ci].color;
+        // very faint base — visible structure without noise
+        ctx.strokeStyle = 'rgba(' + col[0] + ',' + col[1] + ',' + col[2] + ',0.06)';
+        ctx.beginPath();
+        ctx.moveTo(pa.bx * W, pa.by * H);
+        ctx.lineTo(pb.bx * W, pb.by * H);
+        ctx.stroke();
+      }
+
+      // ---- Synaptic pulses (bright dots traveling along edges) ----
+      // top up the pool
+      while (PULSES.length < PULSE_TARGET) spawnPulse();
+      for (var pi = PULSES.length - 1; pi >= 0; pi--) {
+        var pulse = PULSES[pi];
+        pulse.t += dt * pulse.speed;
+        if (pulse.t >= 1) { PULSES.splice(pi, 1); continue; }
+        var ed2 = EDGES_NEURAL[pulse.eIdx];
+        var pA = POINTS[ed2.a], pB = POINTS[ed2.b];
+        var pxp = (pA.bx + (pB.bx - pA.bx) * pulse.t) * W;
+        var pyp = (pA.by + (pB.by - pA.by) * pulse.t) * H;
+        // bright halo + core
+        var pulseAlpha = Math.sin(pulse.t * Math.PI); // fade in/out
+        var pHalo = ctx.createRadialGradient(pxp, pyp, 0, pxp, pyp, 8);
+        pHalo.addColorStop(0, 'rgba(' + pulse.color[0] + ',' + pulse.color[1] + ',' + pulse.color[2] + ',' + (pulseAlpha * 0.95).toFixed(3) + ')');
+        pHalo.addColorStop(1, 'rgba(' + pulse.color[0] + ',' + pulse.color[1] + ',' + pulse.color[2] + ',0)');
+        ctx.fillStyle = pHalo;
+        ctx.beginPath();
+        ctx.arc(pxp, pyp, 8, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.fillStyle = fg((pulseAlpha * 0.9).toFixed(3));
+        ctx.beginPath();
+        ctx.arc(pxp, pyp, 1.2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      // Points (additive glow)
+      ctx.globalCompositeOperation = blend();
+      for (var p = 0; p < POINTS.length; p++) {
+        var pt = POINTS[p];
+        // drift
+        if (!reduced) {
+          pt.bx += pt.dx * dt * 60;
+          pt.by += pt.dy * dt * 60;
+          // gentle leash to sub-lobe home (preserves organic shape during drift)
+          pt.bx += (pt.hx - pt.bx) * 0.0009;
+          pt.by += (pt.hy - pt.by) * 0.0009;
+        }
+        pt.tp += dt * pt.ts;
+        var twinkle = 0.55 + 0.45 * Math.sin(pt.tp);
+        var col = CLUSTERS[pt.ci].color;
+        var x = pt.bx * W, y = pt.by * H;
+        var r = pt.r;
+        var inten = pt.base * twinkle;
+
+        // soft halo
+        var haloR = r * 6;
+        if (pt.guardian) {
+          // guardians: bigger throb, brighter core
+          pt.gPhase += dt * 0.6;
+          var throb = 0.7 + 0.3 * Math.sin(pt.gPhase);
+          haloR = r * 12 * throb;
+          inten = Math.min(1, pt.base * 1.6 * throb + 0.15);
+        }
+        var halo = ctx.createRadialGradient(x, y, 0, x, y, haloR);
+        halo.addColorStop(0, 'rgba(' + col[0] + ',' + col[1] + ',' + col[2] + ',' + (inten * 0.6).toFixed(3) + ')');
+        halo.addColorStop(1, 'rgba(' + col[0] + ',' + col[1] + ',' + col[2] + ',0)');
+        ctx.fillStyle = halo;
+        ctx.beginPath();
+        ctx.arc(x, y, haloR, 0, Math.PI * 2);
+        ctx.fill();
+
+        // hard core (whiter on guardians for the angelic touch)
+        if (pt.guardian) {
+          ctx.fillStyle = fg(Math.min(1, inten + 0.2).toFixed(3));
+          ctx.beginPath();
+          ctx.arc(x, y, r * 0.85, 0, Math.PI * 2);
+          ctx.fill();
+        } else {
+          ctx.fillStyle = 'rgba(' + col[0] + ',' + col[1] + ',' + col[2] + ',' + Math.min(1, inten + 0.25).toFixed(3) + ')';
+          ctx.fillRect(x - r * 0.5, y - r * 0.5, r, r);
+        }
+      }
+
+      // Cluster labels (subtle)
+      ctx.globalCompositeOperation = 'source-over';
+      ctx.font = '500 9px JetBrains Mono, monospace';
+      ctx.textBaseline = 'top';
+      for (var c = 0; c < CLUSTERS.length; c++) {
+        var cl = CLUSTERS[c];
+        var hovered = (probe.cluster === c);
+        var labelAlpha = hovered ? 0.85 : 0.32;
+        ctx.fillStyle = fg(labelAlpha);
+        var lx = cl.fx * W + 12;
+        var ly = cl.fy * H + 12;
+        ctx.fillText(cl.code, lx, ly);
+        ctx.fillStyle = fg((labelAlpha * 0.55).toFixed(3));
+        ctx.fillText(cl.name, lx, ly + 12);
+      }
+
+      // ---- Probe ----
+      probe.t += dt * 0.06; // slow traversal
+      if (probe.t >= 1) {
+        probe.t -= 1; // preserve fractional overshoot — no visible jump
+        probe.route = makeRoute(rng, probe.route); // C1-continuous handoff
+        probe.callsign = pickCallsign(rng);
+        probe.legs = pickLegs(rng);
+        if (hudMatch) hudMatch.textContent = probe.callsign;
+        if (hudRoute) hudRoute.textContent = probe.legs;
+      }
+      var pos = bezier(probe.t, probe.route);
+      var px = pos[0] * W, py = pos[1] * H;
+
+      // probe trailing path (faint preview)
+      ctx.globalCompositeOperation = blend();
+      ctx.lineWidth = 1;
+      ctx.strokeStyle = 'rgba(13,89,242,0.18)';
+      ctx.beginPath();
+      var prev = bezier(0, probe.route);
+      ctx.moveTo(prev[0] * W, prev[1] * H);
+      for (var sg = 0.04; sg <= 1; sg += 0.04) {
+        var nx = bezier(sg, probe.route);
+        ctx.lineTo(nx[0] * W, nx[1] * H);
+      }
+      ctx.stroke();
+
+      // Find k-nearest cluster + draw connection lines to nearest points
+      var nearestCluster = -1;
+      var nearestDist = Infinity;
+      for (var c2 = 0; c2 < CLUSTERS.length; c2++) {
+        var cc = CLUSTERS[c2];
+        var ddx = cc.fx - pos[0], ddy = cc.fy - pos[1];
+        var dd = ddx * ddx + ddy * ddy;
+        if (dd < nearestDist) { nearestDist = dd; nearestCluster = c2; }
+      }
+      probe.cluster = nearestCluster;
+
+      // gather k=5 nearest points (linear scan — fast enough at 3k)
+      var top = [];
+      for (var p2 = 0; p2 < POINTS.length; p2++) {
+        var pp = POINTS[p2];
+        var dxp = pp.bx - pos[0], dyp = pp.by - pos[1];
+        var d2 = dxp * dxp + dyp * dyp;
+        if (top.length < 5) {
+          top.push({ p: pp, d: d2 });
+          top.sort(function(a, b) { return b.d - a.d; });
+        } else if (d2 < top[0].d) {
+          top[0] = { p: pp, d: d2 };
+          top.sort(function(a, b) { return b.d - a.d; });
+        }
+      }
+
+      // draw connection rays
+      ctx.lineWidth = 0.6;
+      for (var k = 0; k < top.length; k++) {
+        var tp = top[k].p;
+        var col = CLUSTERS[tp.ci].color;
+        var rayAlpha = 0.45 - (k * 0.07);
+        ctx.strokeStyle = 'rgba(' + col[0] + ',' + col[1] + ',' + col[2] + ',' + rayAlpha.toFixed(3) + ')';
+        ctx.beginPath();
+        ctx.moveTo(px, py);
+        ctx.lineTo(tp.bx * W, tp.by * H);
+        ctx.stroke();
+      }
+
+      // running similarity score (synthetic but believable)
+      var score = Math.max(0, 1 - Math.sqrt(top[top.length - 1].d) * 1.8);
+      probe.score = probe.score + (score - probe.score) * 0.1;
+      if (hudScore) hudScore.textContent = probe.score.toFixed(2);
+      if (hudCluster) hudCluster.textContent = CLUSTERS[probe.cluster].code + ' · ' + CLUSTERS[probe.cluster].name;
+
+      // probe core
+      var coreR = 4;
+      var coreGlow = ctx.createRadialGradient(px, py, 0, px, py, coreR * 8);
+      coreGlow.addColorStop(0, fg(0.95));
+      coreGlow.addColorStop(0.4, 'rgba(' + BLUE[0] + ',' + BLUE[1] + ',' + BLUE[2] + ',0.6)');
+      coreGlow.addColorStop(1, 'rgba(' + BLUE[0] + ',' + BLUE[1] + ',' + BLUE[2] + ',0)');
+      ctx.fillStyle = coreGlow;
+      ctx.beginPath();
+      ctx.arc(px, py, coreR * 8, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.fillStyle = '#ffffff';
+      ctx.beginPath();
+      ctx.arc(px, py, coreR * 0.55, 0, Math.PI * 2);
+      ctx.fill();
+
+      // expanding scan ring (every ~3s)
+      var ringT = (now * 0.0003) % 1;
+      var ringR = ringT * Math.max(W, H) * 0.35;
+      var ringA = (1 - ringT) * 0.15;
+      ctx.strokeStyle = 'rgba(13,89,242,' + ringA.toFixed(3) + ')';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.arc(px, py, ringR, 0, Math.PI * 2);
+      ctx.stroke();
+
+      requestAnimationFrame(tick);
+    }
+
+    if (reduced) {
+      // Render one static frame
+      tick(performance.now());
+    } else {
+      requestAnimationFrame(tick);
+    }
+  })();
+</script> <div class="absolute inset-0 video-mask pointer-events-none"></div> <div class="absolute inset-0 flex flex-col"> <div class="flex-1 flex items-center justify-center px-6"> <div class="max-w-4xl text-center"> <p data-reveal class="text-[10px] uppercase tracking-[0.4em] text-white/60 mb-8 font-mono"> <span class="inline-block w-1.5 h-1.5 rounded-full bg-aero-orange dot-live align-middle mr-3"></span> <a href="/" class="hover:text-aero-orange transition-colors">GA-SMS</a> &nbsp;/&nbsp; Safety Promotion
+</p> <h1 data-reveal data-reveal-delay="1" class="display text-3xl md:text-5xl lg:text-6xl text-white mb-8">
+Every lesson.<br> <span class="display-em">Every pilot.</span> </h1> <p data-reveal data-reveal-delay="2" class="text-sm md:text-base text-white/65 max-w-2xl mx-auto leading-relaxed font-light">
+The world's accident record &mdash; joined to your flight plan. Every authority, every report,
+            every flight, working for the next briefing.
+</p> </div> </div> <div class="pb-10 flex flex-col items-center gap-3" data-reveal data-reveal-delay="4"> <span class="text-[9px] uppercase tracking-[0.3em] text-white/40 font-mono">Scroll</span> <div class="w-px h-10 bg-gradient-to-b from-white/40 to-transparent"></div> </div> </div> </section>  <section class="bg-black py-32 md:py-44 px-6 border-t border-white/[0.06]"> <div class="max-w-5xl mx-auto"> <p data-reveal class="text-[10px] uppercase tracking-[0.4em] text-white/40 mb-12 font-mono text-center">
+01 &nbsp;/&nbsp; What's in it
+</p> <h2 data-reveal data-reveal-delay="1" class="display text-3xl md:text-5xl text-white mb-16 text-center max-w-3xl mx-auto">
+Every flight that didn't come back.<br> <span class="display-em">Working for the next one.</span> </h2> <div class="space-y-3 md:space-y-4 max-w-3xl mx-auto"> <p data-reveal data-reveal-delay="1" class="display text-xl md:text-2xl lg:text-3xl text-white/55 leading-[1.2] tracking-tight text-center"> Every accident, every authority. </p><p data-reveal data-reveal-delay="2" class="display text-xl md:text-2xl lg:text-3xl text-white/55 leading-[1.2] tracking-tight text-center"> Every incident, every report. </p><p data-reveal data-reveal-delay="3" class="display text-xl md:text-2xl lg:text-3xl text-white/55 leading-[1.2] tracking-tight text-center"> Every TallyAero flight. </p> </div> <p data-reveal data-reveal-delay="4" class="text-sm md:text-base text-white/55 leading-relaxed font-light max-w-xl mx-auto mt-16 text-center">
+Joined to your flight plan in the same coordinate system. Every preflight briefing &mdash;
+        grounded in everything that came before it.
+</p> </div> </section> <div class="hairline max-w-5xl mx-auto"></div>  <section class="bg-black py-32 md:py-48 px-6"> <div class="max-w-3xl mx-auto text-center"> <p data-reveal class="text-[10px] uppercase tracking-[0.4em] text-white/40 mb-10 font-mono">
+02 &nbsp;/&nbsp; Why it matters
+</p> <h2 data-reveal data-reveal-delay="1" class="display text-2xl md:text-4xl text-white mb-8">
+Every hard lesson &mdash;<br> <span class="display-em">shared before the next flight.</span> </h2> <p data-reveal data-reveal-delay="2" class="text-sm md:text-base text-white/55 leading-relaxed font-light max-w-xl mx-auto">
+SMS calls it <span class="text-aero-orange font-medium">Promotion</span> &mdash; every pilot learns
+        from every other. Constellation operationalizes it. The institutional safety memory that 121
+        carriers build over decades, available to one PIC at a time.
+</p> </div> </section> <div class="hairline max-w-5xl mx-auto"></div>  <section class="bg-black py-32 md:py-48 px-6"> <div class="max-w-3xl mx-auto text-center"> <p data-reveal class="text-[10px] uppercase tracking-[0.4em] text-white/40 mb-10 font-mono">
+03 &nbsp;/&nbsp; Coming online
+</p> <h2 data-reveal data-reveal-delay="1" class="display text-3xl md:text-5xl text-white mb-10">
+Built into<br> <span class="display-em">every TallyAero flight.</span> </h2> <p data-reveal data-reveal-delay="2" class="text-sm md:text-base text-white/55 leading-relaxed font-light max-w-xl mx-auto mb-10">
+Seamless with the TallyAero ecosystem &mdash; the same coordinate system as your logbook,
+        your school, your aircraft.
+</p> <div data-reveal data-reveal-delay="3" class="flex justify-center"> <a href="mailto:info@tallyaero.com?subject=Constellation%20preview" class="inline-flex items-center justify-center text-[11px] uppercase tracking-[0.22em] text-white bg-aero-orange hover:bg-aero-orange-light transition-colors px-8 h-11 font-medium ">Notify me</a> </div> </div> </section>  </main> <footer class="bg-black border-t border-white/5 pt-16 pb-10 px-6 md:px-10"> <div class="max-w-[1400px] mx-auto"> <div class="grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-12"> <!-- Brand + tagline (spans 2 cols on md+) --> <div class="col-span-2 md:col-span-2"> <a href="/" class="inline-block mb-5" aria-label="TallyAero — home"> <img src="/images/logo-transparent.png" alt="TallyAero" class="h-7 w-auto opacity-90" loading="lazy"> </a> <p class="text-[12px] text-white/55 leading-relaxed font-light max-w-xs"> <span class="text-aero-orange">Safety Management for General Aviation.</span> What a Part 121 airline runs with 15+ full-time safety roles &mdash; built for individual pilots, CFIs, and Part 61/141 flight schools.
+</p> <p class="text-[10px] uppercase tracking-[0.22em] text-white/55 mt-6 font-mono"> <a href="mailto:info@tallyaero.com" class="hover:text-aero-orange transition-colors">info@tallyaero.com</a> </p> </div> <!-- GA-SMS — the umbrella --> <div> <h4 class="text-[10px] uppercase tracking-[0.3em] text-aero-orange mb-5 font-mono">GA-SMS</h4> <ul class="space-y-3"> <li><a href="/" class="text-[12px] text-white/70 hover:text-white transition-colors">SMS Overview</a></li> <li><a href="/atlas/" class="text-[12px] text-white/70 hover:text-white transition-colors">Atlas &mdash; the evidence layer</a></li> <li><a href="/constellation/" class="text-[12px] text-white/70 hover:text-white transition-colors">Constellation &mdash; cross-pilot intelligence</a></li> </ul> </div> <!-- Platform — the products --> <div> <h4 class="text-[10px] uppercase tracking-[0.3em] text-white/35 mb-5 font-mono">Platform</h4> <ul class="space-y-3"> <li><a href="/logbook/" class="text-[12px] text-white/70 hover:text-white transition-colors">Logbook</a></li> <li><a href="/school/" class="text-[12px] text-white/70 hover:text-white transition-colors">School Management</a></li> <li><a href="/dpe/" class="text-[12px] text-white/70 hover:text-white transition-colors">DPE</a></li> <li><a href="/dashtwo/" class="text-[12px] text-white/70 hover:text-white transition-colors">DashTwo</a></li> </ul> </div> <!-- Get Started — the funnel --> <div> <h4 class="text-[10px] uppercase tracking-[0.3em] text-white/35 mb-5 font-mono">Get Started</h4> <ul class="space-y-3"> <li><a href="/logbook/interest/" class="text-[12px] text-white/70 hover:text-white transition-colors">Logbook waitlist</a></li> <li><a href="/school/demo/" class="text-[12px] text-white/70 hover:text-white transition-colors">School demo</a></li> <li><a href="/dpe/interest/" class="text-[12px] text-white/70 hover:text-white transition-colors">DPE partner program</a></li> <li><a href="/contact/" class="text-[12px] text-white/70 hover:text-white transition-colors">Contact</a></li> </ul> <h4 class="text-[10px] uppercase tracking-[0.3em] text-white/35 mb-3 mt-8 font-mono">Company</h4> <ul class="space-y-3"> <li><a href="/about/" class="text-[12px] text-white/70 hover:text-white transition-colors">About</a></li> </ul> </div> </div> <div class="mt-14 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3"> <div> <p class="text-[10px] text-white/35">&copy; 2026 TallyAero, Inc. &mdash; Safety Management for General Aviation.</p> <p class="text-[9px] text-white/25 mt-1.5">All product names and logos are trademarks of their respective owners. TallyAero is not affiliated with or endorsed by any product listed.</p> </div> <div class="flex items-center gap-5"> <a href="/privacy/" class="text-[9px] uppercase tracking-[0.3em] text-white/40 hover:text-aero-orange transition-colors font-mono">Privacy</a> <a href="/legal/" class="text-[9px] uppercase tracking-[0.3em] text-white/40 hover:text-aero-orange transition-colors font-mono">Terms</a> <a href="/contact/" class="text-[9px] uppercase tracking-[0.3em] text-white/40 hover:text-aero-orange transition-colors font-mono">Contact</a> </div> </div> </div> </footer> <!-- Site-wide light/dark theme toggle wiring. The button itself
+         lives in <Header>; the no-FOUC pre-paint script earlier in
+         <body> applies the saved preference before render. This block
+         binds the click handler regardless of which page we're on,
+         so the toggle works site-wide. --> <script>
+      (function () {
+        var themeBtn = document.getElementById('atlas-theme-toggle');
+        if (!themeBtn) return;
+        themeBtn.addEventListener('click', function () {
+          var html = document.documentElement;
+          var isLight = html.getAttribute('data-atlas-theme') === 'light';
+          if (isLight) {
+            html.removeAttribute('data-atlas-theme');
+            document.body.removeAttribute('data-atlas-theme');
+            try { localStorage.setItem('atlas-theme', 'dark'); } catch (e) {}
+          } else {
+            html.setAttribute('data-atlas-theme', 'light');
+            document.body.setAttribute('data-atlas-theme', 'light');
+            try { localStorage.setItem('atlas-theme', 'light'); } catch (e) {}
+          }
+        });
+      })();
+    </script> <script>
+      // Global reveal-on-scroll observer.
+      // Any element with [data-reveal] fades + slides in when it enters the viewport.
+      // Elements with [data-reveal-delay='1..5'] stagger by 120ms increments (defined in global.css).
+      // Honors prefers-reduced-motion via the existing CSS rules.
+      (function() {
+        var els = document.querySelectorAll('[data-reveal]');
+        if (els.length) {
+          if (!('IntersectionObserver' in window)) {
+            els.forEach(function(el) { el.classList.add('in'); });
+          } else {
+            var io = new IntersectionObserver(function(entries) {
+              entries.forEach(function(e) {
+                if (e.isIntersecting) {
+                  e.target.classList.add('in');
+                  io.unobserve(e.target);
+                }
+              });
+            }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+            els.forEach(function(el) { io.observe(el); });
+            requestAnimationFrame(function() {
+              els.forEach(function(el) {
+                var r = el.getBoundingClientRect();
+                if (r.top < window.innerHeight && r.bottom > 0) el.classList.add('in');
+              });
+            });
+          }
+        }
+
+        // Count-up animation on [data-countup] elements (e.g. /about mortality stats).
+        // Animates from 0 to the parsed target on first scroll-into-view.
+        // Honors prefers-reduced-motion (renders final value statically).
+        var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var counts = document.querySelectorAll('[data-countup]');
+        if (counts.length) {
+          var formatVal = function(el, v) {
+            var dec = parseInt(el.getAttribute('data-countup-decimals') || '0', 10);
+            var thou = el.getAttribute('data-countup-thousands') === '1';
+            var prefix = el.getAttribute('data-countup-prefix') || '';
+            var suffix = el.getAttribute('data-countup-suffix') || '';
+            var num;
+            if (dec > 0) {
+              num = v.toFixed(dec);
+            } else {
+              var rounded = Math.round(v);
+              num = thou ? rounded.toLocaleString() : String(rounded);
+            }
+            return prefix + num + suffix;
+          };
+          var animate = function(el) {
+            var target = parseFloat(el.getAttribute('data-countup-target') || '0');
+            if (reduced || isNaN(target)) {
+              el.textContent = formatVal(el, target);
+              return;
+            }
+            var DURATION = 1600; // ms
+            var start = null;
+            var step = function(ts) {
+              if (start === null) start = ts;
+              var elapsed = ts - start;
+              var t = Math.min(1, elapsed / DURATION);
+              // easeOutQuart
+              var eased = 1 - Math.pow(1 - t, 4);
+              el.textContent = formatVal(el, target * eased);
+              if (t < 1) requestAnimationFrame(step);
+              else el.textContent = formatVal(el, target);
+            };
+            // Start at 0
+            el.textContent = formatVal(el, 0);
+            requestAnimationFrame(step);
+          };
+          if (!('IntersectionObserver' in window)) {
+            counts.forEach(animate);
+          } else {
+            var cio = new IntersectionObserver(function(entries) {
+              entries.forEach(function(e) {
+                if (e.isIntersecting) {
+                  animate(e.target);
+                  cio.unobserve(e.target);
+                }
+              });
+            }, { threshold: 0.4 });
+            counts.forEach(function(el) { cio.observe(el); });
+          }
+        }
+
+        // Silo walls: scatter chip reveal delays randomly so the wall ignites
+        // like a starfield turning on (no visible pattern).
+        document.querySelectorAll('[data-silo-wall]').forEach(function(wall) {
+          var children = wall.children;
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.transitionDelay = (Math.random() * 0.6).toFixed(2) + 's';
+          }
+        });
+
+        // Connected sweep: chip reveal delays in sequence so the wall ignites
+        // like a wave traveling across — visualizes the connected platform.
+        document.querySelectorAll('[data-connected-sweep]').forEach(function(wall) {
+          var children = wall.children;
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.transitionDelay = (i * 0.022).toFixed(3) + 's';
+          }
+        });
+      })();
+    </script> </body> </html>

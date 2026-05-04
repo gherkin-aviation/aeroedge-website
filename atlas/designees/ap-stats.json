@@ -1,0 +1,270 @@
+{
+  "total": 248343,
+  "refreshed": "2026-05-02",
+  "byState": [
+    {
+      "state": "TX",
+      "n": 27501
+    },
+    {
+      "state": "FL",
+      "n": 25520
+    },
+    {
+      "state": "CA",
+      "n": 22561
+    },
+    {
+      "state": "GA",
+      "n": 13587
+    },
+    {
+      "state": "OK",
+      "n": 9729
+    },
+    {
+      "state": "WA",
+      "n": 9329
+    },
+    {
+      "state": "AZ",
+      "n": 8011
+    },
+    {
+      "state": "NY",
+      "n": 7868
+    },
+    {
+      "state": "NC",
+      "n": 7307
+    },
+    {
+      "state": "AL",
+      "n": 6369
+    },
+    {
+      "state": "OH",
+      "n": 6227
+    },
+    {
+      "state": "PA",
+      "n": 6164
+    },
+    {
+      "state": "IL",
+      "n": 6104
+    },
+    {
+      "state": "TN",
+      "n": 5872
+    },
+    {
+      "state": "MI",
+      "n": 5757
+    },
+    {
+      "state": "CO",
+      "n": 5581
+    },
+    {
+      "state": "IN",
+      "n": 4965
+    },
+    {
+      "state": "MO",
+      "n": 4460
+    },
+    {
+      "state": "MN",
+      "n": 4413
+    },
+    {
+      "state": "VA",
+      "n": 4380
+    },
+    {
+      "state": "KS",
+      "n": 3852
+    },
+    {
+      "state": "SC",
+      "n": 3669
+    },
+    {
+      "state": "NJ",
+      "n": 3475
+    },
+    {
+      "state": "WI",
+      "n": 3071
+    },
+    {
+      "state": "AK",
+      "n": 3011
+    },
+    {
+      "state": "KY",
+      "n": 2840
+    },
+    {
+      "state": "LA",
+      "n": 2749
+    },
+    {
+      "state": "OR",
+      "n": 2693
+    },
+    {
+      "state": "NV",
+      "n": 2622
+    },
+    {
+      "state": "MA",
+      "n": 2477
+    },
+    {
+      "state": "MD",
+      "n": 2351
+    },
+    {
+      "state": "AR",
+      "n": 2319
+    },
+    {
+      "state": "CT",
+      "n": 2087
+    },
+    {
+      "state": "MS",
+      "n": 1981
+    },
+    {
+      "state": "UT",
+      "n": 1955
+    },
+    {
+      "state": "ID",
+      "n": 1821
+    },
+    {
+      "state": "HI",
+      "n": 1570
+    },
+    {
+      "state": "NM",
+      "n": 1297
+    },
+    {
+      "state": "IA",
+      "n": 1208
+    },
+    {
+      "state": "MT",
+      "n": 1200
+    },
+    {
+      "state": "WV",
+      "n": 1154
+    },
+    {
+      "state": "NE",
+      "n": 1135
+    },
+    {
+      "state": "NH",
+      "n": 913
+    },
+    {
+      "state": "DE",
+      "n": 792
+    },
+    {
+      "state": "PR",
+      "n": 722
+    },
+    {
+      "state": "ME",
+      "n": 682
+    },
+    {
+      "state": "SD",
+      "n": 597
+    },
+    {
+      "state": "ND",
+      "n": 539
+    },
+    {
+      "state": "WY",
+      "n": 500
+    },
+    {
+      "state": "AE",
+      "n": 304
+    },
+    {
+      "state": "VT",
+      "n": 273
+    },
+    {
+      "state": "GU",
+      "n": 216
+    },
+    {
+      "state": "RI",
+      "n": 211
+    },
+    {
+      "state": "AP",
+      "n": 181
+    },
+    {
+      "state": "VI",
+      "n": 64
+    },
+    {
+      "state": "DC",
+      "n": 61
+    },
+    {
+      "state": "AA",
+      "n": 15
+    },
+    {
+      "state": "MP",
+      "n": 13
+    },
+    {
+      "state": "AS",
+      "n": 9
+    },
+    {
+      "state": "FM",
+      "n": 4
+    },
+    {
+      "state": "MH",
+      "n": 3
+    },
+    {
+      "state": "PW",
+      "n": 2
+    }
+  ],
+  "byVariant": [
+    {
+      "variant": "Airframe & Powerplant",
+      "n": 235466
+    },
+    {
+      "variant": "Airframe only",
+      "n": 8543
+    },
+    {
+      "variant": "Powerplant only",
+      "n": 4334
+    }
+  ],
+  "apCfiCount": 6165,
+  "apPilotCount": 22221
+}

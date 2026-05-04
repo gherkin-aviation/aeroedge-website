@@ -1,0 +1,6210 @@
+[
+  {
+    "code": "EAA 471",
+    "number": "471",
+    "slug": "eaa-471",
+    "url": "http://eaa471.org",
+    "city": "Abilene",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1668",
+    "number": "1668",
+    "slug": "eaa-1668",
+    "url": "https://chapters.eaa.org/eaa1668",
+    "city": "Ada",
+    "state": "OK"
+  },
+  {
+    "code": "EAA 101",
+    "number": "101",
+    "slug": "eaa-101",
+    "url": "https://www.eaa.org",
+    "city": "Addison",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 965",
+    "number": "965",
+    "slug": "eaa-965",
+    "url": "https://chapters.eaa.org/eaa965",
+    "city": "Aitkin",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 251",
+    "number": "251",
+    "slug": "eaa-251",
+    "url": "https://chapters.eaa.org/eaa251",
+    "city": "Alamogordo",
+    "state": "NM"
+  },
+  {
+    "code": "EAA 674",
+    "number": "674",
+    "slug": "eaa-674",
+    "url": null,
+    "city": "Albion",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 179",
+    "number": "179",
+    "slug": "eaa-179",
+    "url": "https://eaa179.org",
+    "city": "Albuquerque",
+    "state": "NM"
+  },
+  {
+    "code": "EAA 702",
+    "number": "702",
+    "slug": "eaa-702",
+    "url": "https://chapters.eaa.org/eaa702",
+    "city": "Alexandria",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 134",
+    "number": "134",
+    "slug": "eaa-134",
+    "url": "https://chapters.eaa.org/eaa134",
+    "city": "Alma",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1021",
+    "number": "1021",
+    "slug": "eaa-1021",
+    "url": "http://www.eaa1021.org/",
+    "city": "Alpena",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 267",
+    "number": "267",
+    "slug": "eaa-267",
+    "url": "https://chapters.eaa.org/eaa267",
+    "city": "Amarillo",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 42",
+    "number": "42",
+    "slug": "eaa-42",
+    "url": "http://eaa42.org",
+    "city": "Anchorage",
+    "state": "AK"
+  },
+  {
+    "code": "EAA 226",
+    "number": "226",
+    "slug": "eaa-226",
+    "url": "https://chapters.eaa.org/eaa226",
+    "city": "Anderson",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 135",
+    "number": "135",
+    "slug": "eaa-135",
+    "url": "https://chapters.eaa.org/eaa135",
+    "city": "Ankeny",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 333",
+    "number": "333",
+    "slug": "eaa-333",
+    "url": "https://chapters.eaa.org/EAA333",
+    "city": "Ann Arbor",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 571",
+    "number": "571",
+    "slug": "eaa-571",
+    "url": "https://chapters.eaa.org/eaa571",
+    "city": "Annapolis",
+    "state": "MD"
+  },
+  {
+    "code": "EAA 237",
+    "number": "237",
+    "slug": "eaa-237",
+    "url": "https://chapters.eaa.org/eaa237",
+    "city": "Anoka County Blaine Airport",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 1646",
+    "number": "1646",
+    "slug": "eaa-1646",
+    "url": "https://chapters.eaa.org/eaa1646",
+    "city": "Apalachicola",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1114",
+    "number": "1114",
+    "slug": "eaa-1114",
+    "url": "https://chapters.eaa.org/EAA1114",
+    "city": "Apex",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 1551",
+    "number": "1551",
+    "slug": "eaa-1551",
+    "url": "https://chapters.eaa.org/eaa1551",
+    "city": "Apopka",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 768",
+    "number": "768",
+    "slug": "eaa-768",
+    "url": "https://chapters.eaa.org/eaa768",
+    "city": "Apple Valley",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1226",
+    "number": "1226",
+    "slug": "eaa-1226",
+    "url": "https://chapters.eaa.org/eaa1226",
+    "city": "Arcadia",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1418",
+    "number": "1418",
+    "slug": "eaa-1418",
+    "url": null,
+    "city": "Arcata",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 34",
+    "number": "34",
+    "slug": "eaa-34",
+    "url": "http://www.eaa34.org",
+    "city": "Arlington",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1210",
+    "number": "1210",
+    "slug": "eaa-1210",
+    "url": "http://eaa1210.org",
+    "city": "Arundel",
+    "state": "ME"
+  },
+  {
+    "code": "EAA 1016",
+    "number": "1016",
+    "slug": "eaa-1016",
+    "url": "https://eaa1016.org/",
+    "city": "Asheville",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 255",
+    "number": "255",
+    "slug": "eaa-255",
+    "url": "https://chapters.eaa.org/eaa255",
+    "city": "Ashland",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1676",
+    "number": "1676",
+    "slug": "eaa-1676",
+    "url": "https://eaa1676.org/",
+    "city": "Ashland",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 967",
+    "number": "967",
+    "slug": "eaa-967",
+    "url": null,
+    "city": "Atchison",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 780",
+    "number": "780",
+    "slug": "eaa-780",
+    "url": null,
+    "city": "Athens",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 1025",
+    "number": "1025",
+    "slug": "eaa-1025",
+    "url": "https://chapters.eaa.org/eaa1025",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 1017",
+    "number": "1017",
+    "slug": "eaa-1017",
+    "url": null,
+    "city": "Auburn",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 526",
+    "number": "526",
+    "slug": "eaa-526",
+    "url": "https://www.eaachapter526.org/",
+    "city": "Auburn",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 172",
+    "number": "172",
+    "slug": "eaa-172",
+    "url": "https://chapters.eaa.org/eaa172",
+    "city": "Augusta",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 511",
+    "number": "511",
+    "slug": "eaa-511",
+    "url": "https://chapters.eaa.org/eaa511",
+    "city": "Augusta County",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 579",
+    "number": "579",
+    "slug": "eaa-579",
+    "url": "https://chapters.eaa.org/eaa579",
+    "city": "Aurora",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 386",
+    "number": "386",
+    "slug": "eaa-386",
+    "url": null,
+    "city": "Austin",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 187",
+    "number": "187",
+    "slug": "eaa-187",
+    "url": "https://eaa187.org",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 71",
+    "number": "71",
+    "slug": "eaa-71",
+    "url": "https://chapters.eaa.org/eaa71",
+    "city": "Bakersfield",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 244",
+    "number": "244",
+    "slug": "eaa-244",
+    "url": "https://chapters.eaa.org/eaa244",
+    "city": "Baton Rouge",
+    "state": "LA"
+  },
+  {
+    "code": "EAA 1502",
+    "number": "1502",
+    "slug": "eaa-1502",
+    "url": "https://chapters.eaa.org/eaa1502",
+    "city": "Beavercreek",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 60",
+    "number": "60",
+    "slug": "eaa-60",
+    "url": "https://chapters.eaa.org/eaa60",
+    "city": "Beloit",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1397",
+    "number": "1397",
+    "slug": "eaa-1397",
+    "url": "https://chapters.eaa.org/eaa1397",
+    "city": "Bemidji",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 1345",
+    "number": "1345",
+    "slug": "eaa-1345",
+    "url": "https://chapters.eaa.org/eaa1345",
+    "city": "Bend",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 864",
+    "number": "864",
+    "slug": "eaa-864",
+    "url": "https://chapters.eaa.org/eaa864",
+    "city": "Bethalto",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1097",
+    "number": "1097",
+    "slug": "eaa-1097",
+    "url": "https://eaa1097.org/",
+    "city": "Bethlehem",
+    "state": "CT"
+  },
+  {
+    "code": "EAA 713",
+    "number": "713",
+    "slug": "eaa-713",
+    "url": "https://chapters.eaa.org/eaa713",
+    "city": "Big Horn Basin",
+    "state": "WY"
+  },
+  {
+    "code": "EAA 57",
+    "number": "57",
+    "slug": "eaa-57",
+    "url": "https://chapters.eaa.org/eaa57",
+    "city": "Billings",
+    "state": "MT"
+  },
+  {
+    "code": "EAA 1719",
+    "number": "1719",
+    "slug": "eaa-1719",
+    "url": null,
+    "city": "Blacksburg",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 1211",
+    "number": "1211",
+    "slug": "eaa-1211",
+    "url": "https://chapters.eaa.org/eaa1211",
+    "city": "Blairsville",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 756",
+    "number": "756",
+    "slug": "eaa-756",
+    "url": "https://chapters.eaa.org/eaa756",
+    "city": "Blenheim",
+    "state": "ON"
+  },
+  {
+    "code": "EAA 650",
+    "number": "650",
+    "slug": "eaa-650",
+    "url": "http://eaa650.org",
+    "city": "Bloomington",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 129",
+    "number": "129",
+    "slug": "eaa-129",
+    "url": "https://chapters.eaa.org/eaa129",
+    "city": "Bloomington",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1641",
+    "number": "1641",
+    "slug": "eaa-1641",
+    "url": "https://chapters.eaa.org/EAA1641",
+    "city": "Bloomsburg",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 103",
+    "number": "103",
+    "slug": "eaa-103",
+    "url": "https://chapters.eaa.org/eaa103",
+    "city": "Boise",
+    "state": "ID"
+  },
+  {
+    "code": "EAA 461",
+    "number": "461",
+    "slug": "eaa-461",
+    "url": "https://www.eaa461.org",
+    "city": "Bolingbrook",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1609",
+    "number": "1609",
+    "slug": "eaa-1609",
+    "url": "https://www.eaa.org",
+    "city": "Bolivar",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 757",
+    "number": "757",
+    "slug": "eaa-757",
+    "url": "https://chapters.eaa.org/eaa757",
+    "city": "Bonners Ferry",
+    "state": "ID"
+  },
+  {
+    "code": "EAA 106",
+    "number": "106",
+    "slug": "eaa-106",
+    "url": "https://chapters.eaa.org/EAA106",
+    "city": "Boston",
+    "state": "MA"
+  },
+  {
+    "code": "EAA 1627",
+    "number": "1627",
+    "slug": "eaa-1627",
+    "url": "https://chapters.eaa.org/eaa1627",
+    "city": "Boulder",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 1165",
+    "number": "1165",
+    "slug": "eaa-1165",
+    "url": null,
+    "city": "Bowling Green",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 110",
+    "number": "110",
+    "slug": "eaa-110",
+    "url": "https://eaa110.org/",
+    "city": "Bowman  Field Louisville",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 180",
+    "number": "180",
+    "slug": "eaa-180",
+    "url": "https://www.eaa180.org",
+    "city": "Bradenton",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1610",
+    "number": "1610",
+    "slug": "eaa-1610",
+    "url": "https://chapters.eaa.org/EAA1610",
+    "city": "Brainerd",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 406",
+    "number": "406",
+    "slug": "eaa-406",
+    "url": "https://chapters.eaa.org/eaa406",
+    "city": "Bremerton",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 384",
+    "number": "384",
+    "slug": "eaa-384",
+    "url": "https://chapters.eaa.org/eaa384",
+    "city": "Brighton",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1709",
+    "number": "1709",
+    "slug": "eaa-1709",
+    "url": null,
+    "city": "Bristow",
+    "state": "OK"
+  },
+  {
+    "code": "EAA 431",
+    "number": "431",
+    "slug": "eaa-431",
+    "url": "http://www.eaa431.org/",
+    "city": "Brodhead",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1298",
+    "number": "1298",
+    "slug": "eaa-1298",
+    "url": "http://www.eaa1298.com",
+    "city": "Brooksville",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 43",
+    "number": "43",
+    "slug": "eaa-43",
+    "url": "https://chapters.eaa.org/eaa43",
+    "city": "Broomfield",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 1205",
+    "number": "1205",
+    "slug": "eaa-1205",
+    "url": "https://chapters.eaa.org/eaa1205",
+    "city": "Brownwood",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1531",
+    "number": "1531",
+    "slug": "eaa-1531",
+    "url": "https://chapters.eaa.org/eaa1531",
+    "city": "Bryan",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 46",
+    "number": "46",
+    "slug": "eaa-46",
+    "url": "https://chapters.eaa.org/eaa46",
+    "city": "Buffalo",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 297",
+    "number": "297",
+    "slug": "eaa-297",
+    "url": "https://chapters.eaa.org/eaa297",
+    "city": "Burgaw",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 280",
+    "number": "280",
+    "slug": "eaa-280",
+    "url": "https://chapters.eaa.org/eaa280",
+    "city": "Burleson",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 818",
+    "number": "818",
+    "slug": "eaa-818",
+    "url": "http://skagiteaa.org",
+    "city": "Burlington",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 700",
+    "number": "700",
+    "slug": "eaa-700",
+    "url": "https://chapters.eaa.org/eaa700",
+    "city": "Burlington",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 1535",
+    "number": "1535",
+    "slug": "eaa-1535",
+    "url": "https://chapters.eaa.org/eaa1535",
+    "city": "Burlington",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 1489",
+    "number": "1489",
+    "slug": "eaa-1489",
+    "url": "http://chapters.eaa.org/eaa1489",
+    "city": "Bushnell",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1462",
+    "number": "1462",
+    "slug": "eaa-1462",
+    "url": null,
+    "city": "Butte",
+    "state": "MT"
+  },
+  {
+    "code": "EAA 1410",
+    "number": "1410",
+    "slug": "eaa-1410",
+    "url": "https://chapters.eaa.org/eaa1410?",
+    "city": "Calgary",
+    "state": "AB"
+  },
+  {
+    "code": "EAA 723",
+    "number": "723",
+    "slug": "eaa-723",
+    "url": "https://www.eaa723.org/",
+    "city": "Camarillo",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1697",
+    "number": "1697",
+    "slug": "eaa-1697",
+    "url": "https://chapters.eaa.org/eaa1697",
+    "city": "Camden",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 1078",
+    "number": "1078",
+    "slug": "eaa-1078",
+    "url": "http://chapters.eaa.org/eaa1078",
+    "city": "Canton",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 832",
+    "number": "832",
+    "slug": "eaa-832",
+    "url": "https://chapters.eaa.org/eaa832",
+    "city": "Canton",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 500",
+    "number": "500",
+    "slug": "eaa-500",
+    "url": "https://chapters.eaa.org/eaa500",
+    "city": "Canton",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 113",
+    "number": "113",
+    "slug": "eaa-113",
+    "url": "http://eaa113.org",
+    "city": "Canton",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 277",
+    "number": "277",
+    "slug": "eaa-277",
+    "url": "http://www.eaa277.org",
+    "city": "Carbondale",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1527",
+    "number": "1527",
+    "slug": "eaa-1527",
+    "url": "http://indyflyers.org",
+    "city": "Carmel",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 976",
+    "number": "976",
+    "slug": "eaa-976",
+    "url": "https://chapters.eaa.org/eaa976",
+    "city": "Carrollton",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 403",
+    "number": "403",
+    "slug": "eaa-403",
+    "url": "https://eaa403.us",
+    "city": "Carson City",
+    "state": "NV"
+  },
+  {
+    "code": "EAA 1220",
+    "number": "1220",
+    "slug": "eaa-1220",
+    "url": "https://eaa.org",
+    "city": "Cary",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 1141",
+    "number": "1141",
+    "slug": "eaa-1141",
+    "url": "https://chapters.eaa.org/eaa1141",
+    "city": "Cascade",
+    "state": "MT"
+  },
+  {
+    "code": "EAA 420",
+    "number": "420",
+    "slug": "eaa-420",
+    "url": "https://chapters.eaa.org/eaa420",
+    "city": "Casper",
+    "state": "WY"
+  },
+  {
+    "code": "EAA 1608",
+    "number": "1608",
+    "slug": "eaa-1608",
+    "url": "https://www.facebook.com/groups/245296982678472/",
+    "city": "Castroville",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 33",
+    "number": "33",
+    "slug": "eaa-33",
+    "url": "http://eaa33.com",
+    "city": "Cedar Rapids",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 1571",
+    "number": "1571",
+    "slug": "eaa-1571",
+    "url": "http://www.1571.eaachapter.org/",
+    "city": "Central City",
+    "state": "NE"
+  },
+  {
+    "code": "EAA 1420",
+    "number": "1420",
+    "slug": "eaa-1420",
+    "url": "https://chapters.eaa.org/eaa1420",
+    "city": "Central Illinois",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 892",
+    "number": "892",
+    "slug": "eaa-892",
+    "url": "https://ourchapter.org/?8CDF4ofF7",
+    "city": "Central Kentucky",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 29",
+    "number": "29",
+    "slug": "eaa-29",
+    "url": "https://chapters.eaa.org/eaa29",
+    "city": "Chandler",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 1614",
+    "number": "1614",
+    "slug": "eaa-1614",
+    "url": "https://www.eaachapter1614.com/",
+    "city": "Chandler",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 309",
+    "number": "309",
+    "slug": "eaa-309",
+    "url": "https://www.eaa309.club/",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 150",
+    "number": "150",
+    "slug": "eaa-150",
+    "url": "https://chapters.eaa.org/eaa150",
+    "city": "Chattanooga",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 609",
+    "number": "609",
+    "slug": "eaa-609",
+    "url": "https://chapters.eaa.org/eaa609",
+    "city": "Chehalis",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 1669",
+    "number": "1669",
+    "slug": "eaa-1669",
+    "url": null,
+    "city": "Cherokee Village",
+    "state": "AR"
+  },
+  {
+    "code": "EAA 979",
+    "number": "979",
+    "slug": "eaa-979",
+    "url": "https://chapters.eaa.org/eaa979",
+    "city": "Chesterfield",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1675",
+    "number": "1675",
+    "slug": "eaa-1675",
+    "url": "https://chapters.eaa.org/eaa1675",
+    "city": "Chesterfield",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 118",
+    "number": "118",
+    "slug": "eaa-118",
+    "url": "https://chapters.eaa.org/eaa118",
+    "city": "Chesterland",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1724",
+    "number": "1724",
+    "slug": "eaa-1724",
+    "url": null,
+    "city": "Chewelah",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 342",
+    "number": "342",
+    "slug": "eaa-342",
+    "url": "https://chapters.eaa.org/eaa342",
+    "city": "Cheyenne",
+    "state": "WY"
+  },
+  {
+    "code": "EAA 1625",
+    "number": "1625",
+    "slug": "eaa-1625",
+    "url": "https://chapters.eaa.org/eaa1625",
+    "city": "Chillicothe",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 944",
+    "number": "944",
+    "slug": "eaa-944",
+    "url": "http://eaa944.org",
+    "city": "Chillicothe",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 1477",
+    "number": "1477",
+    "slug": "eaa-1477",
+    "url": null,
+    "city": "Chilliwack",
+    "state": "BC"
+  },
+  {
+    "code": "EAA 974",
+    "number": "974",
+    "slug": "eaa-974",
+    "url": "http://www.eaa974.org",
+    "city": "Cincinnati",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 174",
+    "number": "174",
+    "slug": "eaa-174",
+    "url": "https://chapters.eaa.org/eaa174",
+    "city": "Cincinnati",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 430",
+    "number": "430",
+    "slug": "eaa-430",
+    "url": "https://eaa430.org",
+    "city": "Clallam County",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 1533",
+    "number": "1533",
+    "slug": "eaa-1533",
+    "url": "https://www.facebook.com/Wind-Riders-EAA-1533-408040682621427/",
+    "city": "Clarinda",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 748",
+    "number": "748",
+    "slug": "eaa-748",
+    "url": "https://chapters.eaa.org/eaa748",
+    "city": "Clearfield",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 282",
+    "number": "282",
+    "slug": "eaa-282",
+    "url": "http://www.eaa282.org/",
+    "city": "Clearwater",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1698",
+    "number": "1698",
+    "slug": "eaa-1698",
+    "url": "https://chapters.eaa.org/eaa1698",
+    "city": "Cleveland",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 127",
+    "number": "127",
+    "slug": "eaa-127",
+    "url": "https://chapters.eaa.org/eaa127",
+    "city": "Cleveland",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1459",
+    "number": "1459",
+    "slug": "eaa-1459",
+    "url": "https://www.facebook.com/EAAchapter1459",
+    "city": "Clinton",
+    "state": "AR"
+  },
+  {
+    "code": "EAA 1710",
+    "number": "1710",
+    "slug": "eaa-1710",
+    "url": "https://chapters.eaa.org/eaa1710",
+    "city": "Clintonville",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1221",
+    "number": "1221",
+    "slug": "eaa-1221",
+    "url": "https://chapters.eaa.org/eaa1221",
+    "city": "Cloquet",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 1291",
+    "number": "1291",
+    "slug": "eaa-1291",
+    "url": "https://eaa.org",
+    "city": "Cochise County",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 1673",
+    "number": "1673",
+    "slug": "eaa-1673",
+    "url": null,
+    "city": "Colby",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 4",
+    "number": "4",
+    "slug": "eaa-4",
+    "url": "https://chapters.eaa.org/eaa4",
+    "city": "College Park",
+    "state": "MD"
+  },
+  {
+    "code": "EAA 604",
+    "number": "604",
+    "slug": "eaa-604",
+    "url": "https://chapters.eaa.org/eaa604",
+    "city": "College Place",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 1321",
+    "number": "1321",
+    "slug": "eaa-1321",
+    "url": "https://chapters.eaa.org/eaa1321",
+    "city": "Columbia",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 242",
+    "number": "242",
+    "slug": "eaa-242",
+    "url": "https://chapters.eaa.org/eaa242",
+    "city": "Columbia",
+    "state": "SC"
+  },
+  {
+    "code": "EAA 1252",
+    "number": "1252",
+    "slug": "eaa-1252",
+    "url": "https://chapters.eaa.org/eaa1252",
+    "city": "Columbia Station",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 677",
+    "number": "677",
+    "slug": "eaa-677",
+    "url": "https://chapters.eaa.org/eaa677",
+    "city": "Columbus",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 729",
+    "number": "729",
+    "slug": "eaa-729",
+    "url": "https://eaa729.org",
+    "city": "Columbus",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 9",
+    "number": "9",
+    "slug": "eaa-9",
+    "url": "https://chapters.eaa.org/eaa9",
+    "city": "Columbus",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 85",
+    "number": "85",
+    "slug": "eaa-85",
+    "url": "https://chapters.eaa.org/eaa85",
+    "city": "Comox Valley",
+    "state": "BC"
+  },
+  {
+    "code": "EAA 96",
+    "number": "96",
+    "slug": "eaa-96",
+    "url": "https://chapters.eaa.org/eaa96",
+    "city": "Compton",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 393",
+    "number": "393",
+    "slug": "eaa-393",
+    "url": "http://www.eaa393.org",
+    "city": "Concord",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 302",
+    "number": "302",
+    "slug": "eaa-302",
+    "url": "https://www.eaa302.org",
+    "city": "Conroe",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1167",
+    "number": "1167",
+    "slug": "eaa-1167",
+    "url": "https://www.eaa1167.org",
+    "city": "Conway",
+    "state": "SC"
+  },
+  {
+    "code": "EAA 1590",
+    "number": "1590",
+    "slug": "eaa-1590",
+    "url": "https://chapters.eaa.org/eaa1590",
+    "city": "Conway",
+    "state": "AR"
+  },
+  {
+    "code": "EAA 1040",
+    "number": "1040",
+    "slug": "eaa-1040",
+    "url": null,
+    "city": "Cookson",
+    "state": "OK"
+  },
+  {
+    "code": "EAA 1148",
+    "number": "1148",
+    "slug": "eaa-1148",
+    "url": "https://chapters.eaa.org/eaa1148",
+    "city": "Corning",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 191",
+    "number": "191",
+    "slug": "eaa-191",
+    "url": "https://chapters.eaa.org/eaa191",
+    "city": "Corpus Christi",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1451",
+    "number": "1451",
+    "slug": "eaa-1451",
+    "url": "https://chapters.eaa.org/eaa1451",
+    "city": "Cortez",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 952",
+    "number": "952",
+    "slug": "eaa-952",
+    "url": "https://chapters.eaa.org/eaa952",
+    "city": "Cottonwood",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 216",
+    "number": "216",
+    "slug": "eaa-216",
+    "url": "https://chapters.eaa.org/eaa216",
+    "city": "Cross Keys",
+    "state": "NJ"
+  },
+  {
+    "code": "EAA 426",
+    "number": "426",
+    "slug": "eaa-426",
+    "url": "https://www.facebook.com/eaachapter426",
+    "city": "Cumberland",
+    "state": "MD"
+  },
+  {
+    "code": "EAA 1522",
+    "number": "1522",
+    "slug": "eaa-1522",
+    "url": "https://chapters.eaa.org/eaa1522",
+    "city": "Cynthiana",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 1035",
+    "number": "1035",
+    "slug": "eaa-1035",
+    "url": null,
+    "city": "Danielson",
+    "state": "CT"
+  },
+  {
+    "code": "EAA 622",
+    "number": "622",
+    "slug": "eaa-622",
+    "url": "https://eaa.org",
+    "city": "Danville",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 354",
+    "number": "354",
+    "slug": "eaa-354",
+    "url": "https://chapters.eaa.org/eaa354",
+    "city": "Dawson",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 1661",
+    "number": "1661",
+    "slug": "eaa-1661",
+    "url": null,
+    "city": "Dayton",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 610",
+    "number": "610",
+    "slug": "eaa-610",
+    "url": "https://chapters.eaa.org/eaa610",
+    "city": "Dayton",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 288",
+    "number": "288",
+    "slug": "eaa-288",
+    "url": "http://eaa288.org/",
+    "city": "Daytona Beach",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 274",
+    "number": "274",
+    "slug": "eaa-274",
+    "url": "https://chapters.eaa.org/eaa274",
+    "city": "Decatur",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 241",
+    "number": "241",
+    "slug": "eaa-241",
+    "url": "https://chapters.eaa.org/eaa241",
+    "city": "DeKalb",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 635",
+    "number": "635",
+    "slug": "eaa-635",
+    "url": "https://chapters.eaa.org/eaa635",
+    "city": "DeLand",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1600",
+    "number": "1600",
+    "slug": "eaa-1600",
+    "url": "https://chapters.eaa.org/eaa1600",
+    "city": "Delaware",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1373",
+    "number": "1373",
+    "slug": "eaa-1373",
+    "url": "http://eaa1373.org/",
+    "city": "Delta",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 661",
+    "number": "661",
+    "slug": "eaa-661",
+    "url": "https://chapters.eaa.org/eaa661",
+    "city": "Denton",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1351",
+    "number": "1351",
+    "slug": "eaa-1351",
+    "url": null,
+    "city": "Detroit",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1498",
+    "number": "1498",
+    "slug": "eaa-1498",
+    "url": "https://www.facebook.com/pg/eaa1498",
+    "city": "Detroit Lakes",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 1358",
+    "number": "1358",
+    "slug": "eaa-1358",
+    "url": "http://www.eaa1358.org",
+    "city": "Dothan",
+    "state": "AL"
+  },
+  {
+    "code": "EAA 1028",
+    "number": "1028",
+    "slug": "eaa-1028",
+    "url": "https://eaa.org",
+    "city": "Dowagiac",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1049",
+    "number": "1049",
+    "slug": "eaa-1049",
+    "url": "https://chapters.eaa.org/eaa1049",
+    "city": "Driggs",
+    "state": "ID"
+  },
+  {
+    "code": "EAA 906",
+    "number": "906",
+    "slug": "eaa-906",
+    "url": "https://chapters.eaa.org/eaa906",
+    "city": "Dublin",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 1195",
+    "number": "1195",
+    "slug": "eaa-1195",
+    "url": null,
+    "city": "Dublin",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 327",
+    "number": "327",
+    "slug": "eaa-327",
+    "url": "https://chapters.eaa.org/eaa327",
+    "city": "Dubuque",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 272",
+    "number": "272",
+    "slug": "eaa-272",
+    "url": "http://www.EAA272.COM",
+    "city": "Duluth",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 879",
+    "number": "879",
+    "slug": "eaa-879",
+    "url": "https://chapters.eaa.org/eaa879",
+    "city": "Durham",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 972",
+    "number": "972",
+    "slug": "eaa-972",
+    "url": "https://chapters.eaa.org/eaa972",
+    "city": "East Texas",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1310",
+    "number": "1310",
+    "slug": "eaa-1310",
+    "url": "https://www.eaa1310.org",
+    "city": "East Windsor",
+    "state": "CT"
+  },
+  {
+    "code": "EAA 956",
+    "number": "956",
+    "slug": "eaa-956",
+    "url": "https://chapters.eaa.org/eaa956",
+    "city": "Eastland",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 70",
+    "number": "70",
+    "slug": "eaa-70",
+    "url": "https://chapters.eaa.org/eaa70",
+    "city": "Easton",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 937",
+    "number": "937",
+    "slug": "eaa-937",
+    "url": "https://chapters.eaa.org/eaa937",
+    "city": "Eastsound",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 509",
+    "number": "509",
+    "slug": "eaa-509",
+    "url": "https://chapters.eaa.org/eaa509",
+    "city": "Eau Claire",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1306",
+    "number": "1306",
+    "slug": "eaa-1306",
+    "url": "https://eaa1306.org/",
+    "city": "Edgewood",
+    "state": "NM"
+  },
+  {
+    "code": "EAA 30",
+    "number": "30",
+    "slug": "eaa-30",
+    "url": "https://chapters.eaa.org/eaa30",
+    "city": "Edmonton",
+    "state": "AB"
+  },
+  {
+    "code": "EAA 16",
+    "number": "16",
+    "slug": "eaa-16",
+    "url": "https://chapters.eaa.org/eaa16",
+    "city": "Effingham",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 626",
+    "number": "626",
+    "slug": "eaa-626",
+    "url": null,
+    "city": "El Dorado",
+    "state": "AR"
+  },
+  {
+    "code": "EAA 125",
+    "number": "125",
+    "slug": "eaa-125",
+    "url": "https://chapters.eaa.org/eaa125",
+    "city": "El Paso",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1640",
+    "number": "1640",
+    "slug": "eaa-1640",
+    "url": "https://chapters.eaa.org/eaa1640",
+    "city": "Elizabethtown",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 132",
+    "number": "132",
+    "slug": "eaa-132",
+    "url": "http://chapters.eaa.org/eaa132",
+    "city": "Elkhart",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 1530",
+    "number": "1530",
+    "slug": "eaa-1530",
+    "url": null,
+    "city": "Elkins",
+    "state": "WV"
+  },
+  {
+    "code": "EAA 492",
+    "number": "492",
+    "slug": "eaa-492",
+    "url": "https://chapters.eaa.org/eaa492",
+    "city": "Ellensburg",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 1127",
+    "number": "1127",
+    "slug": "eaa-1127",
+    "url": "https://chapters.eaa.org/eaa1127",
+    "city": "Ellsworth",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 455",
+    "number": "455",
+    "slug": "eaa-455",
+    "url": "https://chapters.eaa.org/eaa455",
+    "city": "Enid",
+    "state": "OK"
+  },
+  {
+    "code": "EAA 351",
+    "number": "351",
+    "slug": "eaa-351",
+    "url": "https://chapters.eaa.org/eaa351",
+    "city": "Enterprise",
+    "state": "AL"
+  },
+  {
+    "code": "EAA 1187",
+    "number": "1187",
+    "slug": "eaa-1187",
+    "url": null,
+    "city": "Erie",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 160",
+    "number": "160",
+    "slug": "eaa-160",
+    "url": null,
+    "city": "Erie",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 286",
+    "number": "286",
+    "slug": "eaa-286",
+    "url": "https://chapters.eaa.org/eaa286",
+    "city": "Escondido",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 143",
+    "number": "143",
+    "slug": "eaa-143",
+    "url": "https://chapters.eaa.org/eaa143",
+    "city": "Essex",
+    "state": "MD"
+  },
+  {
+    "code": "EAA 31",
+    "number": "31",
+    "slug": "eaa-31",
+    "url": "http://www.eaa31.org",
+    "city": "Eugene",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 1457",
+    "number": "1457",
+    "slug": "eaa-1457",
+    "url": "https://chapters.eaa.org/eaa1457",
+    "city": "Eugene",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 21",
+    "number": "21",
+    "slug": "eaa-21",
+    "url": "https://chapters.eaa.org/eaa21",
+    "city": "Evansville",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 1129",
+    "number": "1129",
+    "slug": "eaa-1129",
+    "url": "https://chapters.eaa.org/eaa1129",
+    "city": "Fairbanks",
+    "state": "AK"
+  },
+  {
+    "code": "EAA 73",
+    "number": "73",
+    "slug": "eaa-73",
+    "url": "http://eaa73.org/",
+    "city": "Fairfield",
+    "state": "NJ"
+  },
+  {
+    "code": "EAA 842",
+    "number": "842",
+    "slug": "eaa-842",
+    "url": null,
+    "city": "Fairmont",
+    "state": "WV"
+  },
+  {
+    "code": "EAA 317",
+    "number": "317",
+    "slug": "eaa-317",
+    "url": "https://chapters.eaa.org/eaa317",
+    "city": "Fargo",
+    "state": "ND"
+  },
+  {
+    "code": "EAA 732",
+    "number": "732",
+    "slug": "eaa-732",
+    "url": "https://chapters.eaa.org/eaa732",
+    "city": "Fayetteville",
+    "state": "AR"
+  },
+  {
+    "code": "EAA 1174",
+    "number": "1174",
+    "slug": "eaa-1174",
+    "url": "https://chapters.eaa.org/eaa1174",
+    "city": "Fergus Falls",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 943",
+    "number": "943",
+    "slug": "eaa-943",
+    "url": "http://eaa943.org",
+    "city": "Fernandina Beach",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1454",
+    "number": "1454",
+    "slug": "eaa-1454",
+    "url": "http://www.fitchburgpilots.org",
+    "city": "Fitchburg",
+    "state": "MA"
+  },
+  {
+    "code": "EAA 856",
+    "number": "856",
+    "slug": "eaa-856",
+    "url": "https://eaachapter856.org/",
+    "city": "Flagstaff",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 1241",
+    "number": "1241",
+    "slug": "eaa-1241",
+    "url": "https://chapters.eaa.org/eaa1241",
+    "city": "Florida Keys",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 77",
+    "number": "77",
+    "slug": "eaa-77",
+    "url": "https://chapters.eaa.org/eaa77",
+    "city": "Flushing",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 572",
+    "number": "572",
+    "slug": "eaa-572",
+    "url": "https://chapters.eaa.org/EAA572",
+    "city": "Fond du Lac",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1638",
+    "number": "1638",
+    "slug": "eaa-1638",
+    "url": "https://forestlakeairport.org",
+    "city": "Forest Lake",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 1558",
+    "number": "1558",
+    "slug": "eaa-1558",
+    "url": "https://chapters.eaa.org/eaa1558",
+    "city": "Fort Mohave",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 66",
+    "number": "66",
+    "slug": "eaa-66",
+    "url": "https://eaachapter66.org/",
+    "city": "Fort Myers",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 890",
+    "number": "890",
+    "slug": "eaa-890",
+    "url": "https://chapters.eaa.org/eaa890",
+    "city": "Fort Payne",
+    "state": "AL"
+  },
+  {
+    "code": "EAA 908",
+    "number": "908",
+    "slug": "eaa-908",
+    "url": "http://www.908.eaachapter.org",
+    "city": "Fort Pierce",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 2",
+    "number": "2",
+    "slug": "eaa-2",
+    "url": "https://www.eaa2.org/",
+    "city": "Fort Wayne",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 169",
+    "number": "169",
+    "slug": "eaa-169",
+    "url": "https://chapters.eaa.org/eaa169",
+    "city": "Frankfort",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 988",
+    "number": "988",
+    "slug": "eaa-988",
+    "url": "https://chapters.eaa.org/eaa988",
+    "city": "Franklin",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 524",
+    "number": "524",
+    "slug": "eaa-524",
+    "url": "https://chapters.eaa.org/eaa524",
+    "city": "Frederick",
+    "state": "MD"
+  },
+  {
+    "code": "EAA 1088",
+    "number": "1088",
+    "slug": "eaa-1088",
+    "url": "https://eaa1088.org/",
+    "city": "Fredericksburg",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1099",
+    "number": "1099",
+    "slug": "eaa-1099",
+    "url": "https://chapters.eaa.org/eaa1099",
+    "city": "Fredericksburg",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 1635",
+    "number": "1635",
+    "slug": "eaa-1635",
+    "url": "https://chapters.eaa.org/eaa1635",
+    "city": "Fredericktown",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 475",
+    "number": "475",
+    "slug": "eaa-475",
+    "url": "https://chapters.eaa.org/eaa475",
+    "city": "Freeport",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 578",
+    "number": "578",
+    "slug": "eaa-578",
+    "url": "https://chapters.eaa.org/eaa578",
+    "city": "Fremont",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1272",
+    "number": "1272",
+    "slug": "eaa-1272",
+    "url": "https://chapters.eaa.org/eaa1272",
+    "city": "Fremont",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 376",
+    "number": "376",
+    "slug": "eaa-376",
+    "url": "https://chapters.eaa.org/eaa376",
+    "city": "Fresno",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 931",
+    "number": "931",
+    "slug": "eaa-931",
+    "url": "https://www.Facebook.com/eaachapter931",
+    "city": "Friendship",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 108",
+    "number": "108",
+    "slug": "eaa-108",
+    "url": "https://chapters.eaa.org/EAA108",
+    "city": "Ft. Walton Beach",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 670",
+    "number": "670",
+    "slug": "eaa-670",
+    "url": "https://chapters.eaa.org/eaa670",
+    "city": "Ft. Worth",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 486",
+    "number": "486",
+    "slug": "eaa-486",
+    "url": "https://chapters.eaa.org/eaa486",
+    "city": "Fulton",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 611",
+    "number": "611",
+    "slug": "eaa-611",
+    "url": "https://chapters.eaa.org/eaa611",
+    "city": "Gainesville",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 1643",
+    "number": "1643",
+    "slug": "eaa-1643",
+    "url": "https://chapters.eaa.org/eaa1643/about-us",
+    "city": "Galesburg",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 148",
+    "number": "148",
+    "slug": "eaa-148",
+    "url": "http://eaa148.com",
+    "city": "Galion",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1343",
+    "number": "1343",
+    "slug": "eaa-1343",
+    "url": "https://www.facebook.com/UAKXNX",
+    "city": "Gallatin",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 377",
+    "number": "377",
+    "slug": "eaa-377",
+    "url": "https://www.eaa377.org",
+    "city": "Garden City",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 1095",
+    "number": "1095",
+    "slug": "eaa-1095",
+    "url": "https://chapters.eaa.org/eaa1095",
+    "city": "Gaylord",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 410",
+    "number": "410",
+    "slug": "eaa-410",
+    "url": "https://chapters.eaa.org/eaa410",
+    "city": "Geneseo",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1041",
+    "number": "1041",
+    "slug": "eaa-1041",
+    "url": "https://chapters.eaa.org/eaa1041",
+    "city": "Gettysburg",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 146",
+    "number": "146",
+    "slug": "eaa-146",
+    "url": "http://eaa146.org",
+    "city": "Ghent",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 1656",
+    "number": "1656",
+    "slug": "eaa-1656",
+    "url": "https://chapters.eaa.org/eaa1656/about-us",
+    "city": "Gladewater",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1349",
+    "number": "1349",
+    "slug": "eaa-1349",
+    "url": "https://www.eaa1349.org",
+    "city": "Glen Saint Mary",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1658",
+    "number": "1658",
+    "slug": "eaa-1658",
+    "url": "http://www.eaa1658.net",
+    "city": "Glencoe",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 538",
+    "number": "538",
+    "slug": "eaa-538",
+    "url": "https://chapters.eaa.org/eaa538",
+    "city": "Glendale",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 353",
+    "number": "353",
+    "slug": "eaa-353",
+    "url": "https://chapters.eaa.org/eaa353",
+    "city": "Glens Falls",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 891",
+    "number": "891",
+    "slug": "eaa-891",
+    "url": "https://chapters.eaa.org/eaa891",
+    "city": "Glenwood",
+    "state": "NJ"
+  },
+  {
+    "code": "EAA 1634",
+    "number": "1634",
+    "slug": "eaa-1634",
+    "url": null,
+    "city": "Glenwood Springs",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 1612",
+    "number": "1612",
+    "slug": "eaa-1612",
+    "url": "https://chapters.eaa.org/eaa1612",
+    "city": "Goldsby",
+    "state": "OK"
+  },
+  {
+    "code": "EAA 1563",
+    "number": "1563",
+    "slug": "eaa-1563",
+    "url": "https://eaa1563.org",
+    "city": "Gordonsville",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 983",
+    "number": "983",
+    "slug": "eaa-983",
+    "url": "http://eaa983.org/wp1/",
+    "city": "Granbury",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1267",
+    "number": "1267",
+    "slug": "eaa-1267",
+    "url": "https://chapters.eaa.org/eaa1267",
+    "city": "Granby",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 1342",
+    "number": "1342",
+    "slug": "eaa-1342",
+    "url": "https://chapters.eaa.org/eaa1342",
+    "city": "Grand Forks",
+    "state": "ND"
+  },
+  {
+    "code": "EAA 380",
+    "number": "380",
+    "slug": "eaa-380",
+    "url": null,
+    "city": "Grand Forks",
+    "state": "ND"
+  },
+  {
+    "code": "EAA 211",
+    "number": "211",
+    "slug": "eaa-211",
+    "url": "http://chapters.eaa.org/eaa211/calendar-of-events",
+    "city": "Grand Haven",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 145",
+    "number": "145",
+    "slug": "eaa-145",
+    "url": "https://chapters.eaa.org/eaa145",
+    "city": "Grand Rapids",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 412",
+    "number": "412",
+    "slug": "eaa-412",
+    "url": "https://chapters.eaa.org/eaa412",
+    "city": "Grand Rapids",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 725",
+    "number": "725",
+    "slug": "eaa-725",
+    "url": "https://chapters.eaa.org/eaa725",
+    "city": "Grants Pass",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 857",
+    "number": "857",
+    "slug": "eaa-857",
+    "url": "https://chapters.eaa.org/eaa857",
+    "city": "Greater Butler County",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 168",
+    "number": "168",
+    "slug": "eaa-168",
+    "url": "http://www.eaa168.org/wp",
+    "city": "Greater Dallas",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1202",
+    "number": "1202",
+    "slug": "eaa-1202",
+    "url": "https://chapters.eaa.org/eaa1202",
+    "city": "Greater Farmville",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 25",
+    "number": "25",
+    "slug": "eaa-25",
+    "url": "https://chapters.eaa.org/eaa25",
+    "city": "Greater Philadelphia",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 1474",
+    "number": "1474",
+    "slug": "eaa-1474",
+    "url": "https://chapters.eaa.org/eaa1474",
+    "city": "Greater San Francisco",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1117",
+    "number": "1117",
+    "slug": "eaa-1117",
+    "url": "https://chapters.eaa.org/eaa1117",
+    "city": "Greeley",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 651",
+    "number": "651",
+    "slug": "eaa-651",
+    "url": "https://chapters.eaa.org/eaa651",
+    "city": "Green Bay",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1379",
+    "number": "1379",
+    "slug": "eaa-1379",
+    "url": "https://chapters.eaa.org/eaa1379",
+    "city": "Green Cove Springs",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1374",
+    "number": "1374",
+    "slug": "eaa-1374",
+    "url": "https://eaa.org",
+    "city": "Greencastle",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 1355",
+    "number": "1355",
+    "slug": "eaa-1355",
+    "url": "https://chapters.eaa.org/eaa1355",
+    "city": "Greeneville",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 1121",
+    "number": "1121",
+    "slug": "eaa-1121",
+    "url": "https://chapters.eaa.org/eaa1121",
+    "city": "Greenfield",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 1382",
+    "number": "1382",
+    "slug": "eaa-1382",
+    "url": "https://chapters.eaa.org/eaa1382",
+    "city": "Greenville",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1184",
+    "number": "1184",
+    "slug": "eaa-1184",
+    "url": null,
+    "city": "Greenville",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 914",
+    "number": "914",
+    "slug": "eaa-914",
+    "url": "https://chapters.eaa.org/eaa914",
+    "city": "Greenville",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1692",
+    "number": "1692",
+    "slug": "eaa-1692",
+    "url": "https://chapters.eaa.org/eaa1692",
+    "city": "Greenville",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 249",
+    "number": "249",
+    "slug": "eaa-249",
+    "url": "https://chapters.eaa.org/eaa249",
+    "city": "Greenville",
+    "state": "SC"
+  },
+  {
+    "code": "EAA 1354",
+    "number": "1354",
+    "slug": "eaa-1354",
+    "url": "https://www.EAA1354.org",
+    "city": "Greenwood",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 1023",
+    "number": "1023",
+    "slug": "eaa-1023",
+    "url": "https://chapters.eaa.org/eaa1023",
+    "city": "Greenwood",
+    "state": "SC"
+  },
+  {
+    "code": "EAA 457",
+    "number": "457",
+    "slug": "eaa-457",
+    "url": "https://chapters.eaa.org/eaa457",
+    "city": "Grosse Ile",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 334",
+    "number": "334",
+    "slug": "eaa-334",
+    "url": "https://chapters.eaa.org/eaa334",
+    "city": "Groton",
+    "state": "CT"
+  },
+  {
+    "code": "EAA 161",
+    "number": "161",
+    "slug": "eaa-161",
+    "url": "https://chapters.eaa.org/eaa161",
+    "city": "Grove City",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 683",
+    "number": "683",
+    "slug": "eaa-683",
+    "url": "https://EAA683.org",
+    "city": "Guntersville",
+    "state": "AL"
+  },
+  {
+    "code": "EAA 1689",
+    "number": "1689",
+    "slug": "eaa-1689",
+    "url": null,
+    "city": "Gypsum",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 36",
+    "number": "36",
+    "slug": "eaa-36",
+    "url": "https://chapters.eaa.org/eaa36",
+    "city": "Hagerstown",
+    "state": "MD"
+  },
+  {
+    "code": "EAA 639",
+    "number": "639",
+    "slug": "eaa-639",
+    "url": "https://chapters.eaa.org/eaa639",
+    "city": "Half Moon Bay",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 65",
+    "number": "65",
+    "slug": "eaa-65",
+    "url": "https://chapters.eaa.org/eaa65",
+    "city": "Hamilton",
+    "state": "ON"
+  },
+  {
+    "code": "EAA 1138",
+    "number": "1138",
+    "slug": "eaa-1138",
+    "url": "http://eaa1138.org",
+    "city": "Hanford",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 279",
+    "number": "279",
+    "slug": "eaa-279",
+    "url": "https://www.eaa279.org",
+    "city": "Hanson",
+    "state": "MA"
+  },
+  {
+    "code": "EAA 1087",
+    "number": "1087",
+    "slug": "eaa-1087",
+    "url": "https://chapters.eaa.org/eaa1087",
+    "city": "Harbor Springs",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 122",
+    "number": "122",
+    "slug": "eaa-122",
+    "url": "https://www.eaa122.org/",
+    "city": "Harrisburg",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 166",
+    "number": "166",
+    "slug": "eaa-166",
+    "url": "http://eaa166.org/",
+    "city": "Hartford",
+    "state": "CT"
+  },
+  {
+    "code": "EAA 1058",
+    "number": "1058",
+    "slug": "eaa-1058",
+    "url": "https://chapters.eaa.org/EAA1058",
+    "city": "Hartsville",
+    "state": "SC"
+  },
+  {
+    "code": "EAA 671",
+    "number": "671",
+    "slug": "eaa-671",
+    "url": "https://chapters.eaa.org/eaa671/",
+    "city": "Haskell",
+    "state": "OK"
+  },
+  {
+    "code": "EAA 544",
+    "number": "544",
+    "slug": "eaa-544",
+    "url": "https://chapters.eaa.org/eaa544",
+    "city": "Hastings",
+    "state": "NE"
+  },
+  {
+    "code": "EAA 1594",
+    "number": "1594",
+    "slug": "eaa-1594",
+    "url": "https://chapters.eaa.org/eaa1594",
+    "city": "Hattiesburg",
+    "state": "MS"
+  },
+  {
+    "code": "EAA 1655",
+    "number": "1655",
+    "slug": "eaa-1655",
+    "url": null,
+    "city": "Hays",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 1519",
+    "number": "1519",
+    "slug": "eaa-1519",
+    "url": "https://chapters.eaa.org/eaa1519",
+    "city": "Heber City",
+    "state": "UT"
+  },
+  {
+    "code": "EAA 344",
+    "number": "344",
+    "slug": "eaa-344",
+    "url": "https://chapters.eaa.org/eaa344",
+    "city": "Helena",
+    "state": "MT"
+  },
+  {
+    "code": "EAA 1300",
+    "number": "1300",
+    "slug": "eaa-1300",
+    "url": "https://chapters.eaa.org/eaa1300",
+    "city": "Henderson",
+    "state": "NV"
+  },
+  {
+    "code": "EAA 1065",
+    "number": "1065",
+    "slug": "eaa-1065",
+    "url": "https://chapters.eaa.org/eaa1065",
+    "city": "Henning",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 1639",
+    "number": "1639",
+    "slug": "eaa-1639",
+    "url": "https://chapters.eaa.org/eaa1639",
+    "city": "Hermiston",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 731",
+    "number": "731",
+    "slug": "eaa-731",
+    "url": "https://chapters.eaa.org/eaa731",
+    "city": "Hickory",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 1704",
+    "number": "1704",
+    "slug": "eaa-1704",
+    "url": null,
+    "city": "Hilltop Lakes",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1182",
+    "number": "1182",
+    "slug": "eaa-1182",
+    "url": "https://www.facebook.com/EAA1182HiloHawaii/photos/",
+    "city": "Hilo",
+    "state": "HI"
+  },
+  {
+    "code": "EAA 1465",
+    "number": "1465",
+    "slug": "eaa-1465",
+    "url": "https://chapters.eaa.org/eaa1465",
+    "city": "Holly Hill",
+    "state": "SC"
+  },
+  {
+    "code": "EAA 283",
+    "number": "283",
+    "slug": "eaa-283",
+    "url": "https://chapters.eaa.org/eaa283",
+    "city": "Honesdale",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 1585",
+    "number": "1585",
+    "slug": "eaa-1585",
+    "url": "http://www.eaahk1585.org",
+    "city": "Hood River",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 1633",
+    "number": "1633",
+    "slug": "eaa-1633",
+    "url": "http://eaa.org",
+    "city": "Hopkinsville",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 533",
+    "number": "533",
+    "slug": "eaa-533",
+    "url": "http://eaa533.org",
+    "city": "Horseheads",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 1270",
+    "number": "1270",
+    "slug": "eaa-1270",
+    "url": "https://chapters.eaa.org/eaa1270",
+    "city": "Houghton",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1601",
+    "number": "1601",
+    "slug": "eaa-1601",
+    "url": "https://www.facebook.com/groups/barfclub/",
+    "city": "Houston",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 12",
+    "number": "12",
+    "slug": "eaa-12",
+    "url": "https://chapters.eaa.org/eaa12",
+    "city": "Houston",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1056",
+    "number": "1056",
+    "slug": "eaa-1056",
+    "url": "https://chapters.eaa.org/eaa1056",
+    "city": "Howell",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 644",
+    "number": "644",
+    "slug": "eaa-644",
+    "url": "http://eaachapter644.com",
+    "city": "Huntington",
+    "state": "WV"
+  },
+  {
+    "code": "EAA 190",
+    "number": "190",
+    "slug": "eaa-190",
+    "url": "https://chapters.eaa.org/eaa190",
+    "city": "Huntsville",
+    "state": "AL"
+  },
+  {
+    "code": "EAA 51",
+    "number": "51",
+    "slug": "eaa-51",
+    "url": "https://chapters.eaa.org/EAA51",
+    "city": "Hyannis",
+    "state": "MA"
+  },
+  {
+    "code": "EAA 292",
+    "number": "292",
+    "slug": "eaa-292",
+    "url": "https://eaa292.org",
+    "city": "Independence",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 980",
+    "number": "980",
+    "slug": "eaa-980",
+    "url": null,
+    "city": "Independence",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 560",
+    "number": "560",
+    "slug": "eaa-560",
+    "url": "https://chapters.eaa.org/eaa560",
+    "city": "Indian River",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 993",
+    "number": "993",
+    "slug": "eaa-993",
+    "url": "https://chapters.eaa.org/eaa993",
+    "city": "Indiana",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 1012",
+    "number": "1012",
+    "slug": "eaa-1012",
+    "url": "https://chapter1012@gmail.com",
+    "city": "International Falls",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 1674",
+    "number": "1674",
+    "slug": "eaa-1674",
+    "url": "https://www.eaa1674.org/",
+    "city": "Inverness",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 439",
+    "number": "439",
+    "slug": "eaa-439",
+    "url": "http://chapters.eaa.org/eaa439",
+    "city": "Iron Mountain",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 811",
+    "number": "811",
+    "slug": "eaa-811",
+    "url": "http://www.Facebook.com/EAA811/",
+    "city": "Ithaca",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 276",
+    "number": "276",
+    "slug": "eaa-276",
+    "url": "https://chapters.eaa.org/eaa276",
+    "city": "Jackson",
+    "state": "MS"
+  },
+  {
+    "code": "EAA 304",
+    "number": "304",
+    "slug": "eaa-304",
+    "url": "https://chapters.eaa.org/eaa304",
+    "city": "Jackson",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1539",
+    "number": "1539",
+    "slug": "eaa-1539",
+    "url": "https://www.amadorgov.org/departments/airport",
+    "city": "Jackson",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 453",
+    "number": "453",
+    "slug": "eaa-453",
+    "url": "https://chapters.eaa.org/eaa453",
+    "city": "Jackson",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 193",
+    "number": "193",
+    "slug": "eaa-193",
+    "url": "https://chapters.eaa.org/eaa193",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 137",
+    "number": "137",
+    "slug": "eaa-137",
+    "url": "https://chapters.eaa.org/eaa137",
+    "city": "Jacksonville",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1560",
+    "number": "1560",
+    "slug": "eaa-1560",
+    "url": "http://www.1560.eaachapter.org/",
+    "city": "Jasper",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 1720",
+    "number": "1720",
+    "slug": "eaa-1720",
+    "url": null,
+    "city": "Jasper",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 429",
+    "number": "429",
+    "slug": "eaa-429",
+    "url": "https://chapters.eaa.org/EAA429",
+    "city": "Jefferson City",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 541",
+    "number": "541",
+    "slug": "eaa-541",
+    "url": "https://chapters.eaa.org/eaa541",
+    "city": "Jennings",
+    "state": "LA"
+  },
+  {
+    "code": "EAA 322",
+    "number": "322",
+    "slug": "eaa-322",
+    "url": "http://eaa.org.za/",
+    "city": "Johnstown",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 1364",
+    "number": "1364",
+    "slug": "eaa-1364",
+    "url": "https://chapters.eaa.org/eaa1364",
+    "city": "Junction City",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 897",
+    "number": "897",
+    "slug": "eaa-897",
+    "url": "https://chapters.eaa.org/eaa897",
+    "city": "Juneau",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 221",
+    "number": "221",
+    "slug": "eaa-221",
+    "url": "https://chapters.eaa.org/eaa221",
+    "city": "Kalamazoo",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 102",
+    "number": "102",
+    "slug": "eaa-102",
+    "url": "http://eaachapter102.com",
+    "city": "Kalispell",
+    "state": "MT"
+  },
+  {
+    "code": "EAA 990",
+    "number": "990",
+    "slug": "eaa-990",
+    "url": "https://chapters.eaa.org/eaa990",
+    "city": "Kankakee",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 612",
+    "number": "612",
+    "slug": "eaa-612",
+    "url": "https://chapters.eaa.org/eaa612",
+    "city": "Kansas City",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 1091",
+    "number": "1091",
+    "slug": "eaa-1091",
+    "url": "http://chapters.eaa.org/eaa1091",
+    "city": "Kearney",
+    "state": "NE"
+  },
+  {
+    "code": "EAA 1111",
+    "number": "1111",
+    "slug": "eaa-1111",
+    "url": "https://chapters.eaa.org/eaa1111",
+    "city": "Kelso",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 1665",
+    "number": "1665",
+    "slug": "eaa-1665",
+    "url": "https://chapters.eaa.org/eaa1665",
+    "city": "Kendallville",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 1711",
+    "number": "1711",
+    "slug": "eaa-1711",
+    "url": "https://chapters.eaa.org/eaa1711",
+    "city": "Kenedy",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 87",
+    "number": "87",
+    "slug": "eaa-87",
+    "url": "http://eaa87.org",
+    "city": "Kennebec Valley",
+    "state": "ME"
+  },
+  {
+    "code": "EAA 217",
+    "number": "217",
+    "slug": "eaa-217",
+    "url": null,
+    "city": "Kenosha",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 441",
+    "number": "441",
+    "slug": "eaa-441",
+    "url": "https://chapters.eaa.org/eaa441",
+    "city": "Kent",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 479",
+    "number": "479",
+    "slug": "eaa-479",
+    "url": null,
+    "city": "Kiln",
+    "state": "MS"
+  },
+  {
+    "code": "EAA 765",
+    "number": "765",
+    "slug": "eaa-765",
+    "url": "https://eaa765.org",
+    "city": "Kingman",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 573",
+    "number": "573",
+    "slug": "eaa-573",
+    "url": "https://gnist.styreweb.com/org/6801/5834/teams/32469/messages",
+    "city": "Knox County",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 17",
+    "number": "17",
+    "slug": "eaa-17",
+    "url": "https://www.eaa17.org/",
+    "city": "Knoxville",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 235",
+    "number": "235",
+    "slug": "eaa-235",
+    "url": "http://www.eaa235.org",
+    "city": "Kokomo",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 1515",
+    "number": "1515",
+    "slug": "eaa-1515",
+    "url": "https://www.facebook.com/eaachapter1515",
+    "city": "Kountze",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 973",
+    "number": "973",
+    "slug": "eaa-973",
+    "url": "http://www.eaasa.org.za",
+    "city": "La Crosse",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1617",
+    "number": "1617",
+    "slug": "eaa-1617",
+    "url": "https://chapters.eaa.org/eaa1617",
+    "city": "La Fayette",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 1575",
+    "number": "1575",
+    "slug": "eaa-1575",
+    "url": "https://chapters.eaa.org/eaa1575",
+    "city": "La Grande",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 1347",
+    "number": "1347",
+    "slug": "eaa-1347",
+    "url": "https://chapters.eaa.org/eaa1347",
+    "city": "La Grange",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1642",
+    "number": "1642",
+    "slug": "eaa-1642",
+    "url": "https://chapters.eaa.org/eaa1642",
+    "city": "Lacon",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1516",
+    "number": "1516",
+    "slug": "eaa-1516",
+    "url": "https://chapters.eaa.org/eaa1516",
+    "city": "Laconia",
+    "state": "NH"
+  },
+  {
+    "code": "EAA 256",
+    "number": "256",
+    "slug": "eaa-256",
+    "url": "https://chapters.eaa.org/eaa256",
+    "city": "Lafayette",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 1607",
+    "number": "1607",
+    "slug": "eaa-1607",
+    "url": "https://chapters.eaa.org/eaa1607/",
+    "city": "Lago Vista",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 977",
+    "number": "977",
+    "slug": "eaa-977",
+    "url": "https://chapters.eaa.org/eaa977",
+    "city": "Lake City",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 414",
+    "number": "414",
+    "slug": "eaa-414",
+    "url": "https://chapters.eaa.org/eaa414",
+    "city": "Lake County",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 681",
+    "number": "681",
+    "slug": "eaa-681",
+    "url": "https://chapters.eaa.org/eaa681",
+    "city": "Lake Havasu City",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 790",
+    "number": "790",
+    "slug": "eaa-790",
+    "url": "https://chapters.eaa.org/eaa790",
+    "city": "Lake in the Hills",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1254",
+    "number": "1254",
+    "slug": "eaa-1254",
+    "url": "https://chapters.eaa.org/eaa1254",
+    "city": "Lake of the Ozarks",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 454",
+    "number": "454",
+    "slug": "eaa-454",
+    "url": "http://chapters.eaa.org/eaa454",
+    "city": "Lakeland",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 994",
+    "number": "994",
+    "slug": "eaa-994",
+    "url": null,
+    "city": "Lamartine",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 443",
+    "number": "443",
+    "slug": "eaa-443",
+    "url": "https://chapters.eaa.org/eaa443",
+    "city": "Lancaster",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 540",
+    "number": "540",
+    "slug": "eaa-540",
+    "url": "https://chapters.eaa.org/eaa540",
+    "city": "Lancaster",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 1020",
+    "number": "1020",
+    "slug": "eaa-1020",
+    "url": "https://chapters.eaa.org/eaa1020",
+    "city": "Lander",
+    "state": "WY"
+  },
+  {
+    "code": "EAA 1303",
+    "number": "1303",
+    "slug": "eaa-1303",
+    "url": "https://chapters.eaa.org/eaa1303",
+    "city": "Lapeer",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 555",
+    "number": "555",
+    "slug": "eaa-555",
+    "url": "https://chapters.eaa.org/eaa555",
+    "city": "Las Cruces",
+    "state": "NM"
+  },
+  {
+    "code": "EAA 163",
+    "number": "163",
+    "slug": "eaa-163",
+    "url": "https://www.facebook.com/groups/324593057277149/",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "code": "EAA 690",
+    "number": "690",
+    "slug": "eaa-690",
+    "url": "http://eaa690.org",
+    "city": "Lawrenceville",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 114",
+    "number": "114",
+    "slug": "eaa-114",
+    "url": "https://www.flymapa.org",
+    "city": "Lawrenceville",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1613",
+    "number": "1613",
+    "slug": "eaa-1613",
+    "url": "https://m.facebook.com/EAA1613/",
+    "city": "Lebanon",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 863",
+    "number": "863",
+    "slug": "eaa-863",
+    "url": "https://chapters.eaa.org/eaa863",
+    "city": "Lebanon",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 91",
+    "number": "91",
+    "slug": "eaa-91",
+    "url": "http://www.eaachapter91.org/",
+    "city": "Leesburg",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1356",
+    "number": "1356",
+    "slug": "eaa-1356",
+    "url": "https://chapters.eaa.org/eaa1356",
+    "city": "Leesville",
+    "state": "LA"
+  },
+  {
+    "code": "EAA 1587",
+    "number": "1587",
+    "slug": "eaa-1587",
+    "url": "https://chapters.eaa.org/eaa1587",
+    "city": "Lewisport",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 328",
+    "number": "328",
+    "slug": "eaa-328",
+    "url": "https://chapters.eaa.org/eaa328",
+    "city": "Lewiston",
+    "state": "ID"
+  },
+  {
+    "code": "EAA 1467",
+    "number": "1467",
+    "slug": "eaa-1467",
+    "url": "https://chapters.eaa.org/eaa1467",
+    "city": "Lexington",
+    "state": "SC"
+  },
+  {
+    "code": "EAA 478",
+    "number": "478",
+    "slug": "eaa-478",
+    "url": "https://chapters.eaa.org/eaa478",
+    "city": "Lexington Park",
+    "state": "MD"
+  },
+  {
+    "code": "EAA 1597",
+    "number": "1597",
+    "slug": "eaa-1597",
+    "url": "https://www.wildatlanticaircraft.com",
+    "city": "Limington",
+    "state": "ME"
+  },
+  {
+    "code": "EAA 569",
+    "number": "569",
+    "slug": "eaa-569",
+    "url": "http://www.eaa569.org",
+    "city": "Lincoln",
+    "state": "NE"
+  },
+  {
+    "code": "EAA 1541",
+    "number": "1541",
+    "slug": "eaa-1541",
+    "url": "https://eaa1541.org/",
+    "city": "Lincoln",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 501",
+    "number": "501",
+    "slug": "eaa-501",
+    "url": "http://www.eaa501.org/",
+    "city": "Lincoln Park",
+    "state": "NJ"
+  },
+  {
+    "code": "EAA 222",
+    "number": "222",
+    "slug": "eaa-222",
+    "url": null,
+    "city": "Little Falls",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 797",
+    "number": "797",
+    "slug": "eaa-797",
+    "url": "https://chapters.eaa.org/eaa797",
+    "city": "Live Oak",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 663",
+    "number": "663",
+    "slug": "eaa-663",
+    "url": "http://www.eaa663.org/",
+    "city": "Livermore",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1568",
+    "number": "1568",
+    "slug": "eaa-1568",
+    "url": "https://chapters.eaa.org/eaa1568",
+    "city": "Locust Grove",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 1471",
+    "number": "1471",
+    "slug": "eaa-1471",
+    "url": "https://chapters.eaa.org/eaa1471",
+    "city": "Logansport",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 275",
+    "number": "275",
+    "slug": "eaa-275",
+    "url": "https://www.westcoastcubflyin.com/contact/",
+    "city": "Lompoc",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 7",
+    "number": "7",
+    "slug": "eaa-7",
+    "url": "https://www.eaa7.org",
+    "city": "Long Beach",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 648",
+    "number": "648",
+    "slug": "eaa-648",
+    "url": "https://eaa648.org",
+    "city": "Longmont",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 1688",
+    "number": "1688",
+    "slug": "eaa-1688",
+    "url": "https://chapters.eaa.org/eaa1688",
+    "city": "Longview",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 691",
+    "number": "691",
+    "slug": "eaa-691",
+    "url": "https://www.eaachapter691.org/",
+    "city": "Los Alamos",
+    "state": "NM"
+  },
+  {
+    "code": "EAA 40",
+    "number": "40",
+    "slug": "eaa-40",
+    "url": "https://eaachapter40.com",
+    "city": "Los Angeles Ca San Fernando Valley",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 530",
+    "number": "530",
+    "slug": "eaa-530",
+    "url": "https://eaa.org",
+    "city": "Los Lunas",
+    "state": "NM"
+  },
+  {
+    "code": "EAA 515",
+    "number": "515",
+    "slug": "eaa-515",
+    "url": "https://chapters.eaa.org/eaa515",
+    "city": "Loveland",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 19",
+    "number": "19",
+    "slug": "eaa-19",
+    "url": "https://chapters.eaa.org/eaa19",
+    "city": "Lubbock",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 772",
+    "number": "772",
+    "slug": "eaa-772",
+    "url": "https://chapters.eaa.org/eaa772",
+    "city": "Ludington",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1219",
+    "number": "1219",
+    "slug": "eaa-1219",
+    "url": "https://chapters.eaa.org/eaa1219",
+    "city": "Lufkin",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1487",
+    "number": "1487",
+    "slug": "eaa-1487",
+    "url": "https://chapters.eaa.org/eaa1487",
+    "city": "Lumberton",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 1621",
+    "number": "1621",
+    "slug": "eaa-1621",
+    "url": "https://chapters.eaa.org/eaa1621",
+    "city": "Lynchburg",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 404",
+    "number": "404",
+    "slug": "eaa-404",
+    "url": "https://chapters.eaa.org/eaa404",
+    "city": "Lynden",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 1576",
+    "number": "1576",
+    "slug": "eaa-1576",
+    "url": null,
+    "city": "Lyndonville",
+    "state": "VT"
+  },
+  {
+    "code": "EAA 800",
+    "number": "800",
+    "slug": "eaa-800",
+    "url": "https://chapters.eaa.org/eaa800",
+    "city": "Mack",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 1667",
+    "number": "1667",
+    "slug": "eaa-1667",
+    "url": null,
+    "city": "Macomb",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1212",
+    "number": "1212",
+    "slug": "eaa-1212",
+    "url": "http://chapters.eaa.org/eaa1212",
+    "city": "Macon",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 93",
+    "number": "93",
+    "slug": "eaa-93",
+    "url": "https://eaa93.org/",
+    "city": "Madison",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1265",
+    "number": "1265",
+    "slug": "eaa-1265",
+    "url": "https://chapters.eaa.org/eaa1265",
+    "city": "Magnolia Springs",
+    "state": "AL"
+  },
+  {
+    "code": "EAA 186",
+    "number": "186",
+    "slug": "eaa-186",
+    "url": "https://www.eaa186.org/",
+    "city": "Manassas",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 1008",
+    "number": "1008",
+    "slug": "eaa-1008",
+    "url": "https://chapters.eaa.org/eaa1008",
+    "city": "Mandan",
+    "state": "ND"
+  },
+  {
+    "code": "EAA 1624",
+    "number": "1624",
+    "slug": "eaa-1624",
+    "url": null,
+    "city": "Manistique",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 383",
+    "number": "383",
+    "slug": "eaa-383",
+    "url": "https://chapters.eaa.org/eaa383",
+    "city": "Manitowoc",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 642",
+    "number": "642",
+    "slug": "eaa-642",
+    "url": "https://chapters.eaa.org/eaa642",
+    "city": "Mankato",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 878",
+    "number": "878",
+    "slug": "eaa-878",
+    "url": "https://chapters.eaa.org/eaa878",
+    "city": "Maple Lake",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 107",
+    "number": "107",
+    "slug": "eaa-107",
+    "url": "https://chapters.eaa.org/eaa107",
+    "city": "Marcellus",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 268",
+    "number": "268",
+    "slug": "eaa-268",
+    "url": "http://www.eaachapter268.org/",
+    "city": "Marietta",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 1662",
+    "number": "1662",
+    "slug": "eaa-1662",
+    "url": "https://www.9alpha9.org/eaa-chapter-1662",
+    "city": "Marion",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 1261",
+    "number": "1261",
+    "slug": "eaa-1261",
+    "url": "https://chapters.eaa.org/eaa1261",
+    "city": "Mariposa",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 850",
+    "number": "850",
+    "slug": "eaa-850",
+    "url": "https://chapters.eaa.org/eaa850",
+    "city": "Marquette",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 675",
+    "number": "675",
+    "slug": "eaa-675",
+    "url": "https://chapters.eaa.org/eaa675",
+    "city": "Marshalltown",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 1071",
+    "number": "1071",
+    "slug": "eaa-1071",
+    "url": "http://eaa1071.org",
+    "city": "Martinsburg",
+    "state": "WV"
+  },
+  {
+    "code": "EAA 400",
+    "number": "400",
+    "slug": "eaa-400",
+    "url": "https://chapters.eaa.org/eaa400",
+    "city": "Martinsburg",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 1629",
+    "number": "1629",
+    "slug": "eaa-1629",
+    "url": "https://chapters.eaa.org/eaa1629",
+    "city": "Marysville",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 55",
+    "number": "55",
+    "slug": "eaa-55",
+    "url": "https://chapters.eaa.org/eaa55",
+    "city": "Mason",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 94",
+    "number": "94",
+    "slug": "eaa-94",
+    "url": "http://eaa94.org",
+    "city": "Mason City",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 807",
+    "number": "807",
+    "slug": "eaa-807",
+    "url": "https://chapters.eaa.org/eaa807",
+    "city": "Mayfield",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 734",
+    "number": "734",
+    "slug": "eaa-734",
+    "url": "https://chapters.eaa.org/eaa734",
+    "city": "McKenzie",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 1246",
+    "number": "1246",
+    "slug": "eaa-1246",
+    "url": "http://EAA1246.org",
+    "city": "McKinney",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1700",
+    "number": "1700",
+    "slug": "eaa-1700",
+    "url": "https://chapters.eaa.org/eaa1700",
+    "city": "McMinnville",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 1344",
+    "number": "1344",
+    "slug": "eaa-1344",
+    "url": "https://chapters.eaa.org/eaa1344",
+    "city": "McPherson",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 1348",
+    "number": "1348",
+    "slug": "eaa-1348",
+    "url": null,
+    "city": "Medford",
+    "state": "NJ"
+  },
+  {
+    "code": "EAA 319",
+    "number": "319",
+    "slug": "eaa-319",
+    "url": "https://chapters.eaa.org/eaa319",
+    "city": "Medford",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 1672",
+    "number": "1672",
+    "slug": "eaa-1672",
+    "url": "https://chapters.eaa.org/eaa1672",
+    "city": "Menominee",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1401",
+    "number": "1401",
+    "slug": "eaa-1401",
+    "url": "https://chapters.eaa.org/eaa1401",
+    "city": "Merced",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1690",
+    "number": "1690",
+    "slug": "eaa-1690",
+    "url": null,
+    "city": "Meriden",
+    "state": "CT"
+  },
+  {
+    "code": "EAA 724",
+    "number": "724",
+    "slug": "eaa-724",
+    "url": "https://chapters.eaa.org/eaa724",
+    "city": "Merritt Island",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 228",
+    "number": "228",
+    "slug": "eaa-228",
+    "url": "https://chapters.eaa.org/eaa228",
+    "city": "Mesa",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 1225",
+    "number": "1225",
+    "slug": "eaa-1225",
+    "url": "https://chapters.eaa.org/eaa1225",
+    "city": "Mexico",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 620",
+    "number": "620",
+    "slug": "eaa-620",
+    "url": "http://eaa620.org",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1335",
+    "number": "1335",
+    "slug": "eaa-1335",
+    "url": "http://eaa1335.org",
+    "city": "Miami County",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 5",
+    "number": "5",
+    "slug": "eaa-5",
+    "url": "http://eaa5.org",
+    "city": "Middlefield",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1093",
+    "number": "1093",
+    "slug": "eaa-1093",
+    "url": "http://www.eaa1093.net",
+    "city": "Midland",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 123",
+    "number": "123",
+    "slug": "eaa-123",
+    "url": "https://chapters.eaa.org/eaa123",
+    "city": "Midland",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 518",
+    "number": "518",
+    "slug": "eaa-518",
+    "url": "https://chapters.eaa.org/eaa518",
+    "city": "Mifflin Co",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 582",
+    "number": "582",
+    "slug": "eaa-582",
+    "url": "http://www.eaa582.org",
+    "city": "Millbury",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1685",
+    "number": "1685",
+    "slug": "eaa-1685",
+    "url": "https://chapters.eaa.org/eaa1685",
+    "city": "Milledgeville",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 1336",
+    "number": "1336",
+    "slug": "eaa-1336",
+    "url": null,
+    "city": "Millwood",
+    "state": "WV"
+  },
+  {
+    "code": "EAA 1683",
+    "number": "1683",
+    "slug": "eaa-1683",
+    "url": "https://eaa1683.org",
+    "city": "Milton",
+    "state": "DE"
+  },
+  {
+    "code": "EAA 18",
+    "number": "18",
+    "slug": "eaa-18",
+    "url": "https://chapters.eaa.org/eaa18",
+    "city": "Milwaukee",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1475",
+    "number": "1475",
+    "slug": "eaa-1475",
+    "url": "https://chapters.eaa.org/eaa1475",
+    "city": "Missoula",
+    "state": "MT"
+  },
+  {
+    "code": "EAA 1650",
+    "number": "1650",
+    "slug": "eaa-1650",
+    "url": "https://www.moberlymo.org/321/Omar-N-Bradley-Regional-Airport",
+    "city": "Moberly",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 416",
+    "number": "416",
+    "slug": "eaa-416",
+    "url": "https://chapters.eaa.org/eaa416",
+    "city": "Mobile",
+    "state": "AL"
+  },
+  {
+    "code": "EAA 1702",
+    "number": "1702",
+    "slug": "eaa-1702",
+    "url": "https://www.eaa1702.org",
+    "city": "Moline",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 260",
+    "number": "260",
+    "slug": "eaa-260",
+    "url": "https://eaachapter260.org",
+    "city": "Monee",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 45",
+    "number": "45",
+    "slug": "eaa-45",
+    "url": "https://www.facebook.com/EAAChapter45/",
+    "city": "Monogahela",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 1434",
+    "number": "1434",
+    "slug": "eaa-1434",
+    "url": "https://chapters.eaa.org/eaa1434",
+    "city": "Monroe",
+    "state": "ME"
+  },
+  {
+    "code": "EAA 654",
+    "number": "654",
+    "slug": "eaa-654",
+    "url": "https://chapters.eaa.org/eaa654",
+    "city": "Montague",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 688",
+    "number": "688",
+    "slug": "eaa-688",
+    "url": "https://chapters.eaa.org/eaa688",
+    "city": "Montevideo",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 1606",
+    "number": "1606",
+    "slug": "eaa-1606",
+    "url": "https://chapters.eaa.org/eaa1606",
+    "city": "Monticello",
+    "state": "UT"
+  },
+  {
+    "code": "EAA 266",
+    "number": "266",
+    "slug": "eaa-266",
+    "url": "https://chapters.eaa.org/eaa266",
+    "city": "Montreal",
+    "state": "QC"
+  },
+  {
+    "code": "EAA 48",
+    "number": "48",
+    "slug": "eaa-48",
+    "url": "https://chapters.eaa.org/eaa48",
+    "city": "Moraine",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1525",
+    "number": "1525",
+    "slug": "eaa-1525",
+    "url": "https://chapters.eaa.org/eaa1525",
+    "city": "Morehead",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 1523",
+    "number": "1523",
+    "slug": "eaa-1523",
+    "url": "http://1523.eaachapter.org",
+    "city": "Morehead City",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 407",
+    "number": "407",
+    "slug": "eaa-407",
+    "url": "https://chapters.eaa.org/eaa407",
+    "city": "Moreland",
+    "state": "ID"
+  },
+  {
+    "code": "EAA 95",
+    "number": "95",
+    "slug": "eaa-95",
+    "url": "https://chapters.eaa.org/eaa95",
+    "city": "Morris",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1494",
+    "number": "1494",
+    "slug": "eaa-1494",
+    "url": "https://chapters.eaa.org/eaa1494",
+    "city": "Morristown",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 355",
+    "number": "355",
+    "slug": "eaa-355",
+    "url": "https://chapters.eaa.org/eaa355",
+    "city": "Moses Lake",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 907",
+    "number": "907",
+    "slug": "eaa-907",
+    "url": "https://chapters.eaa.org/eaa907",
+    "city": "Mount Pleasant",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 775",
+    "number": "775",
+    "slug": "eaa-775",
+    "url": "https://chapters.eaa.org/eaa775",
+    "city": "Mountain Home",
+    "state": "AR"
+  },
+  {
+    "code": "EAA 1227",
+    "number": "1227",
+    "slug": "eaa-1227",
+    "url": "https://chapters.eaa.org/eaa1227",
+    "city": "Mt. Sterling",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 1155",
+    "number": "1155",
+    "slug": "eaa-1155",
+    "url": "https://chapters.eaa.org/eaa1155",
+    "city": "Mt. Vernon",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 902",
+    "number": "902",
+    "slug": "eaa-902",
+    "url": "https://chapters.eaa.org/eaa902",
+    "city": "Mulino",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 419",
+    "number": "419",
+    "slug": "eaa-419",
+    "url": "https://chapters.eaa.org/eaa419",
+    "city": "Murfreesboro",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 111",
+    "number": "111",
+    "slug": "eaa-111",
+    "url": null,
+    "city": "Muscatine",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 390",
+    "number": "390",
+    "slug": "eaa-390",
+    "url": "https://chapters.eaa.org/eaa390",
+    "city": "Myerstown",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 167",
+    "number": "167",
+    "slug": "eaa-167",
+    "url": "http://www.eaa167.org",
+    "city": "Napa",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1067",
+    "number": "1067",
+    "slug": "eaa-1067",
+    "url": "http://chapters.eaa.org/eaa1067",
+    "city": "Naples",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 162",
+    "number": "162",
+    "slug": "eaa-162",
+    "url": "https://chapters.eaa.org/eaa162",
+    "city": "Nashville",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 41",
+    "number": "41",
+    "slug": "eaa-41",
+    "url": "http://www.eaa41.org/",
+    "city": "Neenah",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1622",
+    "number": "1622",
+    "slug": "eaa-1622",
+    "url": "https://www.eaa.org",
+    "city": "New Holstein",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1365",
+    "number": "1365",
+    "slug": "eaa-1365",
+    "url": "http://eaachapter1365.org/",
+    "city": "New Lisbon",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 261",
+    "number": "261",
+    "slug": "eaa-261",
+    "url": "https://chapters.eaa.org/eaa261",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "code": "EAA 1077",
+    "number": "1077",
+    "slug": "eaa-1077",
+    "url": "http://chapters.eaa.org/eaa1077",
+    "city": "New Philadelphia",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 791",
+    "number": "791",
+    "slug": "eaa-791",
+    "url": "https://chapters.eaa.org/eaa791",
+    "city": "New Port Richey",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1705",
+    "number": "1705",
+    "slug": "eaa-1705",
+    "url": "https://chapters.eaa.org/eaa1705",
+    "city": "New Richmond",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1098",
+    "number": "1098",
+    "slug": "eaa-1098",
+    "url": "https://chapters.eaa.org/eaa1098",
+    "city": "Newalla",
+    "state": "OK"
+  },
+  {
+    "code": "EAA 402",
+    "number": "402",
+    "slug": "eaa-402",
+    "url": "https://chapters.eaa.org/eaa402",
+    "city": "Newark",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 6",
+    "number": "6",
+    "slug": "eaa-6",
+    "url": "http://EAA6.com",
+    "city": "Newnan",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 865",
+    "number": "865",
+    "slug": "eaa-865",
+    "url": "https://chapters.eaa.org/eaa865",
+    "city": "Niles",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 67",
+    "number": "67",
+    "slug": "eaa-67",
+    "url": "https://eaa67.org",
+    "city": "Noblesville",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 918",
+    "number": "918",
+    "slug": "eaa-918",
+    "url": "https://chapters.eaa.org/eaa918",
+    "city": "Norfolk",
+    "state": "NE"
+  },
+  {
+    "code": "EAA 50",
+    "number": "50",
+    "slug": "eaa-50",
+    "url": "http://chapters.eaa.org/eaa50",
+    "city": "North Central",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 165",
+    "number": "165",
+    "slug": "eaa-165",
+    "url": "https://chapters.eaa.org/eaa165",
+    "city": "North Little Rock",
+    "state": "AR"
+  },
+  {
+    "code": "EAA 1703",
+    "number": "1703",
+    "slug": "eaa-1703",
+    "url": "https://chapters.eaa.org/eaa1703",
+    "city": "North Springfield",
+    "state": "VT"
+  },
+  {
+    "code": "EAA 1556",
+    "number": "1556",
+    "slug": "eaa-1556",
+    "url": "https://www.gainesvilleflyers.org",
+    "city": "North Texas",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1328",
+    "number": "1328",
+    "slug": "eaa-1328",
+    "url": "https://chapters.eaa.org/eaa1328",
+    "city": "North Vernon",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 343",
+    "number": "343",
+    "slug": "eaa-343",
+    "url": "http://www.eaachapter343.org/",
+    "city": "Northwest Louisiana",
+    "state": "LA"
+  },
+  {
+    "code": "EAA 1723",
+    "number": "1723",
+    "slug": "eaa-1723",
+    "url": null,
+    "city": "Norwalk",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1204",
+    "number": "1204",
+    "slug": "eaa-1204",
+    "url": "https://chapters.eaa.org/eaa1204",
+    "city": "Norwich",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 1232",
+    "number": "1232",
+    "slug": "eaa-1232",
+    "url": "https://chapters.eaa.org/eaa1232",
+    "city": "Novato",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1194",
+    "number": "1194",
+    "slug": "eaa-1194",
+    "url": "https://chapters.eaa.org/eaa1194",
+    "city": "NW Pennsylvania",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 804",
+    "number": "804",
+    "slug": "eaa-804",
+    "url": "http://eaa.org",
+    "city": "Oak Harbor",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 939",
+    "number": "939",
+    "slug": "eaa-939",
+    "url": "https://chapters.eaa.org/eaa939",
+    "city": "Oak Island",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 90",
+    "number": "90",
+    "slug": "eaa-90",
+    "url": "https://chapters.eaa.org/eaa90",
+    "city": "Oakdale",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1686",
+    "number": "1686",
+    "slug": "eaa-1686",
+    "url": "https://chapters.eaa.org/eaa1686",
+    "city": "Oakland",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 812",
+    "number": "812",
+    "slug": "eaa-812",
+    "url": "https://chapters.eaa.org/eaa812",
+    "city": "Ocala",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 58",
+    "number": "58",
+    "slug": "eaa-58",
+    "url": "https://chapters.eaa.org/eaa58",
+    "city": "Ogden",
+    "state": "UT"
+  },
+  {
+    "code": "EAA 24",
+    "number": "24",
+    "slug": "eaa-24",
+    "url": "https://chapters.eaa.org/eaa24",
+    "city": "Oklahoma City",
+    "state": "OK"
+  },
+  {
+    "code": "EAA 315",
+    "number": "315",
+    "slug": "eaa-315",
+    "url": "https://chapters.eaa.org/eaa315",
+    "city": "Old Bridge",
+    "state": "NJ"
+  },
+  {
+    "code": "EAA 1593",
+    "number": "1593",
+    "slug": "eaa-1593",
+    "url": "https://www.facebook.com/EAAChapter1593/",
+    "city": "Olivehurst",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1304",
+    "number": "1304",
+    "slug": "eaa-1304",
+    "url": null,
+    "city": "Olney",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 684",
+    "number": "684",
+    "slug": "eaa-684",
+    "url": "https://chapters.eaa.org/eaa684",
+    "city": "Olympia",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 80",
+    "number": "80",
+    "slug": "eaa-80",
+    "url": "http://www.eaa80.org/",
+    "city": "Omaha",
+    "state": "NE"
+  },
+  {
+    "code": "EAA 1644",
+    "number": "1644",
+    "slug": "eaa-1644",
+    "url": "https://chapters.eaa.org/eaa1644",
+    "city": "Oneida",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 837",
+    "number": "837",
+    "slug": "eaa-837",
+    "url": "https://chapters.eaa.org/eaa837",
+    "city": "Ontario",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 494",
+    "number": "494",
+    "slug": "eaa-494",
+    "url": "https://chapters.eaa.org/eaa494",
+    "city": "Orange Co and Inland Empire",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 69",
+    "number": "69",
+    "slug": "eaa-69",
+    "url": null,
+    "city": "Orange County",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 92",
+    "number": "92",
+    "slug": "eaa-92",
+    "url": "http://eaa92.org",
+    "city": "Orange County",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1367",
+    "number": "1367",
+    "slug": "eaa-1367",
+    "url": null,
+    "city": "Orangeburg",
+    "state": "SC"
+  },
+  {
+    "code": "EAA 74",
+    "number": "74",
+    "slug": "eaa-74",
+    "url": "http://www.eaa74.org",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1112",
+    "number": "1112",
+    "slug": "eaa-1112",
+    "url": null,
+    "city": "Oroville",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 252",
+    "number": "252",
+    "slug": "eaa-252",
+    "url": "http://chapters.eaa.org/eaa252",
+    "city": "Oshkosh",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 409",
+    "number": "409",
+    "slug": "eaa-409",
+    "url": "https://eaachap409@yahoo.com",
+    "city": "Oskaloosa",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 245",
+    "number": "245",
+    "slug": "eaa-245",
+    "url": "https://chapters.eaa.org/eaa245",
+    "city": "Ottawa",
+    "state": "ON"
+  },
+  {
+    "code": "EAA 636",
+    "number": "636",
+    "slug": "eaa-636",
+    "url": "http://www.eaa636.org/",
+    "city": "Ottawa",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1044",
+    "number": "1044",
+    "slug": "eaa-1044",
+    "url": "https://chapters.eaa.org/eaa1044",
+    "city": "Overgaard",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 1707",
+    "number": "1707",
+    "slug": "eaa-1707",
+    "url": "https://chapters.eaa.org/eaa1707",
+    "city": "Overton",
+    "state": "NV"
+  },
+  {
+    "code": "EAA 10",
+    "number": "10",
+    "slug": "eaa-10",
+    "url": "https://chapters.eaa.org/eaa10",
+    "city": "Owasso",
+    "state": "OK"
+  },
+  {
+    "code": "EAA 696",
+    "number": "696",
+    "slug": "eaa-696",
+    "url": "https://eaa.org",
+    "city": "Owls Head",
+    "state": "ME"
+  },
+  {
+    "code": "EAA 1469",
+    "number": "1469",
+    "slug": "eaa-1469",
+    "url": "https://chapters.eaa.org/eaa1469",
+    "city": "Oxnard",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1156",
+    "number": "1156",
+    "slug": "eaa-1156",
+    "url": "https://chapters.eaa.org/eaa1156",
+    "city": "Ozark-Etna",
+    "state": "AR"
+  },
+  {
+    "code": "EAA 1679",
+    "number": "1679",
+    "slug": "eaa-1679",
+    "url": "https://chapters.eaa.org/eaa1679",
+    "city": "Pagosa Springs",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 1160",
+    "number": "1160",
+    "slug": "eaa-1160",
+    "url": "https://chapters.eaa.org/eaa1160",
+    "city": "Pahrump",
+    "state": "NV"
+  },
+  {
+    "code": "EAA 882",
+    "number": "882",
+    "slug": "eaa-882",
+    "url": null,
+    "city": "Paia Maui",
+    "state": "HI"
+  },
+  {
+    "code": "EAA 1116",
+    "number": "1116",
+    "slug": "eaa-1116",
+    "url": "https://chapters.eaa.org/eaa1116",
+    "city": "Palm Springs",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1659",
+    "number": "1659",
+    "slug": "eaa-1659",
+    "url": null,
+    "city": "Panama City",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 735",
+    "number": "735",
+    "slug": "eaa-735",
+    "url": null,
+    "city": "Paradise",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 301",
+    "number": "301",
+    "slug": "eaa-301",
+    "url": "https://www.eaa301.org",
+    "city": "Parker",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 391",
+    "number": "391",
+    "slug": "eaa-391",
+    "url": "https://chapters.eaa.org/eaa391",
+    "city": "Pasco",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 465",
+    "number": "465",
+    "slug": "eaa-465",
+    "url": "https://chapters.eaa.org/eaa465",
+    "city": "Paso Robles",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 810",
+    "number": "810",
+    "slug": "eaa-810",
+    "url": "https://chapters.eaa.org/eaa810",
+    "city": "Payson",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 219",
+    "number": "219",
+    "slug": "eaa-219",
+    "url": "https://chapters.eaa.org/eaa219",
+    "city": "Pendleton",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 485",
+    "number": "485",
+    "slug": "eaa-485",
+    "url": "http://www.eaa485.org/",
+    "city": "Pensacola",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 563",
+    "number": "563",
+    "slug": "eaa-563",
+    "url": "http://eaa563.org",
+    "city": "Peoria",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 263",
+    "number": "263",
+    "slug": "eaa-263",
+    "url": "https://chapters.eaa.org/eaa263",
+    "city": "Peru",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 72",
+    "number": "72",
+    "slug": "eaa-72",
+    "url": "https://www.eaa72.org",
+    "city": "Peyton",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 362",
+    "number": "362",
+    "slug": "eaa-362",
+    "url": null,
+    "city": "Phoenix",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 159",
+    "number": "159",
+    "slug": "eaa-159",
+    "url": "http://www.tuscolaairport.com",
+    "city": "Pinconning",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1337",
+    "number": "1337",
+    "slug": "eaa-1337",
+    "url": "https://chapters.eaa.org/eaa1337",
+    "city": "Pine Mountain Lake",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 614",
+    "number": "614",
+    "slug": "eaa-614",
+    "url": "https://eaa.org",
+    "city": "Pineville",
+    "state": "LA"
+  },
+  {
+    "code": "EAA 736",
+    "number": "736",
+    "slug": "eaa-736",
+    "url": "https://chapters.eaa.org/eaa736",
+    "city": "Pittsfield",
+    "state": "ME"
+  },
+  {
+    "code": "EAA 643",
+    "number": "643",
+    "slug": "eaa-643",
+    "url": "https://www.eaa643.org/",
+    "city": "Pittstown",
+    "state": "NJ"
+  },
+  {
+    "code": "EAA 512",
+    "number": "512",
+    "slug": "eaa-512",
+    "url": "https://chapters.eaa.org/eaa512",
+    "city": "Placerville",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1178",
+    "number": "1178",
+    "slug": "eaa-1178",
+    "url": "https://www.facebook.com/EAA1178/",
+    "city": "Plant City",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 115",
+    "number": "115",
+    "slug": "eaa-115",
+    "url": "https://chapters.eaa.org/eaa115",
+    "city": "Plattsville",
+    "state": "ON"
+  },
+  {
+    "code": "EAA 664",
+    "number": "664",
+    "slug": "eaa-664",
+    "url": "https://www.nvav.nl/",
+    "city": "Point Pleasant",
+    "state": "NJ"
+  },
+  {
+    "code": "EAA 1122",
+    "number": "1122",
+    "slug": "eaa-1122",
+    "url": "https://chapters.eaa.org/eaa1122",
+    "city": "Polson",
+    "state": "MT"
+  },
+  {
+    "code": "EAA 133",
+    "number": "133",
+    "slug": "eaa-133",
+    "url": "https://chapters.eaa.org/eaa133",
+    "city": "Pompano Beach",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 194",
+    "number": "194",
+    "slug": "eaa-194",
+    "url": "https://www.facebook.com/pages/category/Social-Club/EAA-Chapter-194-336164773821688/",
+    "city": "Pontiac",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1414",
+    "number": "1414",
+    "slug": "eaa-1414",
+    "url": "https://eaa-1414.org",
+    "city": "Poplar Grove",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1247",
+    "number": "1247",
+    "slug": "eaa-1247",
+    "url": "https://www.tingoose1247.org",
+    "city": "Port Clinton",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1327",
+    "number": "1327",
+    "slug": "eaa-1327",
+    "url": "https://chapters.eaa.org/eaa1327",
+    "city": "Port Matilda",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 371",
+    "number": "371",
+    "slug": "eaa-371",
+    "url": "https://chapters.eaa.org/EAA371/About%20Us",
+    "city": "Portage",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1547",
+    "number": "1547",
+    "slug": "eaa-1547",
+    "url": null,
+    "city": "Porterville",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 105",
+    "number": "105",
+    "slug": "eaa-105",
+    "url": "http://www.eaa105.org",
+    "city": "Portland",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 1250",
+    "number": "1250",
+    "slug": "eaa-1250",
+    "url": "https://chapters.eaa.org/eaa1250",
+    "city": "Pottstown",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 658",
+    "number": "658",
+    "slug": "eaa-658",
+    "url": "https://chapters.eaa.org/eaa658",
+    "city": "Prescott",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 617",
+    "number": "617",
+    "slug": "eaa-617",
+    "url": "https://chapters.eaa.org/eaa617",
+    "city": "Prineville",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 1363",
+    "number": "1363",
+    "slug": "eaa-1363",
+    "url": "https://www.eaa1363.org",
+    "city": "Providence",
+    "state": "RI"
+  },
+  {
+    "code": "EAA 753",
+    "number": "753",
+    "slug": "eaa-753",
+    "url": "https://www.eaa753.org",
+    "city": "Provo",
+    "state": "UT"
+  },
+  {
+    "code": "EAA 808",
+    "number": "808",
+    "slug": "eaa-808",
+    "url": "https://chapters.eaa.org/eaa808",
+    "city": "Pueblo",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 565",
+    "number": "565",
+    "slug": "eaa-565",
+    "url": "https://chapters.eaa.org/eaa565",
+    "city": "Punta Gorda",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 326",
+    "number": "326",
+    "slug": "eaa-326",
+    "url": "https://chapters.eaa.org/eaa326",
+    "city": "Puyallup",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 75",
+    "number": "75",
+    "slug": "eaa-75",
+    "url": "https://chapters.eaa.org/EAA75",
+    "city": "Quad Cities",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 488",
+    "number": "488",
+    "slug": "eaa-488",
+    "url": "http://eaa488.org",
+    "city": "Quincy",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 838",
+    "number": "838",
+    "slug": "eaa-838",
+    "url": "http://www.eaa838.org",
+    "city": "Racine",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 506",
+    "number": "506",
+    "slug": "eaa-506",
+    "url": "https://chapters.eaa.org/eaa506",
+    "city": "Raleigh",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 39",
+    "number": "39",
+    "slug": "eaa-39",
+    "url": "https://chapters.eaa.org/eaa39",
+    "city": "Rapid City",
+    "state": "SD"
+  },
+  {
+    "code": "EAA 13",
+    "number": "13",
+    "slug": "eaa-13",
+    "url": "http://www.eaachapter13.org",
+    "city": "Ray",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 321",
+    "number": "321",
+    "slug": "eaa-321",
+    "url": "https://eaa.org",
+    "city": "Reading",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 1518",
+    "number": "1518",
+    "slug": "eaa-1518",
+    "url": "https://chapters.eaa.org/eaa1518",
+    "city": "Red Wing",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 157",
+    "number": "157",
+    "slug": "eaa-157",
+    "url": "http://www.eaa157.org",
+    "city": "Redding",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 154",
+    "number": "154",
+    "slug": "eaa-154",
+    "url": "https://chapters.eaa.org/EAA154",
+    "city": "Regina",
+    "state": "SK"
+  },
+  {
+    "code": "EAA 1361",
+    "number": "1361",
+    "slug": "eaa-1361",
+    "url": "https://www.eaa1361.org",
+    "city": "Reno",
+    "state": "NV"
+  },
+  {
+    "code": "EAA 971",
+    "number": "971",
+    "slug": "eaa-971",
+    "url": "https://chapters.eaa.org/eaa971",
+    "city": "Reserve",
+    "state": "LA"
+  },
+  {
+    "code": "EAA 631",
+    "number": "631",
+    "slug": "eaa-631",
+    "url": "https://chapters.eaa.org/eaa631",
+    "city": "Rice Lake",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 231",
+    "number": "231",
+    "slug": "eaa-231",
+    "url": "https://chapters.eaa.org/EAA231",
+    "city": "Richmond",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 373",
+    "number": "373",
+    "slug": "eaa-373",
+    "url": "https://chapters.eaa.org/eaa373",
+    "city": "Richmond",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 1",
+    "number": "1",
+    "slug": "eaa-1",
+    "url": "https://chapters.eaa.org/EAA1",
+    "city": "Riverside",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1712",
+    "number": "1712",
+    "slug": "eaa-1712",
+    "url": "https://eaa1712.com",
+    "city": "Riverside",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1706",
+    "number": "1706",
+    "slug": "eaa-1706",
+    "url": "https://eaa1706.com",
+    "city": "Roanoke",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 225",
+    "number": "225",
+    "slug": "eaa-225",
+    "url": "https://chapters.eaa.org/eaa225",
+    "city": "Rochester",
+    "state": "NH"
+  },
+  {
+    "code": "EAA 44",
+    "number": "44",
+    "slug": "eaa-44",
+    "url": "https://chapters.eaa.org/EAA44",
+    "city": "Rochester",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 100",
+    "number": "100",
+    "slug": "eaa-100",
+    "url": "https://chapters.eaa.org/eaa100",
+    "city": "Rochester",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 961",
+    "number": "961",
+    "slug": "eaa-961",
+    "url": "https://chapters.eaa.org/eaa961",
+    "city": "Rock Hill",
+    "state": "SC"
+  },
+  {
+    "code": "EAA 22",
+    "number": "22",
+    "slug": "eaa-22",
+    "url": "http://eaa22.org",
+    "city": "Rockford",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1701",
+    "number": "1701",
+    "slug": "eaa-1701",
+    "url": null,
+    "city": "Rockingham",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 709",
+    "number": "709",
+    "slug": "eaa-709",
+    "url": null,
+    "city": "Rome",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 15",
+    "number": "15",
+    "slug": "eaa-15",
+    "url": "https://www.eaa15.org",
+    "city": "Romeoville",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 49",
+    "number": "49",
+    "slug": "eaa-49",
+    "url": null,
+    "city": "Rosamond",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1580",
+    "number": "1580",
+    "slug": "eaa-1580",
+    "url": "https://chapters.eaa.org/eaa1580",
+    "city": "Roscommon",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 495",
+    "number": "495",
+    "slug": "eaa-495",
+    "url": "https://chapters.eaa.org/eaa495",
+    "city": "Roseburg",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 968",
+    "number": "968",
+    "slug": "eaa-968",
+    "url": "https://chapters.eaa.org/eaa968",
+    "city": "Rutland",
+    "state": "VT"
+  },
+  {
+    "code": "EAA 1714",
+    "number": "1714",
+    "slug": "eaa-1714",
+    "url": "https://chapters.eaa.org/eaa1714",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 52",
+    "number": "52",
+    "slug": "eaa-52",
+    "url": "https://chapters.eaa.org/eaa52",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1695",
+    "number": "1695",
+    "slug": "eaa-1695",
+    "url": "https://chapters.eaa.org/eaa1695",
+    "city": "Salida",
+    "state": "CO"
+  },
+  {
+    "code": "EAA 1716",
+    "number": "1716",
+    "slug": "eaa-1716",
+    "url": null,
+    "city": "Salina",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 1083",
+    "number": "1083",
+    "slug": "eaa-1083",
+    "url": "https://www.eaa1083.org/",
+    "city": "Salisbury",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 1144",
+    "number": "1144",
+    "slug": "eaa-1144",
+    "url": null,
+    "city": "Salome",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 23",
+    "number": "23",
+    "slug": "eaa-23",
+    "url": "https://chapters.eaa.org/eaa23",
+    "city": "Salt Lake City",
+    "state": "UT"
+  },
+  {
+    "code": "EAA 484",
+    "number": "484",
+    "slug": "eaa-484",
+    "url": "https://chapters.eaa.org/eaa484",
+    "city": "San Andreas",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 493",
+    "number": "493",
+    "slug": "eaa-493",
+    "url": "http://www.fly-web.us/EAA-Chapter493/index.htm",
+    "city": "San Angelo",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 35",
+    "number": "35",
+    "slug": "eaa-35",
+    "url": "https://chapters.eaa.org/eaa35",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 14",
+    "number": "14",
+    "slug": "eaa-14",
+    "url": "http://eaa14.org",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 20",
+    "number": "20",
+    "slug": "eaa-20",
+    "url": "http://eaa20.org",
+    "city": "San Francisco Bay Area",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 62",
+    "number": "62",
+    "slug": "eaa-62",
+    "url": "http://eaa62.org",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 338",
+    "number": "338",
+    "slug": "eaa-338",
+    "url": "https://chapters.eaa.org/eaa338",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 170",
+    "number": "170",
+    "slug": "eaa-170",
+    "url": "http://eaa170.touringmachine.com",
+    "city": "San Luis Obispo",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 958",
+    "number": "958",
+    "slug": "eaa-958",
+    "url": "http://chapters.eaa.org/EAA958",
+    "city": "San Marcos",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1649",
+    "number": "1649",
+    "slug": "eaa-1649",
+    "url": "http://eaa.org",
+    "city": "Sandersville",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 1441",
+    "number": "1441",
+    "slug": "eaa-1441",
+    "url": "https://chapters.eaa.org/eaa1441",
+    "city": "Sandpoint",
+    "state": "ID"
+  },
+  {
+    "code": "EAA 527",
+    "number": "527",
+    "slug": "eaa-527",
+    "url": "https://www.eaa.org/",
+    "city": "Santa Barbara",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 124",
+    "number": "124",
+    "slug": "eaa-124",
+    "url": "http://www.eaa124.org/",
+    "city": "Santa Rosa",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1570",
+    "number": "1570",
+    "slug": "eaa-1570",
+    "url": "https://chapters.eaa.org/eaa1570",
+    "city": "Santa Teresa",
+    "state": "NM"
+  },
+  {
+    "code": "EAA 491",
+    "number": "491",
+    "slug": "eaa-491",
+    "url": "http://www.eaa491.org",
+    "city": "Santa Ynez",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1317",
+    "number": "1317",
+    "slug": "eaa-1317",
+    "url": "https://www.eaa.org/eaa/eaa-chapters/find-an-eaa-chapter",
+    "city": "Sauk City",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1437",
+    "number": "1437",
+    "slug": "eaa-1437",
+    "url": "https://chapters.eaa.org/eaa1437",
+    "city": "Sault Ste. Marie",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1722",
+    "number": "1722",
+    "slug": "eaa-1722",
+    "url": null,
+    "city": "Savannah",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 1514",
+    "number": "1514",
+    "slug": "eaa-1514",
+    "url": "https://chapters.eaa.org/eaa1514",
+    "city": "Savannah",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 330",
+    "number": "330",
+    "slug": "eaa-330",
+    "url": "https://chapters.eaa.org/eaa330",
+    "city": "Savannah",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 839",
+    "number": "839",
+    "slug": "eaa-839",
+    "url": "http://www.eaa839.com",
+    "city": "Saylorsburg",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 153",
+    "number": "153",
+    "slug": "eaa-153",
+    "url": "https://chapters.eaa.org/eaa153",
+    "city": "Schaumburg",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 608",
+    "number": "608",
+    "slug": "eaa-608",
+    "url": "https://chapters.eaa.org/eaa608",
+    "city": "Scottsbluff",
+    "state": "NE"
+  },
+  {
+    "code": "EAA 1217",
+    "number": "1217",
+    "slug": "eaa-1217",
+    "url": "https://www.thunderbirdfield.com",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 26",
+    "number": "26",
+    "slug": "eaa-26",
+    "url": "https://chapters.eaa.org/eaa26",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 1240",
+    "number": "1240",
+    "slug": "eaa-1240",
+    "url": "https://chapters.eaa.org/eaa1240",
+    "city": "Sebring",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1596",
+    "number": "1596",
+    "slug": "eaa-1596",
+    "url": null,
+    "city": "Selkirk",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 766",
+    "number": "766",
+    "slug": "eaa-766",
+    "url": "https://chapters.eaa.org/eaa766",
+    "city": "Sheboygan Falls",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 814",
+    "number": "814",
+    "slug": "eaa-814",
+    "url": "https://chapters.eaa.org/eaa814",
+    "city": "Shelbyville",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1326",
+    "number": "1326",
+    "slug": "eaa-1326",
+    "url": "https://chapters.eaa.org/eaa1326",
+    "city": "Shelbyville",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 1295",
+    "number": "1295",
+    "slug": "eaa-1295",
+    "url": "https://chapters.eaa.org/eaa1295",
+    "city": "Sheldon",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 323",
+    "number": "323",
+    "slug": "eaa-323",
+    "url": "https://chapters.eaa.org/eaa323",
+    "city": "Sherman",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 586",
+    "number": "586",
+    "slug": "eaa-586",
+    "url": "https://chapters.eaa.org/eaa586/contact-us",
+    "city": "Show Low",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 776",
+    "number": "776",
+    "slug": "eaa-776",
+    "url": "https://eaa776.org",
+    "city": "Sierra Vista",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 324",
+    "number": "324",
+    "slug": "eaa-324",
+    "url": "https://chapters.eaa.org/eaa324",
+    "city": "Simsbury",
+    "state": "CT"
+  },
+  {
+    "code": "EAA 1537",
+    "number": "1537",
+    "slug": "eaa-1537",
+    "url": "https://chapters.eaa.org/EAA1537",
+    "city": "Siren",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 855",
+    "number": "855",
+    "slug": "eaa-855",
+    "url": "https://www.facebook.com/groups/1511844445689921",
+    "city": "Slatington",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 697",
+    "number": "697",
+    "slug": "eaa-697",
+    "url": "https://chapters.eaa.org/eaa697",
+    "city": "Slidell",
+    "state": "LA"
+  },
+  {
+    "code": "EAA 84",
+    "number": "84",
+    "slug": "eaa-84",
+    "url": "http://www.eaa84.org/",
+    "city": "Snohomish  County",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 975",
+    "number": "975",
+    "slug": "eaa-975",
+    "url": "https://chapters.eaa.org/eaa975",
+    "city": "Soldotna",
+    "state": "AK"
+  },
+  {
+    "code": "EAA 182",
+    "number": "182",
+    "slug": "eaa-182",
+    "url": "https://chapters.eaa.org/eaa182",
+    "city": "Somerville",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 1268",
+    "number": "1268",
+    "slug": "eaa-1268",
+    "url": "http://eaa1268.org",
+    "city": "Sonoma",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1229",
+    "number": "1229",
+    "slug": "eaa-1229",
+    "url": "https://chapters.eaa.org/eaa1229",
+    "city": "South St. Paul",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 673",
+    "number": "673",
+    "slug": "eaa-673",
+    "url": "https://chapters.eaa.org/eaa673",
+    "city": "Southbridge",
+    "state": "MA"
+  },
+  {
+    "code": "EAA 919",
+    "number": "919",
+    "slug": "eaa-919",
+    "url": "https://chapters.eaa.org/eaa919",
+    "city": "Southeast Minnesota",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 1378",
+    "number": "1378",
+    "slug": "eaa-1378",
+    "url": "https://chapters.eaa.org/eaa1378",
+    "city": "Sparta",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 704",
+    "number": "704",
+    "slug": "eaa-704",
+    "url": "https://chapters.eaa.org/eaa704",
+    "city": "Sparta",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 999",
+    "number": "999",
+    "slug": "eaa-999",
+    "url": "https://chapters.eaa.org/eaa999",
+    "city": "Spencer",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 1623",
+    "number": "1623",
+    "slug": "eaa-1623",
+    "url": "http://1623@EAA.org",
+    "city": "Spicewood",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1554",
+    "number": "1554",
+    "slug": "eaa-1554",
+    "url": "http://www.1554.eaachapter.org/",
+    "city": "Spirit Lake",
+    "state": "ID"
+  },
+  {
+    "code": "EAA 821",
+    "number": "821",
+    "slug": "eaa-821",
+    "url": "https://chapters.eaa.org/eaa821",
+    "city": "Springfield",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 770",
+    "number": "770",
+    "slug": "eaa-770",
+    "url": "https://chapters.eaa.org/eaa770",
+    "city": "Springfield",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 551",
+    "number": "551",
+    "slug": "eaa-551",
+    "url": "https://chapters.eaa.org/eaa551",
+    "city": "St Cloud",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 936",
+    "number": "936",
+    "slug": "eaa-936",
+    "url": "https://chapters.eaa.org/eaa936",
+    "city": "St George",
+    "state": "UT"
+  },
+  {
+    "code": "EAA 64",
+    "number": "64",
+    "slug": "eaa-64",
+    "url": "https://chapters.eaa.org/eaa64",
+    "city": "St Louis Metro East",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 54",
+    "number": "54",
+    "slug": "eaa-54",
+    "url": "https://chapters.eaa.org/EAA54/",
+    "city": "St Paul",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 600",
+    "number": "600",
+    "slug": "eaa-600",
+    "url": "https://chapters.eaa.org/eaa600",
+    "city": "St. Augustine",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1479",
+    "number": "1479",
+    "slug": "eaa-1479",
+    "url": "https://chapters.eaa.org/eaa1479",
+    "city": "St. Joseph",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 32",
+    "number": "32",
+    "slug": "eaa-32",
+    "url": "https://www.eaa32.org",
+    "city": "St. Louis",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 1602",
+    "number": "1602",
+    "slug": "eaa-1602",
+    "url": "https://chapters.eaa.org/eaa1602",
+    "city": "St. Petersburg",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 905",
+    "number": "905",
+    "slug": "eaa-905",
+    "url": "https://chapters.eaa.org/eaa905",
+    "city": "St. Simons Island",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 1189",
+    "number": "1189",
+    "slug": "eaa-1189",
+    "url": "https://chapters.eaa.org/eaa1189/",
+    "city": "Starkville",
+    "state": "MS"
+  },
+  {
+    "code": "EAA 489",
+    "number": "489",
+    "slug": "eaa-489",
+    "url": "http://www.eaachapter489.org/",
+    "city": "Statesboro",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 655",
+    "number": "655",
+    "slug": "eaa-655",
+    "url": "https://www.eaa655.dk",
+    "city": "Steubenville",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1432",
+    "number": "1432",
+    "slug": "eaa-1432",
+    "url": "https://rattraprecord.wixsite.com/stocktoneaa",
+    "city": "Stockton",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 8",
+    "number": "8",
+    "slug": "eaa-8",
+    "url": "https://chapters.eaa.org/eaa8",
+    "city": "Stoneville",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 196",
+    "number": "196",
+    "slug": "eaa-196",
+    "url": "http://www.eaa196.org",
+    "city": "Stow",
+    "state": "MA"
+  },
+  {
+    "code": "EAA 1603",
+    "number": "1603",
+    "slug": "eaa-1603",
+    "url": "https://www.facebook.com/CIA.Stow",
+    "city": "Stow",
+    "state": "MA"
+  },
+  {
+    "code": "EAA 692",
+    "number": "692",
+    "slug": "eaa-692",
+    "url": "https://chapters.eaa.org/eaa692",
+    "city": "Stuart",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 630",
+    "number": "630",
+    "slug": "eaa-630",
+    "url": "https://chapters.eaa.org/eaa630",
+    "city": "Sturgeon Bay",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1402",
+    "number": "1402",
+    "slug": "eaa-1402",
+    "url": "https://chapters.eaa.org/EAA1402",
+    "city": "Sullivan",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 1094",
+    "number": "1094",
+    "slug": "eaa-1094",
+    "url": "https://www.EAA1094.org",
+    "city": "Sulphur Springs",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 769",
+    "number": "769",
+    "slug": "eaa-769",
+    "url": null,
+    "city": "Sunbury",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 442",
+    "number": "442",
+    "slug": "eaa-442",
+    "url": "http://eaachapter442.org",
+    "city": "Surgoinsville",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 794",
+    "number": "794",
+    "slug": "eaa-794",
+    "url": "https://chapters.eaa.org/eaa794",
+    "city": "Susanville",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 613",
+    "number": "613",
+    "slug": "eaa-613",
+    "url": "https://chapters.eaa.org/eaa613",
+    "city": "Swanton",
+    "state": "VT"
+  },
+  {
+    "code": "EAA 938",
+    "number": "938",
+    "slug": "eaa-938",
+    "url": "http://Chapters.eaa.org/eaa938",
+    "city": "Syracuse",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 1113",
+    "number": "1113",
+    "slug": "eaa-1113",
+    "url": "https://www.facebook.com/EAATaiwanChapter1113",
+    "city": "Tallahassee",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1660",
+    "number": "1660",
+    "slug": "eaa-1660",
+    "url": "https://chapters.eaa.org/eaa1660",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 175",
+    "number": "175",
+    "slug": "eaa-175",
+    "url": "https://chapters.eaa.org/eaa175",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 289",
+    "number": "289",
+    "slug": "eaa-289",
+    "url": "https://chapters.eaa.org/EAA289",
+    "city": "Tea",
+    "state": "SD"
+  },
+  {
+    "code": "EAA 1687",
+    "number": "1687",
+    "slug": "eaa-1687",
+    "url": null,
+    "city": "Tehachapi",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1279",
+    "number": "1279",
+    "slug": "eaa-1279",
+    "url": "https://chapters.eaa.org/eaa1279",
+    "city": "Temecula",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 83",
+    "number": "83",
+    "slug": "eaa-83",
+    "url": "http://www.eaa83.org",
+    "city": "Terre Haute",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 513",
+    "number": "513",
+    "slug": "eaa-513",
+    "url": "https://chapters.eaa.org/eaa513",
+    "city": "Terrebonne Parish",
+    "state": "LA"
+  },
+  {
+    "code": "EAA 1657",
+    "number": "1657",
+    "slug": "eaa-1657",
+    "url": "https://headwaterseaa.com",
+    "city": "Three Forks",
+    "state": "MT"
+  },
+  {
+    "code": "EAA 1126",
+    "number": "1126",
+    "slug": "eaa-1126",
+    "url": null,
+    "city": "Timmins",
+    "state": "ON"
+  },
+  {
+    "code": "EAA 866",
+    "number": "866",
+    "slug": "eaa-866",
+    "url": "https://chapters.eaa.org/eaa866",
+    "city": "Titusville",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1721",
+    "number": "1721",
+    "slug": "eaa-1721",
+    "url": null,
+    "city": "Toms River",
+    "state": "NJ"
+  },
+  {
+    "code": "EAA 1693",
+    "number": "1693",
+    "slug": "eaa-1693",
+    "url": "https://chapters.eaa.org/eaa1693",
+    "city": "Topeka",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 240",
+    "number": "240",
+    "slug": "eaa-240",
+    "url": "http://www.eaa240.org",
+    "city": "Toughkenomon",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 234",
+    "number": "234",
+    "slug": "eaa-234",
+    "url": "https://www.eaa234.org/",
+    "city": "Traverse City",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 1581",
+    "number": "1581",
+    "slug": "eaa-1581",
+    "url": "https://chapters.eaa.org/eaa1581",
+    "city": "Trenton",
+    "state": "NJ"
+  },
+  {
+    "code": "EAA 1387",
+    "number": "1387",
+    "slug": "eaa-1387",
+    "url": "https://chapters.eaa.org/eaa1387",
+    "city": "Troy",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 1073",
+    "number": "1073",
+    "slug": "eaa-1073",
+    "url": "https://www.eaa1073.org",
+    "city": "Truckee",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 81",
+    "number": "81",
+    "slug": "eaa-81",
+    "url": "https://chapters.eaa.org/eaa81",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 1478",
+    "number": "1478",
+    "slug": "eaa-1478",
+    "url": "https://chapters.eaa.org/eaa1478",
+    "city": "Turner Falls",
+    "state": "MA"
+  },
+  {
+    "code": "EAA 557",
+    "number": "557",
+    "slug": "eaa-557",
+    "url": "https://chapters.eaa.org/EAA557",
+    "city": "Tuscaloosa",
+    "state": "AL"
+  },
+  {
+    "code": "EAA 1128",
+    "number": "1128",
+    "slug": "eaa-1128",
+    "url": "http://chapters.eaa.org/eaa1128",
+    "city": "Two Harbors",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 1632",
+    "number": "1632",
+    "slug": "eaa-1632",
+    "url": "https://chapters.eaa.org/eaa1632",
+    "city": "Umatilla",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 448",
+    "number": "448",
+    "slug": "eaa-448",
+    "url": "https://chapters.eaa.org/eaa448",
+    "city": "Upland",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 421",
+    "number": "421",
+    "slug": "eaa-421",
+    "url": "https://chapters.eaa.org/eaa421",
+    "city": "Urbana",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 294",
+    "number": "294",
+    "slug": "eaa-294",
+    "url": null,
+    "city": "Utica",
+    "state": "NY"
+  },
+  {
+    "code": "EAA 1230",
+    "number": "1230",
+    "slug": "eaa-1230",
+    "url": "https://chapters.eaa.org/eaa1230",
+    "city": "Vacaville",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1288",
+    "number": "1288",
+    "slug": "eaa-1288",
+    "url": "https://eaa1288.com",
+    "city": "Valkaria",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 104",
+    "number": "104",
+    "slug": "eaa-104",
+    "url": "https://eaa104.org",
+    "city": "Valparaiso",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 782",
+    "number": "782",
+    "slug": "eaa-782",
+    "url": "https://chapters.eaa.org/eaa782",
+    "city": "Vancouver",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 1285",
+    "number": "1285",
+    "slug": "eaa-1285",
+    "url": "https://chapters.eaa.org/eaa1285",
+    "city": "Venice",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 99",
+    "number": "99",
+    "slug": "eaa-99",
+    "url": "https://chapters.eaa.org/eaa99",
+    "city": "Vero Beach",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1670",
+    "number": "1670",
+    "slug": "eaa-1670",
+    "url": "https://chapters.eaa.org/eaa1670",
+    "city": "Versailles",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 1616",
+    "number": "1616",
+    "slug": "eaa-1616",
+    "url": "https://chapters.eaa.org/eaa1616",
+    "city": "Vichy",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 657",
+    "number": "657",
+    "slug": "eaa-657",
+    "url": "https://chapters.eaa.org/eaa657",
+    "city": "Vine Grove",
+    "state": "KY"
+  },
+  {
+    "code": "EAA 339",
+    "number": "339",
+    "slug": "eaa-339",
+    "url": "https://chapters.eaa.org/eaa339",
+    "city": "Virginia Beach",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 1439",
+    "number": "1439",
+    "slug": "eaa-1439",
+    "url": null,
+    "city": "Viroqua",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 59",
+    "number": "59",
+    "slug": "eaa-59",
+    "url": "http://www.eaa59.org/",
+    "city": "Waco",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 846",
+    "number": "846",
+    "slug": "eaa-846",
+    "url": "https://chapters.eaa.org/eaa846",
+    "city": "Wadsworth",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 477",
+    "number": "477",
+    "slug": "eaa-477",
+    "url": "http://www.eaa477.org",
+    "city": "Walterboro",
+    "state": "SC"
+  },
+  {
+    "code": "EAA 922",
+    "number": "922",
+    "slug": "eaa-922",
+    "url": "https://eaa.org",
+    "city": "Wapakoncta",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 38",
+    "number": "38",
+    "slug": "eaa-38",
+    "url": "https://chapters.eaa.org/eaa38",
+    "city": "Warner Robins",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 117",
+    "number": "117",
+    "slug": "eaa-117",
+    "url": "http://Chapters.EAA.org/eaa117",
+    "city": "Warren",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 1032",
+    "number": "1032",
+    "slug": "eaa-1032",
+    "url": "https://chapters.eaa.org/eaa1032",
+    "city": "Warrensburg",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 1696",
+    "number": "1696",
+    "slug": "eaa-1696",
+    "url": "https://chapters.eaa.org/eaa1696",
+    "city": "Warrenton",
+    "state": "OR"
+  },
+  {
+    "code": "EAA 1678",
+    "number": "1678",
+    "slug": "eaa-1678",
+    "url": null,
+    "city": "Washington",
+    "state": "IN"
+  },
+  {
+    "code": "EAA 1708",
+    "number": "1708",
+    "slug": "eaa-1708",
+    "url": "https://chapters.eaa.org/eaa1708",
+    "city": "Washington",
+    "state": "OK"
+  },
+  {
+    "code": "EAA 982",
+    "number": "982",
+    "slug": "eaa-982",
+    "url": "https://chapters.eaa.org/eaa982",
+    "city": "Washington Island",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 227",
+    "number": "227",
+    "slug": "eaa-227",
+    "url": "https://chapters.eaa.org/eaa227",
+    "city": "Waterloo",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 320",
+    "number": "320",
+    "slug": "eaa-320",
+    "url": "https://www.eaa320.com/",
+    "city": "Watertown",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 585",
+    "number": "585",
+    "slug": "eaa-585",
+    "url": "https://www.facebook.com/EAA585/",
+    "city": "Watervliet",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 119",
+    "number": "119",
+    "slug": "eaa-119",
+    "url": "http://www.eaa119.org/",
+    "city": "Watsonville",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1637",
+    "number": "1637",
+    "slug": "eaa-1637",
+    "url": "https://chapters.eaa.org/eaa1637",
+    "city": "Waukesha",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 444",
+    "number": "444",
+    "slug": "eaa-444",
+    "url": "https://444waupaca.org/",
+    "city": "Waupaca",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 640",
+    "number": "640",
+    "slug": "eaa-640",
+    "url": "http://www.eaa640.com/",
+    "city": "Wausau",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1331",
+    "number": "1331",
+    "slug": "eaa-1331",
+    "url": null,
+    "city": "Wautoma",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1725",
+    "number": "1725",
+    "slug": "eaa-1725",
+    "url": null,
+    "city": "Waycross",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 291",
+    "number": "291",
+    "slug": "eaa-291",
+    "url": "https://chapters.eaa.org/eaa291",
+    "city": "Wayne",
+    "state": "NE"
+  },
+  {
+    "code": "EAA 284",
+    "number": "284",
+    "slug": "eaa-284",
+    "url": "https://eaa284.wordpress.com/",
+    "city": "Waynesville",
+    "state": "OH"
+  },
+  {
+    "code": "EAA 214",
+    "number": "214",
+    "slug": "eaa-214",
+    "url": null,
+    "city": "Webster City",
+    "state": "IA"
+  },
+  {
+    "code": "EAA 1236",
+    "number": "1236",
+    "slug": "eaa-1236",
+    "url": "https://chapters.eaa.org/eaa1236",
+    "city": "Weirsdale",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1631",
+    "number": "1631",
+    "slug": "eaa-1631",
+    "url": "https://chapters.eaa.org/eaa1631",
+    "city": "Wellington",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 595",
+    "number": "595",
+    "slug": "eaa-595",
+    "url": "https://chapters.eaa.org/eaa595",
+    "city": "Weslaco",
+    "state": "TX"
+  },
+  {
+    "code": "EAA 1158",
+    "number": "1158",
+    "slug": "eaa-1158",
+    "url": "https://www.eaa1158.org",
+    "city": "West Bend",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 1253",
+    "number": "1253",
+    "slug": "eaa-1253",
+    "url": "https://www.facebook.com/westbranchcommunityairport/",
+    "city": "West Branch",
+    "state": "MI"
+  },
+  {
+    "code": "EAA 203",
+    "number": "203",
+    "slug": "eaa-203",
+    "url": "https://chapters.eaa.org/eaa203",
+    "city": "West Palm Beach",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 68",
+    "number": "68",
+    "slug": "eaa-68",
+    "url": "https://chapters.eaa.org/eaa68",
+    "city": "Western",
+    "state": "PA"
+  },
+  {
+    "code": "EAA 1384",
+    "number": "1384",
+    "slug": "eaa-1384",
+    "url": "https://chapters.eaa.org/eaa1384",
+    "city": "Westminster",
+    "state": "MD"
+  },
+  {
+    "code": "EAA 1682",
+    "number": "1682",
+    "slug": "eaa-1682",
+    "url": "https://chapters.eaa.org/eaa1682",
+    "city": "Westport",
+    "state": "OK"
+  },
+  {
+    "code": "EAA 822",
+    "number": "822",
+    "slug": "eaa-822",
+    "url": "https://chapters.eaa.org/eaa822",
+    "city": "Wetumpka",
+    "state": "AL"
+  },
+  {
+    "code": "EAA 745",
+    "number": "745",
+    "slug": "eaa-745",
+    "url": "https://chapters.eaa.org/eaa745",
+    "city": "White Bear Lake",
+    "state": "MN"
+  },
+  {
+    "code": "EAA 88",
+    "number": "88",
+    "slug": "eaa-88",
+    "url": "http://www.eaa88.org",
+    "city": "Wichita",
+    "state": "KS"
+  },
+  {
+    "code": "EAA 883",
+    "number": "883",
+    "slug": "eaa-883",
+    "url": "https://chapters.eaa.org/eaa883",
+    "city": "Wickenburg",
+    "state": "AZ"
+  },
+  {
+    "code": "EAA 156",
+    "number": "156",
+    "slug": "eaa-156",
+    "url": "https://chapters.eaa.org/eaa156",
+    "city": "Williamsburg",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 468",
+    "number": "468",
+    "slug": "eaa-468",
+    "url": "https://www.facebook.com/EAAchapter468/",
+    "city": "Williamson",
+    "state": "GA"
+  },
+  {
+    "code": "EAA 1484",
+    "number": "1484",
+    "slug": "eaa-1484",
+    "url": "https://chapters.eaa.org/eaa1484",
+    "city": "Williston",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 1027",
+    "number": "1027",
+    "slug": "eaa-1027",
+    "url": "http://www.eaa1027.org",
+    "city": "Willits",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 1218",
+    "number": "1218",
+    "slug": "eaa-1218",
+    "url": "https://chapters.eaa.org/eaa1218?",
+    "city": "Willow Springs",
+    "state": "MO"
+  },
+  {
+    "code": "EAA 1047",
+    "number": "1047",
+    "slug": "eaa-1047",
+    "url": "http://eaa1047.org",
+    "city": "Wilson",
+    "state": "NC"
+  },
+  {
+    "code": "EAA 1031",
+    "number": "1031",
+    "slug": "eaa-1031",
+    "url": "https://chapters.eaa.org/eaa1031",
+    "city": "Winchester",
+    "state": "VA"
+  },
+  {
+    "code": "EAA 699",
+    "number": "699",
+    "slug": "eaa-699",
+    "url": null,
+    "city": "Winchester",
+    "state": "TN"
+  },
+  {
+    "code": "EAA 63",
+    "number": "63",
+    "slug": "eaa-63",
+    "url": "https://chapters.eaa.org/eaa63",
+    "city": "Winnipeg",
+    "state": "MB"
+  },
+  {
+    "code": "EAA 229",
+    "number": "229",
+    "slug": "eaa-229",
+    "url": "https://chapters.eaa.org/eaa229",
+    "city": "Winter Haven",
+    "state": "FL"
+  },
+  {
+    "code": "EAA 706",
+    "number": "706",
+    "slug": "eaa-706",
+    "url": "https://chapters.eaa.org/EAA706",
+    "city": "Wisconsin Rapids",
+    "state": "WI"
+  },
+  {
+    "code": "EAA 932",
+    "number": "932",
+    "slug": "eaa-932",
+    "url": "http://www.eaa932.org",
+    "city": "Wonder Lake",
+    "state": "IL"
+  },
+  {
+    "code": "EAA 1292",
+    "number": "1292",
+    "slug": "eaa-1292",
+    "url": "https://chapters.eaa.org/eaa1292",
+    "city": "Woodlake",
+    "state": "CA"
+  },
+  {
+    "code": "EAA 206",
+    "number": "206",
+    "slug": "eaa-206",
+    "url": "https://chapters.eaa.org/eaa206",
+    "city": "Yakima",
+    "state": "WA"
+  },
+  {
+    "code": "EAA 1029",
+    "number": "1029",
+    "slug": "eaa-1029",
+    "url": "https://chapters.eaa.org/eaa1029",
+    "city": "Yankton",
+    "state": "SD"
+  },
+  {
+    "code": "EAA 1055",
+    "number": "1055",
+    "slug": "eaa-1055",
+    "url": "https://chapters.eaa.org/eaa1055",
+    "city": "York",
+    "state": "NE"
+  },
+  {
+    "code": "EAA 590",
+    "number": "590",
+    "slug": "eaa-590",
+    "url": "https://chapters.eaa.org/eaa590",
+    "city": "Yuma",
+    "state": "AZ"
+  }
+]

@@ -1,0 +1,659 @@
+{
+  "_meta": {
+    "purpose": "Hand-curated phrase → URL map for famous pilot queries that don't match section heads literally. e.g. 'night currency' isn't in any section title but the rule lives in § 61.57.",
+    "process": "Add an entry only when the most-googled phrase doesn't catch the right page via head text. Keep these tight — every entry is editorial weight we'd rather not maintain.",
+    "lastReviewed": "2026-04-28"
+  },
+  "phrases": {
+    "night currency": {
+      "label": "§ 61.57(b) — Night takeoff and landing",
+      "url": "/atlas/cfr/61/61.57/",
+      "tag": "CFR"
+    },
+    "ifr currency": {
+      "label": "§ 61.57(c) — Instrument experience",
+      "url": "/atlas/cfr/61/61.57/",
+      "tag": "CFR"
+    },
+    "instrument currency": {
+      "label": "§ 61.57(c) — Instrument experience",
+      "url": "/atlas/cfr/61/61.57/",
+      "tag": "CFR"
+    },
+    "instrument proficiency": {
+      "label": "§ 61.57(d) — IPC requirements",
+      "url": "/atlas/cfr/61/61.57/",
+      "tag": "CFR"
+    },
+    "ipc": {
+      "label": "§ 61.57(d) — Instrument Proficiency Check",
+      "url": "/atlas/cfr/61/61.57/",
+      "tag": "CFR"
+    },
+    "passenger currency": {
+      "label": "§ 61.57(a) — Recent flight experience",
+      "url": "/atlas/cfr/61/61.57/",
+      "tag": "CFR"
+    },
+    "3 takeoffs and landings": {
+      "label": "§ 61.57(a) — Three takeoffs and landings",
+      "url": "/atlas/cfr/61/61.57/",
+      "tag": "CFR"
+    },
+    "vfr minimums": {
+      "label": "§ 91.155 — Basic VFR weather minimums",
+      "url": "/atlas/cfr/91/91.155/",
+      "tag": "CFR"
+    },
+    "weather minimums": {
+      "label": "§ 91.155 — Basic VFR weather minimums",
+      "url": "/atlas/cfr/91/91.155/",
+      "tag": "CFR"
+    },
+    "vfr cloud clearance": {
+      "label": "§ 91.155 — Cloud clearance",
+      "url": "/atlas/cfr/91/91.155/",
+      "tag": "CFR"
+    },
+    "preflight": {
+      "label": "§ 91.103 — Preflight action",
+      "url": "/atlas/cfr/91/91.103/",
+      "tag": "CFR"
+    },
+    "preflight action": {
+      "label": "§ 91.103 — Preflight action",
+      "url": "/atlas/cfr/91/91.103/",
+      "tag": "CFR"
+    },
+    "fuel reserves": {
+      "label": "§ 91.151 / 91.167 — Fuel requirements",
+      "url": "/atlas/cfr/91/91.151/",
+      "tag": "CFR"
+    },
+    "fuel requirements vfr": {
+      "label": "§ 91.151 — Fuel requirements VFR",
+      "url": "/atlas/cfr/91/91.151/",
+      "tag": "CFR"
+    },
+    "fuel requirements ifr": {
+      "label": "§ 91.167 — Fuel requirements IFR",
+      "url": "/atlas/cfr/91/91.167/",
+      "tag": "CFR"
+    },
+    "alternate": {
+      "label": "§ 91.169 — IFR flight plan and alternate",
+      "url": "/atlas/cfr/91/91.169/",
+      "tag": "CFR"
+    },
+    "alternate airport": {
+      "label": "§ 91.169 — IFR alternate requirements",
+      "url": "/atlas/cfr/91/91.169/",
+      "tag": "CFR"
+    },
+    "1 2 3 rule": {
+      "label": "§ 91.169 — IFR alternate (1-2-3 rule)",
+      "url": "/atlas/cfr/91/91.169/",
+      "tag": "CFR"
+    },
+    "logbook": {
+      "label": "§ 61.51 — Pilot logbooks",
+      "url": "/atlas/cfr/61/61.51/",
+      "tag": "CFR"
+    },
+    "endorsements": {
+      "label": "§ 61.65 — Instrument rating",
+      "url": "/atlas/cfr/61/61.65/",
+      "tag": "CFR"
+    },
+    "solo endorsement": {
+      "label": "§ 61.87 — Solo flight requirements",
+      "url": "/atlas/cfr/61/61.87/",
+      "tag": "CFR"
+    },
+    "bfr": {
+      "label": "§ 61.56 — Flight review",
+      "url": "/atlas/cfr/61/61.56/",
+      "tag": "CFR"
+    },
+    "flight review": {
+      "label": "§ 61.56 — Flight review",
+      "url": "/atlas/cfr/61/61.56/",
+      "tag": "CFR"
+    },
+    "biennial": {
+      "label": "§ 61.56 — Flight review",
+      "url": "/atlas/cfr/61/61.56/",
+      "tag": "CFR"
+    },
+    "medical certificate": {
+      "label": "§ 61.23 — Medical certificate required",
+      "url": "/atlas/cfr/61/61.23/",
+      "tag": "CFR"
+    },
+    "basicmed": {
+      "label": "Part 68 — BasicMed",
+      "url": "/atlas/cfr/68/",
+      "tag": "CFR"
+    },
+    "instruments and equipment": {
+      "label": "§ 91.205 — Powered civil aircraft equipment",
+      "url": "/atlas/cfr/91/91.205/",
+      "tag": "CFR"
+    },
+    "required equipment vfr": {
+      "label": "§ 91.205(b) — VFR day equipment",
+      "url": "/atlas/cfr/91/91.205/",
+      "tag": "CFR"
+    },
+    "required equipment ifr": {
+      "label": "§ 91.205(d) — IFR equipment",
+      "url": "/atlas/cfr/91/91.205/",
+      "tag": "CFR"
+    },
+    "elt": {
+      "label": "§ 91.207 — ELT requirements",
+      "url": "/atlas/cfr/91/91.207/",
+      "tag": "CFR"
+    },
+    "transponder": {
+      "label": "§ 91.215 — ATC transponder",
+      "url": "/atlas/cfr/91/91.215/",
+      "tag": "CFR"
+    },
+    "ads-b": {
+      "label": "§ 91.225 — ADS-B Out",
+      "url": "/atlas/cfr/91/91.225/",
+      "tag": "CFR"
+    },
+    "ads b": {
+      "label": "§ 91.225 — ADS-B Out",
+      "url": "/atlas/cfr/91/91.225/",
+      "tag": "CFR"
+    },
+    "oxygen": {
+      "label": "§ 91.211 — Supplemental oxygen",
+      "url": "/atlas/cfr/91/91.211/",
+      "tag": "CFR"
+    },
+    "supplemental oxygen": {
+      "label": "§ 91.211 — Supplemental oxygen",
+      "url": "/atlas/cfr/91/91.211/",
+      "tag": "CFR"
+    },
+    "minimum equipment list": {
+      "label": "§ 91.213 — MEL operations",
+      "url": "/atlas/cfr/91/91.213/",
+      "tag": "CFR"
+    },
+    "mel": {
+      "label": "§ 91.213 — Minimum Equipment List",
+      "url": "/atlas/cfr/91/91.213/",
+      "tag": "CFR"
+    },
+    "minimum altitudes": {
+      "label": "§ 91.119 — Minimum safe altitudes",
+      "url": "/atlas/cfr/91/91.119/",
+      "tag": "CFR"
+    },
+    "1000 feet rule": {
+      "label": "§ 91.119 — 1,000 ft over congested",
+      "url": "/atlas/cfr/91/91.119/",
+      "tag": "CFR"
+    },
+    "right of way": {
+      "label": "§ 91.113 — Right-of-way rules",
+      "url": "/atlas/cfr/91/91.113/",
+      "tag": "CFR"
+    },
+    "speed limits": {
+      "label": "§ 91.117 — Aircraft speed",
+      "url": "/atlas/cfr/91/91.117/",
+      "tag": "CFR"
+    },
+    "250 knots": {
+      "label": "§ 91.117(a) — 250 kt below 10,000",
+      "url": "/atlas/cfr/91/91.117/",
+      "tag": "CFR"
+    },
+    "checkride": {
+      "label": "Practical test — § 61.43 / ACS",
+      "url": "/atlas/cfr/61/61.43/",
+      "tag": "CFR"
+    },
+    "practical test": {
+      "label": "§ 61.43 — Practical tests",
+      "url": "/atlas/cfr/61/61.43/",
+      "tag": "CFR"
+    },
+    "private pilot requirements": {
+      "label": "§ 61.103 — Eligibility (private)",
+      "url": "/atlas/cfr/61/61.103/",
+      "tag": "CFR"
+    },
+    "commercial pilot requirements": {
+      "label": "§ 61.123 — Eligibility (commercial)",
+      "url": "/atlas/cfr/61/61.123/",
+      "tag": "CFR"
+    },
+    "atp requirements": {
+      "label": "§ 61.153 — Eligibility (ATP)",
+      "url": "/atlas/cfr/61/61.153/",
+      "tag": "CFR"
+    },
+    "1500 hour rule": {
+      "label": "§ 61.159 — ATP aeronautical experience",
+      "url": "/atlas/cfr/61/61.159/",
+      "tag": "CFR"
+    },
+    "annual inspection": {
+      "label": "§ 91.409 — Inspections",
+      "url": "/atlas/cfr/91/91.409/",
+      "tag": "CFR"
+    },
+    "100 hour": {
+      "label": "§ 91.409(b) — 100-hour inspection",
+      "url": "/atlas/cfr/91/91.409/",
+      "tag": "CFR"
+    },
+    "vor check": {
+      "label": "§ 91.171 — VOR equipment check",
+      "url": "/atlas/cfr/91/91.171/",
+      "tag": "CFR"
+    },
+    "altimeter check": {
+      "label": "§ 91.411 — Altimeter system test",
+      "url": "/atlas/cfr/91/91.411/",
+      "tag": "CFR"
+    },
+    "pitot static": {
+      "label": "§ 91.411 — Altimeter / pitot-static",
+      "url": "/atlas/cfr/91/91.411/",
+      "tag": "CFR"
+    },
+    "transponder check": {
+      "label": "§ 91.413 — ATC transponder tests",
+      "url": "/atlas/cfr/91/91.413/",
+      "tag": "CFR"
+    },
+    "drug testing": {
+      "label": "§ 120 — Drug and alcohol testing",
+      "url": "/atlas/cfr/120/",
+      "tag": "CFR"
+    },
+    "alcohol": {
+      "label": "§ 91.17 — Alcohol or drugs",
+      "url": "/atlas/cfr/91/91.17/",
+      "tag": "CFR"
+    },
+    "8 hour rule": {
+      "label": "§ 91.17 — Alcohol bottle-to-throttle",
+      "url": "/atlas/cfr/91/91.17/",
+      "tag": "CFR"
+    },
+    "careless reckless": {
+      "label": "§ 91.13 — Careless or reckless operation",
+      "url": "/atlas/cfr/91/91.13/",
+      "tag": "CFR"
+    },
+    "pic responsibility": {
+      "label": "§ 91.3 — PIC responsibility and authority",
+      "url": "/atlas/cfr/91/91.3/",
+      "tag": "CFR"
+    },
+    "emergency authority": {
+      "label": "§ 91.3 — PIC emergency authority",
+      "url": "/atlas/cfr/91/91.3/",
+      "tag": "CFR"
+    },
+    "tfr": {
+      "label": "§ 91.137 — Temporary flight restrictions",
+      "url": "/atlas/cfr/91/91.137/",
+      "tag": "CFR"
+    },
+    "temporary flight restriction": {
+      "label": "§ 91.137 — Temporary flight restrictions",
+      "url": "/atlas/cfr/91/91.137/",
+      "tag": "CFR"
+    },
+    "uas": {
+      "label": "Part 107 — Small Unmanned Aircraft",
+      "url": "/atlas/cfr/107/",
+      "tag": "CFR"
+    },
+    "drone": {
+      "label": "Part 107 — Small Unmanned Aircraft",
+      "url": "/atlas/cfr/107/",
+      "tag": "CFR"
+    },
+    "remote id": {
+      "label": "Part 89 — Remote ID for UAS",
+      "url": "/atlas/cfr/89/",
+      "tag": "CFR"
+    },
+    "part 121": {
+      "label": "Part 121 — Air carrier operations",
+      "url": "/atlas/cfr/121/",
+      "tag": "CFR"
+    },
+    "part 135": {
+      "label": "Part 135 — Commuter and on-demand",
+      "url": "/atlas/cfr/135/",
+      "tag": "CFR"
+    },
+    "part 91": {
+      "label": "Part 91 — General operating rules",
+      "url": "/atlas/cfr/91/",
+      "tag": "CFR"
+    },
+    "part 61": {
+      "label": "Part 61 — Pilot certification",
+      "url": "/atlas/cfr/61/",
+      "tag": "CFR"
+    },
+    "ifr alternate weather": {
+      "label": "§ 91.169 — Alternate weather requirements",
+      "url": "/atlas/cfr/91/91.169/",
+      "tag": "CFR"
+    },
+    "icing": {
+      "label": "§ 91.527 — Operating in icing conditions",
+      "url": "/atlas/cfr/91/91.527/",
+      "tag": "CFR"
+    },
+    "wake turbulence": {
+      "label": "AC 90-23 — Wake vortex risk mitigation",
+      "url": "/atlas/cfr/ac/90-23H/",
+      "tag": "AC"
+    },
+    "spin training": {
+      "label": "§ 61.31 — Type rating, spin training",
+      "url": "/atlas/cfr/61/61.31/",
+      "tag": "CFR"
+    },
+    "high performance": {
+      "label": "§ 61.31(f) — High-performance endorsement",
+      "url": "/atlas/cfr/61/61.31/",
+      "tag": "CFR"
+    },
+    "complex": {
+      "label": "§ 61.31(e) — Complex aircraft endorsement",
+      "url": "/atlas/cfr/61/61.31/",
+      "tag": "CFR"
+    },
+    "tailwheel": {
+      "label": "§ 61.31(i) — Tailwheel endorsement",
+      "url": "/atlas/cfr/61/61.31/",
+      "tag": "CFR"
+    },
+    "high altitude": {
+      "label": "§ 61.31(g) — Pressurized aircraft",
+      "url": "/atlas/cfr/61/61.31/",
+      "tag": "CFR"
+    },
+    "class b surface": {
+      "label": "§ 71.41 — Class B airspace",
+      "url": "/atlas/cfr/71/",
+      "tag": "CFR"
+    },
+    "class b sfc": {
+      "label": "§ 71.41 — Class B airspace",
+      "url": "/atlas/cfr/71/",
+      "tag": "CFR"
+    },
+    "class b equipment": {
+      "label": "§ 91.131 — Class B operating rules + equipment",
+      "url": "/atlas/cfr/91/91.131/",
+      "tag": "CFR"
+    },
+    "class c equipment": {
+      "label": "§ 91.215 — Mode-C transponder",
+      "url": "/atlas/cfr/91/91.215/",
+      "tag": "CFR"
+    },
+    "mode c veil": {
+      "label": "§ 91.215 — Transponder requirements",
+      "url": "/atlas/cfr/91/91.215/",
+      "tag": "CFR"
+    },
+    "mode c": {
+      "label": "§ 91.215 — Transponder requirements",
+      "url": "/atlas/cfr/91/91.215/",
+      "tag": "CFR"
+    },
+    "mode s": {
+      "label": "§ 91.215 — Transponder requirements",
+      "url": "/atlas/cfr/91/91.215/",
+      "tag": "CFR"
+    },
+    "class a airspace": {
+      "label": "§ 91.135 — Class A operations",
+      "url": "/atlas/cfr/91/91.135/",
+      "tag": "CFR"
+    },
+    "class b airspace": {
+      "label": "§ 91.131 — Class B operating rules",
+      "url": "/atlas/cfr/91/91.131/",
+      "tag": "CFR"
+    },
+    "class c airspace": {
+      "label": "§ 91.130 — Class C operating rules",
+      "url": "/atlas/cfr/91/91.130/",
+      "tag": "CFR"
+    },
+    "class d airspace": {
+      "label": "§ 91.129 — Class D operating rules",
+      "url": "/atlas/cfr/91/91.129/",
+      "tag": "CFR"
+    },
+    "class e airspace": {
+      "label": "§ 71.71 — Class E airspace areas",
+      "url": "/atlas/cfr/71/",
+      "tag": "CFR"
+    },
+    "vfr cruising altitudes": {
+      "label": "§ 91.159 — VFR cruising altitude rule",
+      "url": "/atlas/cfr/91/91.159/",
+      "tag": "CFR"
+    },
+    "cruising altitude": {
+      "label": "§ 91.159 — VFR cruising altitude rule",
+      "url": "/atlas/cfr/91/91.159/",
+      "tag": "CFR"
+    },
+    "east west altitude": {
+      "label": "§ 91.159 — VFR cruising altitude (E/W rule)",
+      "url": "/atlas/cfr/91/91.159/",
+      "tag": "CFR"
+    },
+    "hemispheric rule": {
+      "label": "§ 91.159 — VFR cruising altitude rule",
+      "url": "/atlas/cfr/91/91.159/",
+      "tag": "CFR"
+    },
+    "squawk 7700": {
+      "label": "Emergency squawk — § 91.3 PIC authority",
+      "url": "/atlas/portal/safety/",
+      "tag": "PORTAL"
+    },
+    "squawk 7600": {
+      "label": "Lost comm — § 91.185 IFR procedures",
+      "url": "/atlas/cfr/91/91.185/",
+      "tag": "CFR"
+    },
+    "squawk 7500": {
+      "label": "Hijack — Atlas Safety Hub",
+      "url": "/atlas/portal/safety/",
+      "tag": "PORTAL"
+    },
+    "lost comm": {
+      "label": "§ 91.185 — IFR two-way radio communications failure",
+      "url": "/atlas/cfr/91/91.185/",
+      "tag": "CFR"
+    },
+    "two way radio failure": {
+      "label": "§ 91.185 — Two-way radio communications failure",
+      "url": "/atlas/cfr/91/91.185/",
+      "tag": "CFR"
+    },
+    "vmc": {
+      "label": "AC 61-23 — Pilot’s Handbook of Aeronautical Knowledge",
+      "url": "/atlas/cfr/ac/61-23C/",
+      "tag": "AC"
+    },
+    "vmca": {
+      "label": "§ 23.149 — Minimum control speed (multi-engine)",
+      "url": "/atlas/cfr/23/",
+      "tag": "CFR"
+    },
+    "maneuvering speed": {
+      "label": "§ 23.335 / POH — Va (design maneuvering speed)",
+      "url": "/atlas/cfr/23/",
+      "tag": "CFR"
+    },
+    "va": {
+      "label": "§ 23.335 / POH — Maneuvering speed",
+      "url": "/atlas/cfr/23/",
+      "tag": "CFR"
+    },
+    "type rating": {
+      "label": "§ 61.31 — Type-rating + endorsement requirements",
+      "url": "/atlas/cfr/61/61.31/",
+      "tag": "CFR"
+    },
+    "over 12500": {
+      "label": "§ 61.31 — Type rating > 12,500 lb",
+      "url": "/atlas/cfr/61/61.31/",
+      "tag": "CFR"
+    },
+    "missed approach": {
+      "label": "§ 91.175 — Takeoff and landing under IFR",
+      "url": "/atlas/cfr/91/91.175/",
+      "tag": "CFR"
+    },
+    "descend below dh": {
+      "label": "§ 91.175(c) — Operation below DH/MDA",
+      "url": "/atlas/cfr/91/91.175/",
+      "tag": "CFR"
+    },
+    "visual references": {
+      "label": "§ 91.175(c)(3) — Required visual references",
+      "url": "/atlas/cfr/91/91.175/",
+      "tag": "CFR"
+    },
+    "i'm safe": {
+      "label": "AIM 8-1-1 — Fitness for flight (I’M SAFE)",
+      "url": "/atlas/aim/8-1/",
+      "tag": "AIM"
+    },
+    "im safe": {
+      "label": "AIM 8-1-1 — Fitness for flight (I’M SAFE)",
+      "url": "/atlas/aim/8-1/",
+      "tag": "AIM"
+    },
+    "fitness for flight": {
+      "label": "AIM 8-1 — Fitness for flight",
+      "url": "/atlas/aim/8-1/",
+      "tag": "AIM"
+    },
+    "hypoxia": {
+      "label": "AIM 8-1-2 — Effects of altitude / hypoxia",
+      "url": "/atlas/aim/8-1/",
+      "tag": "AIM"
+    },
+    "part 830": {
+      "label": "§ 49 CFR 830 — NTSB notification + reporting",
+      "url": "/atlas/portal/safety/#section-02",
+      "tag": "PORTAL"
+    },
+    "reportable accident": {
+      "label": "§ 49 CFR 830 — NTSB reportability",
+      "url": "/atlas/portal/safety/#section-02",
+      "tag": "PORTAL"
+    },
+    "asrs": {
+      "label": "NASA Aviation Safety Reporting System",
+      "url": "/atlas/portal/safety/#section-02",
+      "tag": "PORTAL"
+    },
+    "nasa form": {
+      "label": "NASA ASRS — file an Aviation Safety Report",
+      "url": "/atlas/portal/safety/#section-02",
+      "tag": "PORTAL"
+    },
+    "progressive inspection": {
+      "label": "§ 91.409(d) — Progressive inspection",
+      "url": "/atlas/cfr/91/91.409/",
+      "tag": "CFR"
+    },
+    "91.411": {
+      "label": "§ 91.411 — Altimeter / pitot-static / encoder",
+      "url": "/atlas/cfr/91/91.411/",
+      "tag": "CFR"
+    },
+    "91.413": {
+      "label": "§ 91.413 — Transponder tests + inspections",
+      "url": "/atlas/cfr/91/91.413/",
+      "tag": "CFR"
+    },
+    "sterile cockpit": {
+      "label": "§ 121.542 / § 135.100 — Sterile cockpit",
+      "url": "/atlas/cfr/121/",
+      "tag": "CFR"
+    },
+    "rest rules": {
+      "label": "Part 117 — Flight + duty / rest requirements",
+      "url": "/atlas/cfr/117/",
+      "tag": "CFR"
+    },
+    "duty time": {
+      "label": "Part 117 — Flight + duty / rest requirements",
+      "url": "/atlas/cfr/117/",
+      "tag": "CFR"
+    },
+    "far 117": {
+      "label": "Part 117 — Flight + duty / rest requirements",
+      "url": "/atlas/cfr/117/",
+      "tag": "CFR"
+    },
+    "sport pilot": {
+      "label": "§ 61.301 — Sport pilot certificate",
+      "url": "/atlas/cfr/61/61.303/",
+      "tag": "CFR"
+    },
+    "recreational pilot": {
+      "label": "§ 61.96 — Recreational pilot eligibility",
+      "url": "/atlas/cfr/61/61.96/",
+      "tag": "CFR"
+    },
+    "lifesaving equipment": {
+      "label": "§ 91.205(b)(11)–(13) — Required equipment",
+      "url": "/atlas/cfr/91/91.205/",
+      "tag": "CFR"
+    },
+    "flight over water": {
+      "label": "§ 91.509 — Survival equipment over water",
+      "url": "/atlas/cfr/91/91.509/",
+      "tag": "CFR"
+    },
+    "metar": {
+      "label": "METAR Decoder — Atlas Tools",
+      "url": "/atlas/tools/metar-decoder/",
+      "tag": "TOOL"
+    },
+    "notam": {
+      "label": "NOTAM Briefing Decoder — Atlas Tools",
+      "url": "/atlas/tools/notam-decoder/",
+      "tag": "TOOL"
+    },
+    "find a dpe": {
+      "label": "DPE directory — TallyAero",
+      "url": "/dpe/",
+      "tag": "DIRECTORY"
+    },
+    "mental health": {
+      "label": "Pilot Mental Health Resources — Safety Hub",
+      "url": "/atlas/portal/safety/",
+      "tag": "PORTAL"
+    }
+  }
+}

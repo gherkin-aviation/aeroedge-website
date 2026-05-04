@@ -1,0 +1,14 @@
+# Cloudflare Pages redirects.
+# Format: /from-path  /to-path  status
+
+# Atlas migration: aircraft research platform moved under /atlas/.
+/aircraft                       /atlas/aircraft/             301
+/aircraft/                      /atlas/aircraft/             301
+/aircraft/about                 /atlas/aircraft/about/       301
+/aircraft/about/                /atlas/aircraft/about/       301
+/aircraft/types                 /atlas/aircraft/types/       301
+/aircraft/types/                /atlas/aircraft/types/       301
+/aircraft/types/:type           /atlas/aircraft/types/:type/ 301
+/aircraft/types/:type/          /atlas/aircraft/types/:type/ 301
+/aircraft/:n                    /atlas/aircraft/:n/          301
+/aircraft/:n/                   /atlas/aircraft/:n/          301

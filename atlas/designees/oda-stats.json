@@ -1,0 +1,160 @@
+{
+  "total": 131,
+  "refreshed": "2026-05-02",
+  "byType": [
+    {
+      "code": "PC",
+      "label": "Production Certificate",
+      "n": 85
+    },
+    {
+      "code": "AO",
+      "label": "Acoustical",
+      "n": 22
+    },
+    {
+      "code": "TC",
+      "label": "Type Certificate",
+      "n": 13
+    },
+    {
+      "code": "TSOA",
+      "label": "TSOA",
+      "n": 11
+    }
+  ],
+  "byState": [
+    {
+      "state": "Kansas",
+      "n": 14
+    },
+    {
+      "state": "Washington",
+      "n": 13
+    },
+    {
+      "state": "Arizona",
+      "n": 11
+    },
+    {
+      "state": "Texas",
+      "n": 11
+    },
+    {
+      "state": "California",
+      "n": 11
+    },
+    {
+      "state": "Ohio",
+      "n": 8
+    },
+    {
+      "state": "Connecticut",
+      "n": 7
+    },
+    {
+      "state": "Colorado",
+      "n": 6
+    },
+    {
+      "state": "Delaware",
+      "n": 6
+    },
+    {
+      "state": "Georgia",
+      "n": 4
+    },
+    {
+      "state": "Illinois",
+      "n": 4
+    },
+    {
+      "state": "Michigan",
+      "n": 3
+    },
+    {
+      "state": "Nebraska",
+      "n": 3
+    },
+    {
+      "state": "Oklahoma",
+      "n": 3
+    },
+    {
+      "state": "Pennsylvania",
+      "n": 3
+    },
+    {
+      "state": "Tennessee",
+      "n": 2
+    },
+    {
+      "state": "WindsorLocks Connecticut",
+      "n": 2
+    },
+    {
+      "state": "Minnesota",
+      "n": 2
+    },
+    {
+      "state": "NorthCarolina",
+      "n": 2
+    },
+    {
+      "state": "WestVirginia",
+      "n": 2
+    },
+    {
+      "state": "EastHartford Connecticut",
+      "n": 2
+    },
+    {
+      "state": "Kentucky",
+      "n": 1
+    },
+    {
+      "state": "Indiana",
+      "n": 1
+    },
+    {
+      "state": "Florida",
+      "n": 1
+    },
+    {
+      "state": "CedarRapids Iowa",
+      "n": 1
+    },
+    {
+      "state": "Iowa",
+      "n": 1
+    },
+    {
+      "state": "Maryland",
+      "n": 1
+    },
+    {
+      "state": "NewJersey",
+      "n": 1
+    },
+    {
+      "state": "VeroBeach Florida",
+      "n": 1
+    },
+    {
+      "state": "Savannah Georgia",
+      "n": 1
+    },
+    {
+      "state": "Cincinnati Ohio",
+      "n": 1
+    },
+    {
+      "state": "FortWorth Texas",
+      "n": 1
+    },
+    {
+      "state": "CedarRapidsIowa",
+      "n": 1
+    }
+  ]
+}

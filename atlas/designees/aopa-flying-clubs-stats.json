@@ -1,0 +1,218 @@
+{
+  "total": 1130,
+  "refreshed": "2026-05-02",
+  "byState": [
+    {
+      "state": "CA",
+      "n": 82
+    },
+    {
+      "state": "FL",
+      "n": 69
+    },
+    {
+      "state": "TX",
+      "n": 64
+    },
+    {
+      "state": "PA",
+      "n": 64
+    },
+    {
+      "state": "IL",
+      "n": 56
+    },
+    {
+      "state": "NY",
+      "n": 47
+    },
+    {
+      "state": "MI",
+      "n": 41
+    },
+    {
+      "state": "OH",
+      "n": 39
+    },
+    {
+      "state": "VA",
+      "n": 37
+    },
+    {
+      "state": "WA",
+      "n": 36
+    },
+    {
+      "state": "IN",
+      "n": 34
+    },
+    {
+      "state": "NC",
+      "n": 32
+    },
+    {
+      "state": "MO",
+      "n": 32
+    },
+    {
+      "state": "WI",
+      "n": 29
+    },
+    {
+      "state": "GA",
+      "n": 28
+    },
+    {
+      "state": "MN",
+      "n": 28
+    },
+    {
+      "state": "MD",
+      "n": 26
+    },
+    {
+      "state": "MA",
+      "n": 24
+    },
+    {
+      "state": "CO",
+      "n": 24
+    },
+    {
+      "state": "NJ",
+      "n": 22
+    },
+    {
+      "state": "CT",
+      "n": 19
+    },
+    {
+      "state": "AZ",
+      "n": 19
+    },
+    {
+      "state": "OR",
+      "n": 19
+    },
+    {
+      "state": "TN",
+      "n": 18
+    },
+    {
+      "state": "NH",
+      "n": 18
+    },
+    {
+      "state": "ID",
+      "n": 15
+    },
+    {
+      "state": "KS",
+      "n": 14
+    },
+    {
+      "state": "SC",
+      "n": 13
+    },
+    {
+      "state": "IA",
+      "n": 13
+    },
+    {
+      "state": "NE",
+      "n": 13
+    },
+    {
+      "state": "AR",
+      "n": 12
+    },
+    {
+      "state": "ME",
+      "n": 12
+    },
+    {
+      "state": "KY",
+      "n": 12
+    },
+    {
+      "state": "AL",
+      "n": 11
+    },
+    {
+      "state": "UT",
+      "n": 11
+    },
+    {
+      "state": "MT",
+      "n": 11
+    },
+    {
+      "state": "NM",
+      "n": 10
+    },
+    {
+      "state": "WV",
+      "n": 9
+    },
+    {
+      "state": "OK",
+      "n": 9
+    },
+    {
+      "state": "NV",
+      "n": 8
+    },
+    {
+      "state": "SD",
+      "n": 7
+    },
+    {
+      "state": "AK",
+      "n": 6
+    },
+    {
+      "state": "LA",
+      "n": 6
+    },
+    {
+      "state": "MS",
+      "n": 6
+    },
+    {
+      "state": "WY",
+      "n": 5
+    },
+    {
+      "state": "VT",
+      "n": 5
+    },
+    {
+      "state": "DE",
+      "n": 4
+    },
+    {
+      "state": "ND",
+      "n": 4
+    },
+    {
+      "state": "RI",
+      "n": 4
+    },
+    {
+      "state": "HI",
+      "n": 2
+    },
+    {
+      "state": "PR",
+      "n": 1
+    }
+  ],
+  "vaApprovedCount": 0,
+  "withInstrument": 0,
+  "withMultiEngine": 0,
+  "withRotary": 0,
+  "withSeaplane": 0,
+  "withGlider": 0,
+  "withSimulator": 0,
+  "withAircraftRental": 106
+}

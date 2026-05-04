@@ -1,0 +1,194 @@
+{
+  "total": 225,
+  "refreshed": "2026-05-02",
+  "byState": [
+    {
+      "state": "TX",
+      "n": 28
+    },
+    {
+      "state": "FL",
+      "n": 26
+    },
+    {
+      "state": "CA",
+      "n": 17
+    },
+    {
+      "state": "AZ",
+      "n": 7
+    },
+    {
+      "state": "KS",
+      "n": 7
+    },
+    {
+      "state": "MS",
+      "n": 7
+    },
+    {
+      "state": "OR",
+      "n": 7
+    },
+    {
+      "state": "GA",
+      "n": 6
+    },
+    {
+      "state": "OK",
+      "n": 6
+    },
+    {
+      "state": "WA",
+      "n": 6
+    },
+    {
+      "state": "WI",
+      "n": 6
+    },
+    {
+      "state": "AL",
+      "n": 5
+    },
+    {
+      "state": "AR",
+      "n": 5
+    },
+    {
+      "state": "IL",
+      "n": 5
+    },
+    {
+      "state": "NC",
+      "n": 5
+    },
+    {
+      "state": "OH",
+      "n": 5
+    },
+    {
+      "state": "PA",
+      "n": 5
+    },
+    {
+      "state": "AK",
+      "n": 4
+    },
+    {
+      "state": "CO",
+      "n": 4
+    },
+    {
+      "state": "ID",
+      "n": 4
+    },
+    {
+      "state": "IN",
+      "n": 4
+    },
+    {
+      "state": "LA",
+      "n": 4
+    },
+    {
+      "state": "MA",
+      "n": 4
+    },
+    {
+      "state": "MO",
+      "n": 4
+    },
+    {
+      "state": "SC",
+      "n": 4
+    },
+    {
+      "state": "TN",
+      "n": 4
+    },
+    {
+      "state": "CT",
+      "n": 3
+    },
+    {
+      "state": "HI",
+      "n": 3
+    },
+    {
+      "state": "MD",
+      "n": 3
+    },
+    {
+      "state": "MT",
+      "n": 3
+    },
+    {
+      "state": "WV",
+      "n": 3
+    },
+    {
+      "state": "KY",
+      "n": 2
+    },
+    {
+      "state": "MI",
+      "n": 2
+    },
+    {
+      "state": "NM",
+      "n": 2
+    },
+    {
+      "state": "UT",
+      "n": 2
+    },
+    {
+      "state": "PR",
+      "n": 2
+    },
+    {
+      "state": "IA",
+      "n": 1
+    },
+    {
+      "state": "MN",
+      "n": 1
+    },
+    {
+      "state": "ND",
+      "n": 1
+    },
+    {
+      "state": "NE",
+      "n": 1
+    },
+    {
+      "state": "NH",
+      "n": 1
+    },
+    {
+      "state": "NY",
+      "n": 1
+    },
+    {
+      "state": "SD",
+      "n": 1
+    },
+    {
+      "state": "WY",
+      "n": 1
+    },
+    {
+      "state": "GU",
+      "n": 1
+    },
+    {
+      "state": "MP",
+      "n": 1
+    },
+    {
+      "state": "VI",
+      "n": 1
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "totalPrograms": 771,
+  "totalInstitutions": 311,
+  "refreshed": "2026-05-02",
+  "byState": [
+    {
+      "state": "FL",
+      "n": 29
+    },
+    {
+      "state": "TX",
+      "n": 26
+    },
+    {
+      "state": "GA",
+      "n": 22
+    },
+    {
+      "state": "CA",
+      "n": 22
+    },
+    {
+      "state": "NC",
+      "n": 10
+    },
+    {
+      "state": "WA",
+      "n": 10
+    },
+    {
+      "state": "OK",
+      "n": 10
+    },
+    {
+      "state": "OH",
+      "n": 9
+    },
+    {
+      "state": "IL",
+      "n": 9
+    },
+    {
+      "state": "IN",
+      "n": 8
+    },
+    {
+      "state": "AL",
+      "n": 8
+    },
+    {
+      "state": "MI",
+      "n": 7
+    },
+    {
+      "state": "VA",
+      "n": 7
+    },
+    {
+      "state": "OR",
+      "n": 7
+    },
+    {
+      "state": "AZ",
+      "n": 7
+    },
+    {
+      "state": "PA",
+      "n": 6
+    },
+    {
+      "state": "MA",
+      "n": 6
+    },
+    {
+      "state": "CO",
+      "n": 6
+    },
+    {
+      "state": "NY",
+      "n": 6
+    },
+    {
+      "state": "KY",
+      "n": 6
+    },
+    {
+      "state": "TN",
+      "n": 6
+    },
+    {
+      "state": "AR",
+      "n": 5
+    },
+    {
+      "state": "MO",
+      "n": 5
+    },
+    {
+      "state": "LA",
+      "n": 5
+    },
+    {
+      "state": "ID",
+      "n": 5
+    },
+    {
+      "state": "SC",
+      "n": 4
+    },
+    {
+      "state": "MS",
+      "n": 4
+    },
+    {
+      "state": "UT",
+      "n": 4
+    },
+    {
+      "state": "IA",
+      "n": 4
+    },
+    {
+      "state": "WV",
+      "n": 4
+    },
+    {
+      "state": "AK",
+      "n": 4
+    },
+    {
+      "state": "NV",
+      "n": 3
+    },
+    {
+      "state": "MD",
+      "n": 3
+    },
+    {
+      "state": "NM",
+      "n": 3
+    },
+    {
+      "state": "KS",
+      "n": 3
+    },
+    {
+      "state": null,
+      "n": 3
+    },
+    {
+      "state": "CT",
+      "n": 2
+    },
+    {
+      "state": "DE",
+      "n": 2
+    },
+    {
+      "state": "NJ",
+      "n": 2
+    },
+    {
+      "state": "ND",
+      "n": 2
+    },
+    {
+      "state": "NE",
+      "n": 2
+    },
+    {
+      "state": "MT",
+      "n": 2
+    },
+    {
+      "state": "SD",
+      "n": 2
+    },
+    {
+      "state": "MN",
+      "n": 2
+    },
+    {
+      "state": "WI",
+      "n": 2
+    },
+    {
+      "state": "VT",
+      "n": 2
+    },
+    {
+      "state": "NH",
+      "n": 2
+    },
+    {
+      "state": "HI",
+      "n": 1
+    },
+    {
+      "state": "DC",
+      "n": 1
+    },
+    {
+      "state": "PR",
+      "n": 1
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "total": 70892,
+  "refreshed": "2026-05-02",
+  "byState": [
+    {
+      "state": "FL",
+      "n": 7821
+    },
+    {
+      "state": "TX",
+      "n": 6561
+    },
+    {
+      "state": "CA",
+      "n": 5776
+    },
+    {
+      "state": "CO",
+      "n": 2766
+    },
+    {
+      "state": "AZ",
+      "n": 2748
+    },
+    {
+      "state": "WA",
+      "n": 2589
+    },
+    {
+      "state": "GA",
+      "n": 2408
+    },
+    {
+      "state": "IL",
+      "n": 2147
+    },
+    {
+      "state": "NC",
+      "n": 2054
+    },
+    {
+      "state": "OH",
+      "n": 2004
+    },
+    {
+      "state": "PA",
+      "n": 1891
+    },
+    {
+      "state": "TN",
+      "n": 1845
+    },
+    {
+      "state": "MN",
+      "n": 1839
+    },
+    {
+      "state": "VA",
+      "n": 1802
+    },
+    {
+      "state": "MI",
+      "n": 1786
+    },
+    {
+      "state": "NY",
+      "n": 1580
+    },
+    {
+      "state": "UT",
+      "n": 1443
+    },
+    {
+      "state": "IN",
+      "n": 1271
+    },
+    {
+      "state": "WI",
+      "n": 1220
+    },
+    {
+      "state": "MO",
+      "n": 1092
+    },
+    {
+      "state": "AL",
+      "n": 1090
+    },
+    {
+      "state": "NV",
+      "n": 1051
+    },
+    {
+      "state": "AK",
+      "n": 1010
+    },
+    {
+      "state": "OR",
+      "n": 995
+    },
+    {
+      "state": "SC",
+      "n": 982
+    },
+    {
+      "state": "NJ",
+      "n": 964
+    },
+    {
+      "state": "OK",
+      "n": 925
+    },
+    {
+      "state": "MD",
+      "n": 857
+    },
+    {
+      "state": "ID",
+      "n": 855
+    },
+    {
+      "state": "KS",
+      "n": 852
+    },
+    {
+      "state": "KY",
+      "n": 818
+    },
+    {
+      "state": "MA",
+      "n": 753
+    },
+    {
+      "state": "AR",
+      "n": 606
+    },
+    {
+      "state": "IA",
+      "n": 595
+    },
+    {
+      "state": "LA",
+      "n": 581
+    },
+    {
+      "state": "NH",
+      "n": 522
+    },
+    {
+      "state": "CT",
+      "n": 519
+    },
+    {
+      "state": "MT",
+      "n": 508
+    },
+    {
+      "state": "MS",
+      "n": 482
+    },
+    {
+      "state": "HI",
+      "n": 439
+    },
+    {
+      "state": "NE",
+      "n": 389
+    },
+    {
+      "state": "NM",
+      "n": 340
+    },
+    {
+      "state": "ND",
+      "n": 334
+    },
+    {
+      "state": "SD",
+      "n": 301
+    },
+    {
+      "state": "ME",
+      "n": 259
+    },
+    {
+      "state": "WV",
+      "n": 224
+    },
+    {
+      "state": "WY",
+      "n": 215
+    },
+    {
+      "state": "PR",
+      "n": 188
+    },
+    {
+      "state": "DE",
+      "n": 183
+    },
+    {
+      "state": "VT",
+      "n": 127
+    },
+    {
+      "state": "RI",
+      "n": 93
+    },
+    {
+      "state": "AE",
+      "n": 61
+    },
+    {
+      "state": "DC",
+      "n": 56
+    },
+    {
+      "state": "GU",
+      "n": 35
+    },
+    {
+      "state": "AP",
+      "n": 20
+    },
+    {
+      "state": "VI",
+      "n": 16
+    },
+    {
+      "state": "MP",
+      "n": 4
+    }
+  ],
+  "byRating": [
+    {
+      "rating": "CFII · Airplane Instrument",
+      "n": 51688
+    },
+    {
+      "rating": "CFI · Single & Multi-Engine Airplane",
+      "n": 34130
+    },
+    {
+      "rating": "CFI · Single-Engine Airplane",
+      "n": 29109
+    },
+    {
+      "rating": "CFI · Helicopter",
+      "n": 7150
+    },
+    {
+      "rating": "CFII · Helicopter Instrument",
+      "n": 3322
+    },
+    {
+      "rating": "MEI · Multi-Engine Airplane",
+      "n": 2269
+    },
+    {
+      "rating": "CFI · Glider",
+      "n": 1972
+    },
+    {
+      "rating": "CFII · Instrument",
+      "n": 1695
+    },
+    {
+      "rating": "CFI · Sport Pilot",
+      "n": 337
+    },
+    {
+      "rating": "CFI · Powered Lift",
+      "n": 174
+    },
+    {
+      "rating": "CFII · Powered Lift Instrument",
+      "n": 162
+    },
+    {
+      "rating": "CFI · Helicopter & Gyroplane",
+      "n": 79
+    },
+    {
+      "rating": "CFI · Gyroplane",
+      "n": 55
+    }
+  ],
+  "byPilotLevel": [
+    {
+      "level": "ATP",
+      "n": 39060
+    },
+    {
+      "level": "Commercial",
+      "n": 18955
+    },
+    {
+      "level": "T",
+      "n": 64
+    },
+    {
+      "level": "Private",
+      "n": 54
+    },
+    {
+      "level": "Student",
+      "n": 1
+    }
+  ],
+  "byMedicalClass": [
+    {
+      "class": "1",
+      "n": 39328
+    },
+    {
+      "class": "2",
+      "n": 13069
+    },
+    {
+      "class": "3",
+      "n": 4525
+    }
+  ],
+  "rawTokenCounts": [
+    [
+      "F/INSTA",
+      51688
+    ],
+    [
+      "F/ASME",
+      34130
+    ],
+    [
+      "F/ASE",
+      29109
+    ],
+    [
+      "F/HEL",
+      7150
+    ],
+    [
+      "F/INSTH",
+      3322
+    ],
+    [
+      "F/AME",
+      2269
+    ],
+    [
+      "F/GL",
+      1972
+    ],
+    [
+      "F/INSTI",
+      1695
+    ],
+    [
+      "F/SPORT",
+      337
+    ],
+    [
+      "F/PLIFT",
+      174
+    ],
+    [
+      "F/INSTP",
+      162
+    ],
+    [
+      "F/HELGY",
+      79
+    ],
+    [
+      "F/GYRO",
+      55
+    ]
+  ]
+}

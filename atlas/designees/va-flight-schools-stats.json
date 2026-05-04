@@ -1,0 +1,178 @@
+{
+  "total": 224,
+  "refreshed": "2026-05-02",
+  "byState": [
+    {
+      "state": "TX",
+      "n": 33
+    },
+    {
+      "state": "FL",
+      "n": 31
+    },
+    {
+      "state": "CA",
+      "n": 14
+    },
+    {
+      "state": "NC",
+      "n": 12
+    },
+    {
+      "state": "PA",
+      "n": 11
+    },
+    {
+      "state": "WA",
+      "n": 9
+    },
+    {
+      "state": "IN",
+      "n": 9
+    },
+    {
+      "state": "NY",
+      "n": 8
+    },
+    {
+      "state": "GA",
+      "n": 8
+    },
+    {
+      "state": "MD",
+      "n": 7
+    },
+    {
+      "state": "CO",
+      "n": 7
+    },
+    {
+      "state": "NJ",
+      "n": 6
+    },
+    {
+      "state": "AZ",
+      "n": 5
+    },
+    {
+      "state": "OH",
+      "n": 5
+    },
+    {
+      "state": "IL",
+      "n": 5
+    },
+    {
+      "state": "VA",
+      "n": 4
+    },
+    {
+      "state": "MN",
+      "n": 4
+    },
+    {
+      "state": "LA",
+      "n": 4
+    },
+    {
+      "state": "OR",
+      "n": 4
+    },
+    {
+      "state": "NM",
+      "n": 3
+    },
+    {
+      "state": "TN",
+      "n": 3
+    },
+    {
+      "state": "OK",
+      "n": 3
+    },
+    {
+      "state": "AK",
+      "n": 2
+    },
+    {
+      "state": "WY",
+      "n": 2
+    },
+    {
+      "state": "UT",
+      "n": 2
+    },
+    {
+      "state": "MI",
+      "n": 2
+    },
+    {
+      "state": "WI",
+      "n": 2
+    },
+    {
+      "state": "KS",
+      "n": 2
+    },
+    {
+      "state": "HI",
+      "n": 2
+    },
+    {
+      "state": "AL",
+      "n": 2
+    },
+    {
+      "state": "ID",
+      "n": 2
+    },
+    {
+      "state": "IA",
+      "n": 1
+    },
+    {
+      "state": "AR",
+      "n": 1
+    },
+    {
+      "state": "DE",
+      "n": 1
+    },
+    {
+      "state": "NV",
+      "n": 1
+    },
+    {
+      "state": "NH",
+      "n": 1
+    },
+    {
+      "state": "ME",
+      "n": 1
+    },
+    {
+      "state": "RI",
+      "n": 1
+    },
+    {
+      "state": "SC",
+      "n": 1
+    },
+    {
+      "state": "MO",
+      "n": 1
+    },
+    {
+      "state": "VT",
+      "n": 1
+    },
+    {
+      "state": "KY",
+      "n": 1
+    }
+  ],
+  "withYellowRibbon": 0,
+  "withVetTec": 0,
+  "withCaution": 0,
+  "closing": 0
+}

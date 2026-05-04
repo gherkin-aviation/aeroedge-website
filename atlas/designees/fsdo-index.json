@@ -1,0 +1,1788 @@
+[
+  {
+    "code": "CE-07",
+    "office": "WICHITA FSDO CE-07 / ICT FSDO",
+    "total": 807,
+    "byCategory": {
+      "dar-t": 7,
+      "dme": 12,
+      "sae": 27,
+      "tce": 759,
+      "admin-pe": 2
+    },
+    "topState": {
+      "state": "FL",
+      "count": 150
+    },
+    "topCity": {
+      "city": "Wichita",
+      "count": 117
+    }
+  },
+  {
+    "code": "SW-33",
+    "office": "PART 142 CMO SW-33",
+    "total": 450,
+    "byCategory": {
+      "tce": 450
+    },
+    "topState": {
+      "state": "TX",
+      "count": 169
+    },
+    "topCity": {
+      "city": "Dfw Airport",
+      "count": 78
+    }
+  },
+  {
+    "code": "SO-27",
+    "office": "DELTA CMO SO-27",
+    "total": 154,
+    "byCategory": {
+      "apd": 150,
+      "dade": 4
+    },
+    "topState": {
+      "state": "GA",
+      "count": 123
+    },
+    "topCity": {
+      "city": "Atlanta",
+      "count": 111
+    }
+  },
+  {
+    "code": "SW-21",
+    "office": "AMERICAN CMO SW-21 / AMR CMO",
+    "total": 132,
+    "byCategory": {
+      "apd": 132
+    },
+    "topState": {
+      "state": "TX",
+      "count": 121
+    },
+    "topCity": {
+      "city": "Fort Worth",
+      "count": 80
+    }
+  },
+  {
+    "code": "WP-07",
+    "office": "SCOTTSDALE FSDO WP-07 / SDL FSDO",
+    "total": 129,
+    "byCategory": {
+      "dar-t": 7,
+      "dme": 19,
+      "dpre": 2,
+      "sae": 91,
+      "tce": 4,
+      "admin-pe": 6
+    },
+    "topState": {
+      "state": "AZ",
+      "count": 121
+    },
+    "topCity": {
+      "city": "Mesa",
+      "count": 29
+    }
+  },
+  {
+    "code": "SW-07",
+    "office": "DALLAS/FORT WORTH CMO SW-07 / DFW CMO",
+    "total": 127,
+    "byCategory": {
+      "apd": 95,
+      "dade": 32
+    },
+    "topState": {
+      "state": "FL",
+      "count": 79
+    },
+    "topCity": {
+      "city": "Miami",
+      "count": 65
+    }
+  },
+  {
+    "code": "NM-06",
+    "office": "SKYWEST CMO NM-06",
+    "total": 99,
+    "byCategory": {
+      "apd": 94,
+      "dade": 5
+    },
+    "topState": {
+      "state": "UT",
+      "count": 31
+    },
+    "topCity": {
+      "city": "Salt Lake City",
+      "count": 23
+    }
+  },
+  {
+    "code": "SW-19",
+    "office": "NORTH TEXAS FSDO SW-19 / NT FSDO",
+    "total": 96,
+    "byCategory": {
+      "dar-t": 13,
+      "dme": 11,
+      "sae": 51,
+      "apd": 10,
+      "admin-pe": 11
+    },
+    "topState": {
+      "state": "TX",
+      "count": 83
+    },
+    "topCity": {
+      "city": "Fort Worth",
+      "count": 9
+    }
+  },
+  {
+    "code": "GL-33",
+    "office": "UNITED AIRLINES CMO GL-33 / UAL CMO",
+    "total": 94,
+    "byCategory": {
+      "apd": 94
+    },
+    "topState": {
+      "state": "CO",
+      "count": 94
+    },
+    "topCity": {
+      "city": "Denver",
+      "count": 94
+    }
+  },
+  {
+    "code": "SO-15",
+    "office": "ORLANDO FSDO SO-15 / MCO FSDO",
+    "total": 92,
+    "byCategory": {
+      "dar-t": 4,
+      "dme": 10,
+      "dpre": 4,
+      "sae": 36,
+      "admin-pe": 38
+    },
+    "topState": {
+      "state": "FL",
+      "count": 86
+    },
+    "topCity": {
+      "city": "Daytona Beach",
+      "count": 16
+    }
+  },
+  {
+    "code": "SO-19",
+    "office": "SOUTH FLORIDA FSDO SO-19",
+    "total": 85,
+    "byCategory": {
+      "dar-t": 6,
+      "dme": 4,
+      "sae": 46,
+      "tce": 26,
+      "admin-pe": 3
+    },
+    "topState": {
+      "state": "FL",
+      "count": 82
+    },
+    "topCity": {
+      "city": "Miami",
+      "count": 21
+    }
+  },
+  {
+    "code": "NM-09",
+    "office": "PORTLAND FSDO NM-09 / PDX FSDO",
+    "total": 72,
+    "byCategory": {
+      "dar-t": 4,
+      "dme": 3,
+      "dpre": 1,
+      "sae": 64
+    },
+    "topState": {
+      "state": "OR",
+      "count": 62
+    },
+    "topCity": {
+      "city": "Hillsboro",
+      "count": 15
+    }
+  },
+  {
+    "code": "GL-07",
+    "office": "COLUMBUS FSDO GL-07 / CMH FSDO",
+    "total": 66,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 4,
+      "sae": 23,
+      "apd": 37,
+      "admin-pe": 1
+    },
+    "topState": {
+      "state": "OH",
+      "count": 60
+    },
+    "topCity": {
+      "city": "Columbus",
+      "count": 41
+    }
+  },
+  {
+    "code": "CE-19",
+    "office": "NASHVILLE FSDO CE-19 / BNA FSDO",
+    "total": 62,
+    "byCategory": {
+      "dar-t": 5,
+      "dme": 10,
+      "sae": 47
+    },
+    "topState": {
+      "state": "TN",
+      "count": 57
+    },
+    "topCity": {
+      "city": "Smyrna",
+      "count": 8
+    }
+  },
+  {
+    "code": "SO-09",
+    "office": "ALABAMA AND NORTHWEST FLORIDA FSDO SO-09 / BHM FSDO",
+    "total": 59,
+    "byCategory": {
+      "dar-t": 6,
+      "dme": 12,
+      "sae": 37,
+      "admin-pe": 4
+    },
+    "topState": {
+      "state": "AL",
+      "count": 35
+    },
+    "topCity": {
+      "city": "Pensacola",
+      "count": 12
+    }
+  },
+  {
+    "code": "SW-39",
+    "office": "ENVOY CMO SW-39",
+    "total": 59,
+    "byCategory": {
+      "apd": 59
+    },
+    "topState": {
+      "state": "TX",
+      "count": 36
+    },
+    "topCity": {
+      "city": "Charlotte",
+      "count": 15
+    }
+  },
+  {
+    "code": "NM-02",
+    "office": "ALASKA AIRLINES CMO NM-02",
+    "total": 51,
+    "byCategory": {
+      "apd": 51
+    },
+    "topState": {
+      "state": "WA",
+      "count": 34
+    },
+    "topCity": {
+      "city": "Seatac",
+      "count": 22
+    }
+  },
+  {
+    "code": "SW-29",
+    "office": "SOUTHWEST AIRLINES CMO SW-29 / SWA CMO",
+    "total": 51,
+    "byCategory": {
+      "apd": 51
+    },
+    "topState": {
+      "state": "TX",
+      "count": 51
+    },
+    "topCity": {
+      "city": "Dallas",
+      "count": 51
+    }
+  },
+  {
+    "code": "GL-62",
+    "office": "MIDWEST CMO GL-62",
+    "total": 48,
+    "byCategory": {
+      "apd": 48
+    },
+    "topState": {
+      "state": "IN",
+      "count": 30
+    },
+    "topCity": {
+      "city": "Carmel",
+      "count": 20
+    }
+  },
+  {
+    "code": "NM-07",
+    "office": "SALT LAKE CITY FSDO NM-07 / SLC FSDO",
+    "total": 46,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 8,
+      "sae": 33,
+      "admin-pe": 2
+    },
+    "topState": {
+      "state": "UT",
+      "count": 38
+    },
+    "topCity": {
+      "city": "Cedar City",
+      "count": 6
+    }
+  },
+  {
+    "code": "GL-03",
+    "office": "GREATER CHICAGO FSDO GL-03 / CHI FSDO",
+    "total": 41,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 9,
+      "dpre": 1,
+      "sae": 27,
+      "admin-pe": 1
+    },
+    "topState": {
+      "state": "IL",
+      "count": 36
+    },
+    "topCity": {
+      "city": "Romeoville",
+      "count": 3
+    }
+  },
+  {
+    "code": "SO-13",
+    "office": "COLUMBIA FSDO SO-13 / CAE FSDO",
+    "total": 41,
+    "byCategory": {
+      "dar-t": 6,
+      "dme": 13,
+      "dpre": 1,
+      "sae": 21
+    },
+    "topState": {
+      "state": "SC",
+      "count": 35
+    },
+    "topCity": {
+      "city": "Greenville",
+      "count": 4
+    }
+  },
+  {
+    "code": "SO-65",
+    "office": "ATLANTA CMO SO-65 / ATL CMO",
+    "total": 41,
+    "byCategory": {
+      "apd": 36,
+      "dade": 5
+    },
+    "topState": {
+      "state": "CO",
+      "count": 24
+    },
+    "topCity": {
+      "city": "Aurora",
+      "count": 18
+    }
+  },
+  {
+    "code": "CE-23",
+    "office": "FEDEX CMO CE-23",
+    "total": 41,
+    "byCategory": {
+      "apd": 41
+    },
+    "topState": {
+      "state": "TN",
+      "count": 41
+    },
+    "topCity": {
+      "city": "Memphis",
+      "count": 41
+    }
+  },
+  {
+    "code": "SO-11",
+    "office": "ATLANTA FSDO SO-11 / ATL FSDO",
+    "total": 39,
+    "byCategory": {
+      "dar-t": 8,
+      "dme": 10,
+      "dpre": 1,
+      "sae": 19,
+      "admin-pe": 1
+    },
+    "topState": {
+      "state": "GA",
+      "count": 37
+    },
+    "topCity": {
+      "city": "Peachtree City",
+      "count": 3
+    }
+  },
+  {
+    "code": "GL-11",
+    "office": "INDIANAPOLIS FSDO GL-11 / IND FSDO",
+    "total": 39,
+    "byCategory": {
+      "dar-t": 4,
+      "dme": 9,
+      "sae": 26
+    },
+    "topState": {
+      "state": "IN",
+      "count": 36
+    },
+    "topCity": {
+      "city": "West Lafayette",
+      "count": 8
+    }
+  },
+  {
+    "code": "NM-03",
+    "office": "DENVER FSDO NM-03 / DEN FSDO",
+    "total": 38,
+    "byCategory": {
+      "dar-t": 4,
+      "dme": 5,
+      "dpre": 2,
+      "sae": 23,
+      "admin-pe": 4
+    },
+    "topState": {
+      "state": "CO",
+      "count": 33
+    },
+    "topCity": {
+      "city": "Broomfield",
+      "count": 9
+    }
+  },
+  {
+    "code": "SO-67",
+    "office": "ORLANDO CMO SO-67 / MCO CMO",
+    "total": 37,
+    "byCategory": {
+      "apd": 35,
+      "dade": 2
+    },
+    "topState": {
+      "state": "FL",
+      "count": 19
+    },
+    "topCity": {
+      "city": "Miami",
+      "count": 13
+    }
+  },
+  {
+    "code": "SW-09",
+    "office": "HOUSTON FSDO SW-09 / HOU FSDO",
+    "total": 35,
+    "byCategory": {
+      "dar-t": 6,
+      "dme": 3,
+      "dpre": 2,
+      "sae": 24
+    },
+    "topState": {
+      "state": "TX",
+      "count": 35
+    },
+    "topCity": {
+      "city": "Houston",
+      "count": 14
+    }
+  },
+  {
+    "code": "CE-25",
+    "office": "UPS CMO CE-25",
+    "total": 35,
+    "byCategory": {
+      "apd": 35
+    },
+    "topState": {
+      "state": "KY",
+      "count": 30
+    },
+    "topCity": {
+      "city": "Louisville",
+      "count": 30
+    }
+  },
+  {
+    "code": "SW-15",
+    "office": "WILL ROGERS FSDO SW-15 / OKC FSDO",
+    "total": 34,
+    "byCategory": {
+      "dar-t": 4,
+      "dme": 10,
+      "sae": 15,
+      "admin-pe": 5
+    },
+    "topState": {
+      "state": "OK",
+      "count": 34
+    },
+    "topCity": {
+      "city": "Tulsa",
+      "count": 8
+    }
+  },
+  {
+    "code": "SW-17",
+    "office": "SAN ANTONIO FSDO SW-17 / SAT FSDO",
+    "total": 34,
+    "byCategory": {
+      "dar-t": 5,
+      "dme": 2,
+      "sae": 27
+    },
+    "topState": {
+      "state": "TX",
+      "count": 34
+    },
+    "topCity": {
+      "city": "San Antonio",
+      "count": 6
+    }
+  },
+  {
+    "code": "WP-19",
+    "office": "LAS VEGAS FSDO WP-19 / LAS FSDO",
+    "total": 34,
+    "byCategory": {
+      "dme": 8,
+      "dpre": 2,
+      "sae": 24
+    },
+    "topState": {
+      "state": "NV",
+      "count": 31
+    },
+    "topCity": {
+      "city": "North Las Vegas",
+      "count": 14
+    }
+  },
+  {
+    "code": "NM-01",
+    "office": "SEATTLE FSDO NM-01 / SEA FSDO",
+    "total": 32,
+    "byCategory": {
+      "dar-t": 4,
+      "dme": 5,
+      "dpre": 1,
+      "sae": 22
+    },
+    "topState": {
+      "state": "WA",
+      "count": 32
+    },
+    "topCity": {
+      "city": "Gig Harbor",
+      "count": 5
+    }
+  },
+  {
+    "code": "GL-15",
+    "office": "MINNEAPOLIS FSDO GL-15 / MSP FSDO",
+    "total": 30,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 3,
+      "sae": 20,
+      "admin-pe": 4
+    },
+    "topState": {
+      "state": "MN",
+      "count": 27
+    },
+    "topCity": {
+      "city": "Minneapolis",
+      "count": 4
+    }
+  },
+  {
+    "code": "WP-09",
+    "office": "SAN DIEGO FSDO WP-09 / SAN FSDO",
+    "total": 29,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 1,
+      "sae": 16,
+      "admin-pe": 11
+    },
+    "topState": {
+      "state": "CA",
+      "count": 27
+    },
+    "topCity": {
+      "city": "San Diego",
+      "count": 11
+    }
+  },
+  {
+    "code": "SO-29",
+    "office": "SOUTH FLORIDA CMO SO-29",
+    "total": 29,
+    "byCategory": {
+      "apd": 26,
+      "dade": 3
+    },
+    "topState": {
+      "state": "FL",
+      "count": 27
+    },
+    "topCity": {
+      "city": "Miramar",
+      "count": 9
+    }
+  },
+  {
+    "code": "SW-11",
+    "office": "LITTLE ROCK FSDO SW-11 / LIT FSDO",
+    "total": 28,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 3,
+      "sae": 21,
+      "admin-pe": 1
+    },
+    "topState": {
+      "state": "AR",
+      "count": 26
+    },
+    "topCity": {
+      "city": "Bentonville",
+      "count": 3
+    }
+  },
+  {
+    "code": "NM-05",
+    "office": "HELENA FSDO NM-05 / HLN FSDO",
+    "total": 28,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 3,
+      "dpre": 5,
+      "sae": 13,
+      "admin-pe": 4
+    },
+    "topState": {
+      "state": "MT",
+      "count": 28
+    },
+    "topCity": {
+      "city": "Missoula",
+      "count": 6
+    }
+  },
+  {
+    "code": "AL-03",
+    "office": "ANCHORAGE FSDO AL-03 / ANC FSDO",
+    "total": 27,
+    "byCategory": {
+      "dar-t": 6,
+      "dme": 2,
+      "sae": 19
+    },
+    "topState": {
+      "state": "AK",
+      "count": 26
+    },
+    "topCity": {
+      "city": "Anchorage",
+      "count": 15
+    }
+  },
+  {
+    "code": "GL-09",
+    "office": "GRAND RAPIDS FSDO GL-09 / GRR FSDO",
+    "total": 27,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 3,
+      "dpre": 1,
+      "sae": 17,
+      "admin-pe": 3
+    },
+    "topState": {
+      "state": "MI",
+      "count": 23
+    },
+    "topCity": {
+      "city": "Traverse City",
+      "count": 6
+    }
+  },
+  {
+    "code": "EA-15",
+    "office": "NEW YORK CMO EA-15 / NY CMO",
+    "total": 27,
+    "byCategory": {
+      "apd": 25,
+      "dade": 2
+    },
+    "topState": {
+      "state": "FL",
+      "count": 25
+    },
+    "topCity": {
+      "city": "Orlando",
+      "count": 25
+    }
+  },
+  {
+    "code": "GL-31",
+    "office": "CHICAGO CMO GL-31 / CHI CMO",
+    "total": 27,
+    "byCategory": {
+      "apd": 24,
+      "dade": 3
+    },
+    "topState": {
+      "state": "UT",
+      "count": 8
+    },
+    "topCity": {
+      "city": "Salt Lake City",
+      "count": 7
+    }
+  },
+  {
+    "code": "GL-21",
+    "office": "FARGO FSDO GL-21 / FAR FSDO",
+    "total": 26,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 5,
+      "sae": 10,
+      "admin-pe": 10
+    },
+    "topState": {
+      "state": "ND",
+      "count": 15
+    },
+    "topCity": {
+      "city": "Grand Forks",
+      "count": 7
+    }
+  },
+  {
+    "code": "GL-61",
+    "office": "THE GREAT ATLANTIC CMO GL-61 / TGA CMO",
+    "total": 26,
+    "byCategory": {
+      "apd": 25,
+      "dade": 1
+    },
+    "topState": {
+      "state": "MI",
+      "count": 17
+    },
+    "topCity": {
+      "city": "Ypsilanti",
+      "count": 13
+    }
+  },
+  {
+    "code": "SW-03",
+    "office": "BATON ROUGE FSDO SW-03 / BTR FSDO",
+    "total": 25,
+    "byCategory": {
+      "dar-t": 7,
+      "dme": 7,
+      "sae": 8,
+      "apd": 3
+    },
+    "topState": {
+      "state": "LA",
+      "count": 23
+    },
+    "topCity": {
+      "city": "Lafayette",
+      "count": 7
+    }
+  },
+  {
+    "code": "CE-05",
+    "office": "KANSAS CITY FSDO CE-05 / MCI FSDO",
+    "total": 24,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 2,
+      "sae": 19,
+      "admin-pe": 1
+    },
+    "topState": {
+      "state": "MO",
+      "count": 22
+    },
+    "topCity": {
+      "city": "Kansas City",
+      "count": 6
+    }
+  },
+  {
+    "code": "EA-11",
+    "office": "FARMINGDALE FSDO EA-11 / FRG FSDO",
+    "total": 24,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 14,
+      "sae": 7
+    },
+    "topState": {
+      "state": "NY",
+      "count": 24
+    },
+    "topCity": {
+      "city": "Ronkonkoma",
+      "count": 6
+    }
+  },
+  {
+    "code": "EA-03",
+    "office": "ALLEGHENY FSDO EA-03 / AGC FSDO",
+    "total": 24,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 3,
+      "sae": 14,
+      "apd": 5,
+      "admin-pe": 1
+    },
+    "topState": {
+      "state": "PA",
+      "count": 20
+    },
+    "topCity": {
+      "city": "Johnstown",
+      "count": 5
+    }
+  },
+  {
+    "code": "EA-17",
+    "office": "PHILADELPHIA FSDO EA-17 / PHL FSDO",
+    "total": 23,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 5,
+      "sae": 13,
+      "admin-pe": 2
+    },
+    "topState": {
+      "state": "NJ",
+      "count": 10
+    },
+    "topCity": {
+      "city": "Philadelphia",
+      "count": 5
+    }
+  },
+  {
+    "code": "SW-01",
+    "office": "ALBUQUERQUE FSDO SW-01 / ABQ FSDO",
+    "total": 21,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 2,
+      "sae": 16
+    },
+    "topState": {
+      "state": "NM",
+      "count": 13
+    },
+    "topCity": {
+      "city": "Albuquerque",
+      "count": 7
+    }
+  },
+  {
+    "code": "EA-39",
+    "office": "GREENSBORO FSDO EA-39 / GSO FSDO",
+    "total": 20,
+    "byCategory": {
+      "dar-t": 4,
+      "dme": 7,
+      "dpre": 7,
+      "sae": 2
+    },
+    "topState": {
+      "state": "NC",
+      "count": 19
+    },
+    "topCity": {
+      "city": "Raeford",
+      "count": 3
+    }
+  },
+  {
+    "code": "WP-11",
+    "office": "RENO FSDO WP-11 / RNO FSDO",
+    "total": 20,
+    "byCategory": {
+      "dar-t": 1,
+      "sae": 19
+    },
+    "topState": {
+      "state": "NV",
+      "count": 17
+    },
+    "topCity": {
+      "city": "Reno",
+      "count": 8
+    }
+  },
+  {
+    "code": "GL-25",
+    "office": "CLEVELAND FSDO GL-25 / CLE FSDO",
+    "total": 20,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 6,
+      "sae": 12
+    },
+    "topState": {
+      "state": "OH",
+      "count": 20
+    },
+    "topCity": {
+      "city": "Swanton",
+      "count": 3
+    }
+  },
+  {
+    "code": "EA-68",
+    "office": "CHARLOTTE FSDO EA-68 / CLT FSDO",
+    "total": 20,
+    "byCategory": {
+      "dme": 2,
+      "sae": 18
+    },
+    "topState": {
+      "state": "NC",
+      "count": 16
+    },
+    "topCity": {
+      "city": "Concord",
+      "count": 3
+    }
+  },
+  {
+    "code": "SW-13",
+    "office": "LUBBOCK FSDO SW-13 / LBB FSDO",
+    "total": 19,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 4,
+      "sae": 14
+    },
+    "topState": {
+      "state": "TX",
+      "count": 17
+    },
+    "topCity": {
+      "city": "Midland",
+      "count": 3
+    }
+  },
+  {
+    "code": "WP-17",
+    "office": "FRESNO FSDO WP-17 / FAT FSDO",
+    "total": 18,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 6,
+      "sae": 8,
+      "admin-pe": 3
+    },
+    "topState": {
+      "state": "CA",
+      "count": 18
+    },
+    "topCity": {
+      "city": "Fresno",
+      "count": 6
+    }
+  },
+  {
+    "code": "EA-61",
+    "office": "BOSTON FSDO EA-61 / BOS FSDO",
+    "total": 18,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 5,
+      "sae": 8,
+      "apd": 3
+    },
+    "topState": {
+      "state": "MA",
+      "count": 16
+    },
+    "topCity": {
+      "city": "Plymouth",
+      "count": 4
+    }
+  },
+  {
+    "code": "EA-65",
+    "office": "PORTLAND FSDO EA-65 / PWM FSDO",
+    "total": 18,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 4,
+      "sae": 13
+    },
+    "topState": {
+      "state": "NH",
+      "count": 8
+    },
+    "topCity": {
+      "city": "South Burlington",
+      "count": 3
+    }
+  },
+  {
+    "code": "EA-21",
+    "office": "RICHMOND FSDO EA-21 / RIC FSDO",
+    "total": 18,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 10,
+      "dpre": 2,
+      "sae": 1,
+      "admin-pe": 3
+    },
+    "topState": {
+      "state": "VA",
+      "count": 17
+    },
+    "topCity": {
+      "city": "Lynchburg",
+      "count": 7
+    }
+  },
+  {
+    "code": "GL-13",
+    "office": "MILWAUKEE FSDO GL-13 / MKE FSDO",
+    "total": 18,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 3,
+      "sae": 12
+    },
+    "topState": {
+      "state": "WI",
+      "count": 17
+    },
+    "topCity": {
+      "city": "Oshkosh",
+      "count": 4
+    }
+  },
+  {
+    "code": "SO-35",
+    "office": "TAMPA FSDO SO-35 / TPA FSDO",
+    "total": 18,
+    "byCategory": {
+      "dme": 6,
+      "dpre": 1,
+      "sae": 7,
+      "admin-pe": 4
+    },
+    "topState": {
+      "state": "FL",
+      "count": 15
+    },
+    "topCity": {
+      "city": "St Petersburg",
+      "count": 2
+    }
+  },
+  {
+    "code": "GL-23",
+    "office": "EAST MICHIGAN FSDO GL-23 / EMI FSDO",
+    "total": 17,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 2,
+      "sae": 13
+    },
+    "topState": {
+      "state": "MI",
+      "count": 16
+    },
+    "topCity": {
+      "city": "Canton",
+      "count": 2
+    }
+  },
+  {
+    "code": "EA-25",
+    "office": "TETERBORO FSDO EA-25 / TEB FSDO",
+    "total": 17,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 5,
+      "sae": 10,
+      "admin-pe": 1
+    },
+    "topState": {
+      "state": "NJ",
+      "count": 15
+    },
+    "topCity": {
+      "city": "Hasbrouck Heights",
+      "count": 4
+    }
+  },
+  {
+    "code": "EA-05",
+    "office": "ALLENTOWN FSDO EA-05 / ABE FSDO",
+    "total": 17,
+    "byCategory": {
+      "dar-t": 1,
+      "dpre": 2,
+      "sae": 14
+    },
+    "topState": {
+      "state": "PA",
+      "count": 10
+    },
+    "topCity": {
+      "city": "Allentown",
+      "count": 2
+    }
+  },
+  {
+    "code": "NM-13",
+    "office": "SPOKANE FSDO NM-13 / GEG FSDO",
+    "total": 17,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 4,
+      "sae": 8,
+      "admin-pe": 3
+    },
+    "topState": {
+      "state": "WA",
+      "count": 15
+    },
+    "topCity": {
+      "city": "Spokane",
+      "count": 8
+    }
+  },
+  {
+    "code": "WP-15",
+    "office": "SAN JOSE FSDO WP-15 / SJC FSDO",
+    "total": 16,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 1,
+      "sae": 14
+    },
+    "topState": {
+      "state": "CA",
+      "count": 16
+    },
+    "topCity": {
+      "city": "San Jose",
+      "count": 4
+    }
+  },
+  {
+    "code": "NM-11",
+    "office": "BOISE FSDO NM-11 / BOI FSDO",
+    "total": 16,
+    "byCategory": {
+      "dme": 1,
+      "dpre": 2,
+      "sae": 13
+    },
+    "topState": {
+      "state": "ID",
+      "count": 14
+    },
+    "topCity": {
+      "city": "Boise",
+      "count": 4
+    }
+  },
+  {
+    "code": "EA-13",
+    "office": "HARRISBURG FSDO EA-13 / HAR FSDO",
+    "total": 16,
+    "byCategory": {
+      "dme": 1,
+      "sae": 15
+    },
+    "topState": {
+      "state": "PA",
+      "count": 16
+    },
+    "topCity": {
+      "city": "Lititz",
+      "count": 6
+    }
+  },
+  {
+    "code": "WP-25",
+    "office": "SACRAMENTO FSDO WP-25 / SAC FSDO",
+    "total": 15,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 2,
+      "sae": 11
+    },
+    "topState": {
+      "state": "CA",
+      "count": 14
+    },
+    "topCity": {
+      "city": "Sacramento",
+      "count": 4
+    }
+  },
+  {
+    "code": "EA-01",
+    "office": "ALBANY FSDO EA-01 / ALB FSDO",
+    "total": 15,
+    "byCategory": {
+      "dme": 3,
+      "sae": 12
+    },
+    "topState": {
+      "state": "NY",
+      "count": 14
+    },
+    "topCity": {
+      "city": "Rome",
+      "count": 3
+    }
+  },
+  {
+    "code": "WP-23",
+    "office": "LOS ANGELES FSDO WP-23 / LAX FSDO",
+    "total": 14,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 5,
+      "sae": 7
+    },
+    "topState": {
+      "state": "CA",
+      "count": 14
+    },
+    "topCity": {
+      "city": "La Verne",
+      "count": 3
+    }
+  },
+  {
+    "code": "CE-21",
+    "office": "MEMPHIS FSDO CE-21 / MEM FSDO",
+    "total": 14,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 1,
+      "sae": 8,
+      "admin-pe": 2
+    },
+    "topState": {
+      "state": "TN",
+      "count": 9
+    },
+    "topCity": {
+      "city": "Olive Branch",
+      "count": 3
+    }
+  },
+  {
+    "code": "GL-19",
+    "office": "SPRINGFIELD FSDO GL-19 / SPI FSDO",
+    "total": 13,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 2,
+      "sae": 8,
+      "admin-pe": 1
+    },
+    "topState": {
+      "state": "IL",
+      "count": 12
+    },
+    "topCity": {
+      "city": "Murphysboro",
+      "count": 3
+    }
+  },
+  {
+    "code": "EA-23",
+    "office": "ROCHESTER FSDO EA-23 / ROC FSDO",
+    "total": 12,
+    "byCategory": {
+      "dar-t": 2,
+      "sae": 8,
+      "apd": 2
+    },
+    "topState": {
+      "state": "NY",
+      "count": 10
+    },
+    "topCity": {
+      "city": "Dallas",
+      "count": 2
+    }
+  },
+  {
+    "code": "EA-27",
+    "office": "WASHINGTON FSDO EA-27 / DCA FSDO",
+    "total": 12,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 1,
+      "admin-pe": 10
+    },
+    "topState": {
+      "state": "VA",
+      "count": 12
+    },
+    "topCity": {
+      "city": "Manassas",
+      "count": 3
+    }
+  },
+  {
+    "code": "WP-37",
+    "office": "PHOENIX CMO WP-37 / PHX CMO",
+    "total": 12,
+    "byCategory": {
+      "apd": 9,
+      "dade": 3
+    },
+    "topState": {
+      "state": "AZ",
+      "count": 7
+    },
+    "topCity": {
+      "city": "Phoenix",
+      "count": 4
+    }
+  },
+  {
+    "code": "WP-39",
+    "office": "PACIFIC CMO WP-39 / PAC CMO",
+    "total": 12,
+    "byCategory": {
+      "apd": 11,
+      "dade": 1
+    },
+    "topState": {
+      "state": "NV",
+      "count": 11
+    },
+    "topCity": {
+      "city": "Las Vegas",
+      "count": 11
+    }
+  },
+  {
+    "code": "WP-27",
+    "office": "OAKLAND FSDO WP-27 / OAK FSDO",
+    "total": 11,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 3,
+      "sae": 4,
+      "admin-pe": 2
+    },
+    "topState": {
+      "state": "CA",
+      "count": 11
+    },
+    "topCity": {
+      "city": "Concord",
+      "count": 2
+    }
+  },
+  {
+    "code": "EA-63",
+    "office": "BRADLEY FSDO EA-63 / BDL FSDO",
+    "total": 11,
+    "byCategory": {
+      "dar-t": 6,
+      "dme": 1,
+      "sae": 4
+    },
+    "topState": {
+      "state": "CT",
+      "count": 10
+    },
+    "topCity": {
+      "city": "Oxford",
+      "count": 2
+    }
+  },
+  {
+    "code": "WP-01",
+    "office": "VAN NUYS FSDO WP-01 / VNY FSDO",
+    "total": 10,
+    "byCategory": {
+      "dar-t": 6,
+      "dme": 3,
+      "dpre": 1
+    },
+    "topState": {
+      "state": "CA",
+      "count": 10
+    },
+    "topCity": {
+      "city": "Simi Valley",
+      "count": 2
+    }
+  },
+  {
+    "code": "WP-13",
+    "office": "HONOLULU FSDO WP-13 / HNL FSDO",
+    "total": 10,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 1,
+      "dpre": 1,
+      "sae": 7
+    },
+    "topState": {
+      "state": "HI",
+      "count": 10
+    },
+    "topCity": {
+      "city": "Honolulu",
+      "count": 5
+    }
+  },
+  {
+    "code": "CE-01",
+    "office": "DES MOINES FSDO CE-01 / DSM FSDO",
+    "total": 8,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 4,
+      "sae": 1,
+      "admin-pe": 1
+    },
+    "topState": {
+      "state": "IA",
+      "count": 8
+    },
+    "topCity": {
+      "city": "Ottumwa",
+      "count": 2
+    }
+  },
+  {
+    "code": "EA-07",
+    "office": "BALTIMORE FSDO EA-07 / BAL FSDO",
+    "total": 8,
+    "byCategory": {
+      "dar-t": 2,
+      "sae": 1,
+      "admin-pe": 5
+    },
+    "topState": {
+      "state": "MD",
+      "count": 8
+    },
+    "topCity": {
+      "city": "Frederick",
+      "count": 4
+    }
+  },
+  {
+    "code": "GL-05",
+    "office": "CINCINNATI FSDO GL-05 / CVG FSDO",
+    "total": 8,
+    "byCategory": {
+      "dme": 4,
+      "admin-pe": 4
+    },
+    "topState": {
+      "state": "OH",
+      "count": 8
+    },
+    "topCity": {
+      "city": "Batavia",
+      "count": 4
+    }
+  },
+  {
+    "code": "GL-27",
+    "office": "RAPID CITY FSDO GL-27 / RAP FSDO",
+    "total": 8,
+    "byCategory": {
+      "dme": 1,
+      "sae": 7
+    },
+    "topState": {
+      "state": "SD",
+      "count": 6
+    },
+    "topCity": {
+      "city": "Watertown",
+      "count": 1
+    }
+  },
+  {
+    "code": "SO-63",
+    "office": "SAN JUAN FSDO SO-63",
+    "total": 8,
+    "byCategory": {
+      "dme": 2,
+      "sae": 6
+    },
+    "topState": {
+      "state": "PR",
+      "count": 7
+    },
+    "topCity": {
+      "city": "Aguadilla",
+      "count": 3
+    }
+  },
+  {
+    "code": "CE-03",
+    "office": "ST LOUIS FSDO CE-03 / STL FSDO",
+    "total": 7,
+    "byCategory": {
+      "dar-t": 1,
+      "dme": 6
+    },
+    "topState": {
+      "state": "MO",
+      "count": 5
+    },
+    "topCity": {
+      "city": "Granite City",
+      "count": 2
+    }
+  },
+  {
+    "code": "AL-01",
+    "office": "FAIRBANKS FSDO AL-01 / FAI FSDO",
+    "total": 7,
+    "byCategory": {
+      "dme": 2,
+      "dpre": 2,
+      "sae": 3
+    },
+    "topState": {
+      "state": "AK",
+      "count": 7
+    },
+    "topCity": {
+      "city": "Fairbanks",
+      "count": 5
+    }
+  },
+  {
+    "code": "EA-09",
+    "office": "CHARLESTON FSDO EA-09 / CRW FSDO",
+    "total": 7,
+    "byCategory": {
+      "dme": 3,
+      "sae": 2,
+      "admin-pe": 2
+    },
+    "topState": {
+      "state": "WV",
+      "count": 6
+    },
+    "topCity": {
+      "city": "Bridgeport",
+      "count": 4
+    }
+  },
+  {
+    "code": "SW-31",
+    "office": "JACKSON FSDO SW-31 / JAN FSDO",
+    "total": 6,
+    "byCategory": {
+      "dar-t": 5,
+      "dme": 1
+    },
+    "topState": {
+      "state": "MS",
+      "count": 6
+    },
+    "topCity": {
+      "city": "Aberdeen",
+      "count": 2
+    }
+  },
+  {
+    "code": "CE-09",
+    "office": "LINCOLN FSDO CE-09 / LNK FSDO",
+    "total": 6,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 3,
+      "admin-pe": 1
+    },
+    "topState": {
+      "state": "NE",
+      "count": 6
+    },
+    "topCity": {
+      "city": "Lincoln",
+      "count": 3
+    }
+  },
+  {
+    "code": "AL-07",
+    "office": "DENALI CMO AL-07 / ANC CMO",
+    "total": 6,
+    "byCategory": {
+      "apd": 4,
+      "dade": 2
+    },
+    "topState": {
+      "state": "AK",
+      "count": 4
+    },
+    "topCity": {
+      "city": "Fairbanks",
+      "count": 2
+    }
+  },
+  {
+    "code": "WP-21",
+    "office": "RIVERSIDE FSDO WP-21 / RAL FSDO",
+    "total": 5,
+    "byCategory": {
+      "dar-t": 3,
+      "dme": 2
+    },
+    "topState": {
+      "state": "CA",
+      "count": 5
+    },
+    "topCity": {
+      "city": "Corona",
+      "count": 1
+    }
+  },
+  {
+    "code": "WP-05",
+    "office": "LONG BEACH FSDO WP-05 / LGB FSDO",
+    "total": 4,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 2
+    },
+    "topState": {
+      "state": "CA",
+      "count": 4
+    },
+    "topCity": {
+      "city": "Torrance",
+      "count": 2
+    }
+  },
+  {
+    "code": "CE-17",
+    "office": "LOUISVILLE FSDO CE-17 / LOU FSDO",
+    "total": 4,
+    "byCategory": {
+      "dar-t": 2,
+      "dme": 2
+    },
+    "topState": {
+      "state": "KY",
+      "count": 4
+    },
+    "topCity": {
+      "city": "Louisville",
+      "count": 3
+    }
+  },
+  {
+    "code": "AL-05",
+    "office": "JUNEAU FSDO AL-05 / JNU FSDO",
+    "total": 3,
+    "byCategory": {
+      "sae": 3
+    },
+    "topState": {
+      "state": "AK",
+      "count": 3
+    },
+    "topCity": {
+      "city": "Ketchikan",
+      "count": 1
+    }
+  },
+  {
+    "code": "WP-35",
+    "office": "HONOLULU CMO WP-35 / HNL CMO",
+    "total": 2,
+    "byCategory": {
+      "apd": 2
+    },
+    "topState": {
+      "state": "FL",
+      "count": 1
+    },
+    "topCity": {
+      "city": "Miami",
+      "count": 1
+    }
+  },
+  {
+    "code": "FS-58",
+    "office": "LOS ANGELES IFO FS-58/LAX-IFO",
+    "total": 1,
+    "byCategory": {
+      "dar-t": 1
+    },
+    "topState": {
+      "state": "HI",
+      "count": 1
+    },
+    "topCity": {
+      "city": "Haleiwa",
+      "count": 1
+    }
+  }
+]
